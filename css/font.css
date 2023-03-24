@@ -1,0 +1,8 @@
+@font-face{
+    font-family: 'ZhuZiAWan';
+    font-display: swap;
+    src: url('../font/ZhuZiAWan.ttf') format("truetype");
+}
+body {
+    font-family: 'ZhuZiAWan';
+}

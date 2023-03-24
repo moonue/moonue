@@ -1,0 +1,392 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>Android APK 软件下载 | 美阅</title><meta name="author" content="芦苇"><meta name="copyright" content="芦苇"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="一直以来我们都在想统计好软件的下载服务，方便大家下载想要的软件，或者说我们自己本身就是受益者，美阅搭建好了云盘，就想着自建对象存储，功夫不负有心人，我们找到了 MinIO ,开源的对象存储软件，本来搭建在AWS EC2 服务器上，但是发现账单突然扣费了 1 美金，原来有 15G 的流量限制，目前用亚马逊云的光帆，也就是亚马逊的轻量云，免费使用3个月，最快可以达到 10M&#x2F;S ，速度还是非">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android APK 软件下载">
+<meta property="og:url" content="https://moonue.com/posts/52bf44de.html">
+<meta property="og:site_name" content="美阅">
+<meta property="og:description" content="一直以来我们都在想统计好软件的下载服务，方便大家下载想要的软件，或者说我们自己本身就是受益者，美阅搭建好了云盘，就想着自建对象存储，功夫不负有心人，我们找到了 MinIO ,开源的对象存储软件，本来搭建在AWS EC2 服务器上，但是发现账单突然扣费了 1 美金，原来有 15G 的流量限制，目前用亚马逊云的光帆，也就是亚马逊的轻量云，免费使用3个月，最快可以达到 10M&#x2F;S ，速度还是非">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://t.tenmeng.com/moon/2023/03/gkihqEjXxJ5UZ1C.jpg">
+<meta property="article:published_time" content="2022-09-18T15:21:39.000Z">
+<meta property="article:modified_time" content="2023-03-03T13:51:56.544Z">
+<meta property="article:author" content="芦苇">
+<meta property="article:tag" content="APK">
+<meta property="article:tag" content="手机">
+<meta property="article:tag" content="手机软件">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://t.tenmeng.com/moon/2023/03/gkihqEjXxJ5UZ1C.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://moonue.com/posts/52bf44de.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-0303698314048951',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?73902c93450ae3b68df8e9fad618a90d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-EHEBZV4310"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-EHEBZV4310');
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Android APK 软件下载',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: true,
+  isToc: true,
+  postUpdate: '2023-03-03 21:51:56'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/font.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://t.tenmeng.com/md/1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">66</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">124</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://t.tenmeng.com/moon/2023/03/gkihqEjXxJ5UZ1C.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="美阅"><img class="site-icon" src="https://t.tenmeng.com/md/1.jpg"/><span class="site-name">美阅</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Android APK 软件下载</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-09-18T15:21:39.000Z" title="发表于 2022-09-18 23:21:39">2022-09-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-03T13:51:56.544Z" title="更新于 2023-03-03 21:51:56">2023-03-03</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%BD%AF%E4%BB%B6/">软件</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Android/">Android</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span id="" data-flag-title="Android APK 软件下载"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="twikoo_visitors"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>一直以来我们都在想统计好软件的下载服务，方便大家下载想要的软件，或者说我们自己本身就是受益者，美阅搭建好了云盘，就想着自建<strong>对象存储</strong>，功夫不负有心人，我们找到了 MinIO ,开源的对象存储软件，本来搭建在AWS EC2 服务器上，但是发现账单突然扣费了 1 美金，原来有 15G 的流量限制，目前用亚马逊云的光帆，也就是亚马逊的轻量云，免费使用3个月，最快可以达到 10M&#x2F;S ，速度还是非常理想的。</p>
+<p><a target="_blank" rel="noopener" href="https://www.moonue.com/wp-content/uploads/2022/09/RUANJIAN.png"><img src="https://www.moonue.com/wp-content/uploads/2022/09/RUANJIAN.png"></a></p>
+<p>Android APK 软件下载采用的是又拍云服务，如若下载流量太大，也会陆续放在 MinIO 上面，而下次推送 PC 版本软件，我们采用的就是 <strong>MinIO</strong> 。当然如果你们有喜欢的软件，也可以在下方留言，我们会竭尽全力找到软件，分享给大家下载。</p>
+<h2 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h2><p><a target="_blank" rel="noopener" href="https://y.tenmeng.com/soft/apk"><img src="https://www.moonue.com/wp-content/uploads/2022/12/%E4%B8%8B%E8%BD%BD.png"></a></p>
+<p>APK 名称</p>
+<p>下载地址（含破解版）</p>
+<p>官网地址</p>
+<p>pure apk</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/bZdsx">https://www.aijige.com/s/bZdsx</a></p>
+<p><a target="_blank" rel="noopener" href="https://apkpure.com/">https://apkpure.com/</a></p>
+<p>微信</p>
+<p><a target="_blank" rel="noopener" href="https://weixin.qq.com/">https://weixin.qq.com/</a></p>
+<p><a target="_blank" rel="noopener" href="https://weixin.qq.com/">https://weixin.qq.com/</a></p>
+<p>QQ</p>
+<p><a target="_blank" rel="noopener" href="https://im.qq.com/download">https://im.qq.com/download</a></p>
+<p><a target="_blank" rel="noopener" href="https://im.qq.com/download">https://im.qq.com/download</a></p>
+<p>支付宝</p>
+<p><a target="_blank" rel="noopener" href="https://mobile.alipay.com/index.htm">https://mobile.alipay.com/index.htm</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.alipay.com/">https://www.alipay.com/</a></p>
+<p>Kindle</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/V9LFN">https://www.aijige.com/s/V9LFN</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.amazon.cn/">https://www.amazon.cn/</a></p>
+<p>网易云音乐</p>
+<p><a target="_blank" rel="noopener" href="https://music.163.com/#/download">https://music.163.com/#/download</a></p>
+<p><a target="_blank" rel="noopener" href="https://music.163.com/">https://music.163.com/</a></p>
+<p>QQ 音乐</p>
+<p><a target="_blank" rel="noopener" href="http://dldir1.qq.com/music/clntupate/QQMusic2005000982.apk">http://dldir1.qq.com/music/clntupate/QQMusic2005000982.apk</a></p>
+<p><a target="_blank" rel="noopener" href="https://y.qq.com/">https://y.qq.com/</a></p>
+<p>Clash</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/5rYHY">https://www.aijige.com/s/5rYHY</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/Kr328/ClashForAndroid">https://github.com/Kr328/ClashForAndroid</a></p>
+<p>纯纯写作</p>
+<p><a target="_blank" rel="noopener" href="https://a.app.qq.com/o/simple.jsp?fromcase=10003&pkgname=com.drakeet.purewriter">https://a.app.qq.com/o/simple.jsp?fromcase=10003&pkgname=com.drakeet.purewriter</a></p>
+<p><a target="_blank" rel="noopener" href="https://writer.drakeet.com/">https://writer.drakeet.com/</a></p>
+<p>Bitwarden</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/oxAsD">https://www.aijige.com/s/oxAsD</a></p>
+<p><a target="_blank" rel="noopener" href="https://bitwarden.com/">https://bitwarden.com/</a></p>
+<p>Obsidian</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/O5ATO">https://www.aijige.com/s/O5ATO</a></p>
+<p><a target="_blank" rel="noopener" href="https://obsidian.md/">https://obsidian.md/</a></p>
+<p>Joplin</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/4LwUw">https://www.aijige.com/s/4LwUw</a></p>
+<p><a target="_blank" rel="noopener" href="https://joplinapp.org/">https://joplinapp.org/</a></p>
+<p>剪映</p>
+<p><a target="_blank" rel="noopener" href="https://lv.ulikecam.com/mobile_portal">https://lv.ulikecam.com/mobile_portal</a></p>
+<p><a target="_blank" rel="noopener" href="https://lv.ulikecam.com/">https://lv.ulikecam.com/</a></p>
+<p>Netflix</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/AJgfD">https://www.aijige.com/s/AJgfD</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.netflix.com/">https://www.netflix.com/</a></p>
+<p>Spotify</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/w9DCo">https://www.aijige.com/s/w9DCo</a></p>
+<p><a target="_blank" rel="noopener" href="https://open.spotify.com/">https://open.spotify.com/</a></p>
+<p>YouTube</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/P3Pse">https://www.aijige.com/s/P3Pse</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/">https://www.youtube.com/</a></p>
+<p>抖音</p>
+<p><a target="_blank" rel="noopener" href="https://www.douyin.com/downloadpage/app">https://www.douyin.com/downloadpage/app</a></p>
+<p><a target="_blank" rel="noopener" href="https://douyin.com/">https://douyin.com/</a></p>
+<p>Gmail</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/ELkcx">https://www.aijige.com/s/ELkcx</a></p>
+<p><a target="_blank" rel="noopener" href="https://mail.google.com/">https://mail.google.com/</a></p>
+<p>Telegram</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/xDRsa">https://www.aijige.com/s/xDRsa</a></p>
+<p><a target="_blank" rel="noopener" href="https://telegram.org/">https://telegram.org/</a></p>
+<p>Twitter</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/Y2OFJ">https://www.aijige.com/s/Y2OFJ</a></p>
+<p><a target="_blank" rel="noopener" href="https://twitter.com/">https://twitter.com/</a></p>
+<p>身份验证器</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/BL9FD">https://www.aijige.com/s/BL9FD</a></p>
+<p><a target="_blank" rel="noopener" href="https://google.com/">https://google.com/</a></p>
+<p>Google 翻译</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/2nquO">https://www.aijige.com/s/2nquO</a></p>
+<p><a target="_blank" rel="noopener" href="https://translate.google.cn/">https://translate.google.cn/</a></p>
+<p>淘宝</p>
+<p><a target="_blank" rel="noopener" href="https://a.app.qq.com/o/simple.jsp?pkgname=com.taobao.taobao&g_f=1000047">https://a.app.qq.com/o/simple.jsp?pkgname=com.taobao.taobao&g_f&#x3D;1000047</a></p>
+<p><a target="_blank" rel="noopener" href="https://taobao.com/">https://taobao.com/</a></p>
+<p>阿里云盘</p>
+<p><a target="_blank" rel="noopener" href="https://a.app.qq.com/o/simple.jsp?pkgname=com.alicloud.databox&g_f=1000047">https://a.app.qq.com/o/simple.jsp?pkgname=com.alicloud.databox&g_f&#x3D;1000047</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.aliyundrive.com/">https://www.aliyundrive.com/</a></p>
+<p>高德地图</p>
+<p><a target="_blank" rel="noopener" href="https://a.app.qq.com/o/simple.jsp?pkgname=com.autonavi.minimap&g_f=1000047">https://a.app.qq.com/o/simple.jsp?pkgname=com.autonavi.minimap&g_f&#x3D;1000047</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.amap.com/">https://www.amap.com/</a></p>
+<p>拼多多</p>
+<p><a target="_blank" rel="noopener" href="https://a.app.qq.com/o/simple.jsp?pkgname=com.xunmeng.pinduoduo&g_f=1000047">https://a.app.qq.com/o/simple.jsp?pkgname=com.xunmeng.pinduoduo&g_f&#x3D;1000047</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.pinduoduo.com/">https://www.pinduoduo.com/</a></p>
+<p>Instagram</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/p6bI3">https://www.aijige.com/s/p6bI3</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.instagram.com/">https://www.instagram.com/</a></p>
+<p>Notion</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/KlKtn">https://www.aijige.com/s/KlKtn</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.notion.so/">https://www.notion.so/</a></p>
+<p>V2rayNG</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/Z0MhD">https://www.aijige.com/s/Z0MhD</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/2dust/v2rayNG">https://github.com/2dust/v2rayNG</a></p>
+<p>交管12123</p>
+<p><a target="_blank" rel="noopener" href="https://a.app.qq.com/o/simple.jsp?pkgname=com.tmri.app.main&g_f=1000047">https://a.app.qq.com/o/simple.jsp?pkgname=com.tmri.app.main&g_f&#x3D;1000047</a></p>
+<p><a target="_blank" rel="noopener" href="https://gab.122.gov.cn/m/login?s=2">https://gab.122.gov.cn/m/login?s=2</a></p>
+<p>百度输入法</p>
+<p><a target="_blank" rel="noopener" href="https://srf.baidu.com/default/">https://srf.baidu.com/default/</a></p>
+<p><a target="_blank" rel="noopener" href="https://shurufa.baidu.com/">https://shurufa.baidu.com/</a></p>
+<p>Gboard(谷歌输入法)</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/JegTe">https://www.aijige.com/s/JegTe</a></p>
+<p><a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en_US&gl=US">https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en_US&amp;gl&#x3D;US</a></p>
+<p>微信键盘</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/Q66F7">https://www.aijige.com/s/Q66F7</a></p>
+<p><a target="_blank" rel="noopener" href="https://weixin.qq.com/">https://weixin.qq.com/</a></p>
+<p>Google 相册</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/9ZaSV">https://www.aijige.com/s/9ZaSV</a></p>
+<p><a target="_blank" rel="noopener" href="https://photos.google.com/">https://photos.google.com/</a></p>
+<p>Voice</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/l4BTO">https://www.aijige.com/s/l4BTO</a></p>
+<p><a target="_blank" rel="noopener" href="https://voice.google.com/u/0/">https://voice.google.com/u/0/</a></p>
+<p>Chrome</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/ZJlSD">https://www.aijige.com/s/ZJlSD</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.google.cn/intl/zh-CN/chrome/">https://www.google.cn/intl/zh-CN/chrome/</a></p>
+<p>Play 商店</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/5L3SY">https://www.aijige.com/s/5L3SY</a></p>
+<p><a target="_blank" rel="noopener" href="https://play.google.com/">https://play.google.com/</a></p>
+<p>Google 框架</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/eLQIX">https://www.aijige.com/s/eLQIX</a></p>
+<p><a target="_blank" rel="noopener" href="https://google.com/">https://google.com/</a></p>
+<p>专注清单</p>
+<p><a target="_blank" rel="noopener" href="https://a.app.qq.com/o/simple.jsp?pkgname=com.superelement.pomodoro&g_f=1000047">https://a.app.qq.com/o/simple.jsp?pkgname=com.superelement.pomodoro&g_f&#x3D;1000047</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.focustodo.cn/?lang=zh_CN">https://www.focustodo.cn/?lang=zh_CN</a></p>
+<p>哔哩哔哩</p>
+<p><a target="_blank" rel="noopener" href="https://a.app.qq.com/o/simple.jsp?pkgname=tv.danmaku.bili&g_f=1000047">https://a.app.qq.com/o/simple.jsp?pkgname=tv.danmaku.bili&g_f&#x3D;1000047</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/">https://www.bilibili.com/</a></p>
+<p>nPlayer</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/vR9FD">https://www.aijige.com/s/yGXt8</a></p>
+<p><a target="_blank" rel="noopener" href="https://nplayer.com/">https://nplayer.com/</a></p>
+<p>订阅号助手</p>
+<p><a target="_blank" rel="noopener" href="https://a.app.qq.com/o/simple.jsp?fromcase=10000&g_f=1003305&pkgname=com.tencent.mp">https://a.app.qq.com/o/simple.jsp?fromcase=10000&g_f&#x3D;1003305&amp;pkgname&#x3D;com.tencent.mp</a></p>
+<p><a target="_blank" rel="noopener" href="https://a.app.qq.com/o/simple.jsp?fromcase=10000&g_f=1003305&pkgname=com.tencent.mp">https://a.app.qq.com/o/simple.jsp?fromcase=10000&g_f&#x3D;1003305&amp;pkgname&#x3D;com.tencent.mp</a></p>
+<p>币安</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/nV4Hl">https://www.aijige.com/s/nV4Hl</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.binance.com/zh-CN">https://www.binance.com/zh-CN</a></p>
+<p>Fluent Reader</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/L5BFv">https://www.aijige.com/s/L5BFv</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/yang991178/fluent-reader">https://github.com/yang991178/fluent-reader</a></p>
+<p>Discord</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/qERT7">https://www.aijige.com/s/qERT7</a></p>
+<p><a target="_blank" rel="noopener" href="https://discord.com/">https://discord.com/</a></p>
+<p>Facebook</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/3V6SZ">https://www.aijige.com/s/3V6SZ</a></p>
+<p><a target="_blank" rel="noopener" href="https://facebook.com/">https://facebook.com/</a></p>
+<p>蓝灯</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/8XpFr">https://www.aijige.com/s/8XpFr</a></p>
+<p><a target="_blank" rel="noopener" href="https://getlantern.org/zh_CN/">https://getlantern.org/zh_CN&#x2F;</a></p>
+<p>老王</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/Darfa">https://www.aijige.com/s/Darfa</a></p>
+<p><a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.sticktoit&hl=zh_TW&gl=US">https://play.google.com/store/apps/details?id=com.sticktoit&hl=zh_TW&amp;gl&#x3D;US</a></p>
+<p>Netflix</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/gBEu6">https://www.aijige.com/s/gBEu6</a></p>
+<p><a target="_blank" rel="noopener" href="https://netflix.com/">https://netflix.com/</a></p>
+<p>滴滴出行</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/a3ET6">https://www.aijige.com/s/a3ET6</a></p>
+<p><a target="_blank" rel="noopener" href="https://didi.com/">https://didi.com/</a></p>
+<p>WhatsApp</p>
+<p><a target="_blank" rel="noopener" href="https://www.aijige.com/s/r4wHO">https://www.aijige.com/s/r4wHO</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.whatsapp.com/">https://www.whatsapp.com/</a></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://moonue.com">芦苇</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://moonue.com/posts/52bf44de.html">https://moonue.com/posts/52bf44de.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://moonue.com" target="_blank">美阅</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/APK/">APK</a><a class="post-meta__tags" href="/tags/%E6%89%8B%E6%9C%BA/">手机</a><a class="post-meta__tags" href="/tags/%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6/">手机软件</a></div><div class="post_share"><div class="social-share" data-image="https://t.tenmeng.com/moon/2023/03/gkihqEjXxJ5UZ1C.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.png" target="_blank"><img class="post-qr-code-img" src="/img/wechat.png" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/img/alipay.png" target="_blank"><img class="post-qr-code-img" src="/img/alipay.png" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/855baefb.html" title="常用 PC 软件下载"><img class="cover" src="https://t.tenmeng.com/moon/2023/03/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">常用 PC 软件下载</div></div></a></div><div class="next-post pull-right"><a href="/posts/15be03fa.html" title="让软件下载，快人一步"><img class="cover" src="https://t.tenmeng.com/moon/2023/03/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">让软件下载，快人一步</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://t.tenmeng.com/md/1.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">芦苇</div><div class="author-info__description">你的软件工具箱</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">66</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">124</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" href="https://moonue.com"><i class="fas fa-house"></i><span>欢迎来到美阅官网</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://mp.weixin.qq.com/s/0Eia4dfMcRMBFZOYnufSRQ" target="_blank" title="微信公众号"><i class="fab fa-weixin"></i></a><a class="social-icon" href="mailto:cuixiaowei123@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://author.baidu.com/home/1547969604699572" target="_blank" title="百家号"><i class="fas fa-at"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">不定时更新内容，欢迎进群<a target="_blank" rel="noopener" href="https://t.me/moonue">Telegram</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">下载地址：</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/ede4a0c7.html" title="推荐一款免费开源的六零导航页"><img src="https://t.tenmeng.com/md/navigation-bg.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="推荐一款免费开源的六零导航页"/></a><div class="content"><a class="title" href="/posts/ede4a0c7.html" title="推荐一款免费开源的六零导航页">推荐一款免费开源的六零导航页</a><time datetime="2023-03-10T23:09:22.000Z" title="发表于 2023-03-11 07:09:22">2023-03-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/25df5321.html" title="XMind 2023 v22.11.3656 破解版 轻量级思维导图软件"><img src="https://t.tenmeng.com/md/xmindpage-bg.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="XMind 2023 v22.11.3656 破解版 轻量级思维导图软件"/></a><div class="content"><a class="title" href="/posts/25df5321.html" title="XMind 2023 v22.11.3656 破解版 轻量级思维导图软件">XMind 2023 v22.11.3656 破解版 轻量级思维导图软件</a><time datetime="2023-03-09T23:14:16.000Z" title="发表于 2023-03-10 07:14:16">2023-03-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/83b46a30.html" title="奇妙网游加速器密钥3天免费领取"><img src="https://t.tenmeng.com/md/qimiao_bg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="奇妙网游加速器密钥3天免费领取"/></a><div class="content"><a class="title" href="/posts/83b46a30.html" title="奇妙网游加速器密钥3天免费领取">奇妙网游加速器密钥3天免费领取</a><time datetime="2023-03-08T10:24:10.000Z" title="发表于 2023-03-08 18:24:10">2023-03-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/39d9591f.html" title="VULTR：推出免费VPS计划，1核/512M内存/10G硬盘"><img src="https://t.tenmeng.com/md/vultr%E6%96%B0logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="VULTR：推出免费VPS计划，1核/512M内存/10G硬盘"/></a><div class="content"><a class="title" href="/posts/39d9591f.html" title="VULTR：推出免费VPS计划，1核/512M内存/10G硬盘">VULTR：推出免费VPS计划，1核/512M内存/10G硬盘</a><time datetime="2023-03-08T08:38:06.000Z" title="发表于 2023-03-08 16:38:06">2023-03-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/28015f86.html" title="美国小火箭账号免费分享-ios美区Shadowrocket账号共享"><img src="https://t.tenmeng.com/md/Shadowrocket_bg.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="美国小火箭账号免费分享-ios美区Shadowrocket账号共享"/></a><div class="content"><a class="title" href="/posts/28015f86.html" title="美国小火箭账号免费分享-ios美区Shadowrocket账号共享">美国小火箭账号免费分享-ios美区Shadowrocket账号共享</a><time datetime="2023-03-04T23:46:19.000Z" title="发表于 2023-03-05 07:46:19">2023-03-05</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2016 - 2023 By 芦苇</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"><script>(()=>{
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://twikoo.tenmeng.com/',
+      region: 'ap-shanghai',
+      onCommentLoaded: function () {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.tenmeng.com/',
+      region: 'ap-shanghai',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      countELement.innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const runFn = () => {
+    init()
+    
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') {
+      setTimeout(runFn,0)
+      return
+    } 
+    getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script></div><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></body></html>
