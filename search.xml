@@ -4,6 +4,68 @@
   
     
     <entry>
+      <title>免费开源的Umi-OCR 文字识别工具</title>
+      <link href="/posts/920093d.html"/>
+      <url>/posts/920093d.html</url>
+      
+        <content type="html"><![CDATA[<p><strong>免费，开源，可批量的离线OCR软件</strong><br>适用于 Windows10,11 平台</p><h2 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h2><ul><li><strong>免费</strong>：本项目所有代码开源，完全免费。</li><li><strong>方便</strong>：解压即用，离线运行，无需网络。</li><li><strong>批量</strong>：可批量导入处理图片，结果保存到本地 txt &#x2F; md &#x2F; jsonl 多种格式文件。也可以即时截屏识别。</li><li><strong>高效</strong>：采用 PaddleOCR-json C++ 识别引擎。只要电脑性能足够，通常比在线OCR服务更快。</li><li><strong>精准</strong>：默认使用PPOCR-v3模型库。除了能准确辨认常规文字，对手写、方向不正、杂乱背景等情景也有不错的识别率。可设置<strong>忽略区域</strong>排除水印、设置<strong>文块后处理</strong>合并排版段落，得到规整的文本。</li></ul><p><a href="https://camo.githubusercontent.com/e1e4c737c433010bf455b0ffc62172b1009d7e912f77c60bfd5cc60db0259148/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312e332d653436313034633466633630636162642e706e67"><img src="https://camo.githubusercontent.com/e1e4c737c433010bf455b0ffc62172b1009d7e912f77c60bfd5cc60db0259148/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312e332d653436313034633466633630636162642e706e67" alt="img"></a></p><p><a href="https://camo.githubusercontent.com/a0be832ec374fa2df746fe683599c180317c8ff2b7e0b7bc00295d7bf21270c0/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312e332d2e706e67"><img src="https://camo.githubusercontent.com/a0be832ec374fa2df746fe683599c180317c8ff2b7e0b7bc00295d7bf21270c0/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312e332d2e706e67" alt="img"></a></p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote><p>Umi-OCR 软件本体含 <strong>简体中文&amp;英文</strong> 通用识别库。<br>配套 <strong>多国语言识别扩展包</strong> 可导入 <code>繁中,英,日,韩,俄,德,法</code> 识别库，请按需下载。</p></blockquote><p>Github下载：<a href="https://github.com/hiroi-sora/Umi-OCR/releases/tag/v1.3.3">Release v1.3.3</a></p><p>蓝奏云下载：<a href="https://hiroi-sora.lanzoul.com/s/umi-ocr">https://hiroi-sora.lanzoul.com/s/umi-ocr</a></p><h2 id="兼容性"><a href="#兼容性" class="headerlink" title="兼容性"></a>兼容性</h2><ul><li>系统支持 Win10 x64 及以上版本。</li><li>CPU必须具有AVX指令集。</li><li>出现初始化引擎失败等问题时请参考 <a href="https://github.com/hiroi-sora/Umi-OCR#%E9%97%AE%E9%A2%98%E6%8E%92%E9%99%A4">问题排除</a> 。</li></ul><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>关于<strong>忽略指定区域</strong>的特殊功能：</p><blockquote><p>类似含水印的视频截图、含有UI&#x2F;按钮的游戏截图等，往往只需要提取字幕区域的文本，而避免提取到水印和UI文本。本软件可设置忽略某些区域内的文字，来实现这一目的。</p><p>当有大量的影视和游戏截图需要整理归档，或者想翻找包含某一段台词&#x2F;字幕的截图；将这些图片提取出文字、然后Ctrl+F是一个很有效的方法。这是开发本软件的初衷。</p></blockquote><p>关于离线OCR引擎 <a href="https://github.com/hiroi-sora/PaddleOCR-json">PaddleOCR-json</a> ：</p><blockquote><p>对 <a href="https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.6">PaddleOCR 2.6 cpu_avx_mkl C++</a> 的封装。效率高于Python版本PPOCR及部分Python编写的OCR引擎，通常比在线OCR服务更快(省去网络传输的时间)。支持更换Paddle官方模型（兼容v2和v3版本）或自己训练的模型，支持修改PPOCR各项参数。通过添加不同的语言模型，软件可识别多国语言。</p></blockquote><h2 id="简单上手"><a href="#简单上手" class="headerlink" title="简单上手"></a>简单上手</h2><h4 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h4><p>下载压缩包并解压全部文件即可。</p><h4 id="截图识别"><a href="#截图识别" class="headerlink" title="截图识别"></a>截图识别</h4><p>点击截图按钮或自定义快捷键，唤起截图识别。</p><p><a href="https://camo.githubusercontent.com/bd40b5b93b3b5b7d918221dbca26c55e114a86b69c83b9ea294d763e3ffbc8e4/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312d772d2e706e67"><img src="https://camo.githubusercontent.com/bd40b5b93b3b5b7d918221dbca26c55e114a86b69c83b9ea294d763e3ffbc8e4/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312d772d2e706e67" alt="img"></a></p><h4 id="粘贴图片到软件"><a href="#粘贴图片到软件" class="headerlink" title="粘贴图片到软件"></a>粘贴图片到软件</h4><p>在任何地方（如文件管理器，网页，微信）复制图片，软件上点击粘贴按钮，自动识别。</p><p><a href="https://camo.githubusercontent.com/1e44f170973d873178c89ab346d98c5315831b5704a529b39dbe507e3c5dfc67/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f322d772d2e706e67"><img src="https://camo.githubusercontent.com/1e44f170973d873178c89ab346d98c5315831b5704a529b39dbe507e3c5dfc67/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f322d772d2e706e67" alt="img"></a></p><h4 id="批量识别本地图片文件"><a href="#批量识别本地图片文件" class="headerlink" title="批量识别本地图片文件"></a>批量识别本地图片文件</h4><p>将图片或文件夹拖进软件，批量转换文字。也可以点击按钮打开浏览窗口导入。</p><p>识别结果将保存到本地。可选生成纯文本txt文件、带链接Markdown文件、原始信息jsonl文件等不同格式。可配置任务完成后执行关机&#x2F;待机。</p><p><a href="https://camo.githubusercontent.com/58ca753a39d09ad54573e9d8eebafae62c5d29188288bd153c3669da0c71f40a/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f332d772d2e706e67"><img src="https://camo.githubusercontent.com/58ca753a39d09ad54573e9d8eebafae62c5d29188288bd153c3669da0c71f40a/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f332d772d2e706e67" alt="img"></a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开源 </category>
+          
+          <category> 免费 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 免费OCR </tag>
+            
+            <tag> Umi-OCR </tag>
+            
+            <tag> 开源OCR </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>EmEditor 永久激活码分享</title>
+      <link href="/posts/f144296.html"/>
+      <url>/posts/f144296.html</url>
+      
+        <content type="html"><![CDATA[<p>在软件行业，我们经常需要使用各种工具和软件来提高我们的工作效率和生产力。而 EmEditor 就是一款非常实用的 Windows 代码编辑器，拥有快速、轻量、可扩展等特点，广受程序员和数据分析师的喜爱。</p><p><img src="https://t.tenmeng.com/moon/2023/03/EmEditor.png" alt="EmEditor"></p><p>EmEditor 不仅支持宏、Unicode、代码段插件，还可以处理大数据和 CSV 文件，解决了 Excel 处理大数据时的卡顿和崩溃问题。无论是在数据处理还是在代码编写中，EmEditor 的速度都非常快，为用户提供了非常便捷的使用体验。同时，EmEditor 还自带简体中文，对于中文用户而言也更加友好。</p><p>不过，对于很多用户来说，购买软件时需要花费不少的钱，而有些用户不希望为了使用某个软件而去花费过多的资金。在这里，我想分享一些 EmEditor 的永久激活码，供大家免费使用。这些激活码可以让你免费使用 EmEditor，并且没有时间限制。</p><p>以下是两个 EmEditor 的永久激活码：</p><ol><li><p>DMAZM-WHY52-AX222-ZQJXN-79JXH</p></li><li><p>DKAZQ-R9TYP-5SM2A-9Z8KD-3E2RK</p></li></ol><p>这些激活码可以帮助你永久激活 EmEditor，让你免费享受这个强大的工具，无需再去购买付费版。如果你是一名程序员或数据分析师，或者是需要使用代码编辑器处理文本文件的用户，那么 EmEditor 绝对是一个非常好的选择。</p><p>总之，EmEditor 是一款非常优秀的代码编辑器，支持宏、Unicode、代码段插件，可以处理大数据和 CSV 文件，使用方便，速度快，操作流畅，可以大大提高你的工作效率和生产力。如果你需要使用 EmEditor，也可以使用上述的激活码，免费享受 EmEditor 带来的便捷和效率。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+          <category> 免费 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 免费EmEditor </tag>
+            
+            <tag> EmEditor激活码 </tag>
+            
+            <tag> EmEditor </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>推荐一款免费开源的六零导航页</title>
       <link href="/posts/ede4a0c7.html"/>
       <url>/posts/ede4a0c7.html</url>
