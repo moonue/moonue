@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://moonue.com/charts/index.html</loc>
+    <loc>https://moonue.com/posts/f5fa4f8d.html</loc>
     
-    <lastmod>2023-04-20</lastmod>
+    <lastmod>2023-04-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://moonue.com/posts/0.html</loc>
+    <loc>https://moonue.com/charts/index.html</loc>
     
     <lastmod>2023-04-20</lastmod>
     
@@ -733,6 +733,20 @@
   
   <url>
     <loc>https://moonue.com/tags/avast%E5%AF%86%E9%92%A5/</loc>
+    <lastmod>2023-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonue.com/tags/Vercel/</loc>
+    <lastmod>2023-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonue.com/tags/hexo%E9%83%A8%E7%BD%B2%E5%88%B0Vercel/</loc>
     <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1652,6 +1666,13 @@
   
   <url>
     <loc>https://moonue.com/categories/Windows/</loc>
+    <lastmod>2023-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonue.com/categories/hexo%E9%83%A8%E7%BD%B2%E5%88%B0Vercel/</loc>
     <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

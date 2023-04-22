@@ -4,13 +4,27 @@
   
     
     <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
+      <title>Hexo博客部署到Vercel</title>
+      <link href="/posts/f5fa4f8d.html"/>
+      <url>/posts/f5fa4f8d.html</url>
       
-        <content type="html"><![CDATA[<hr><p>title: Hexo博客部署到Vercel<br>tags:</p><ul><li><p>Vercel</p></li><li><p>hexo部署到Vercel<br>categories:</p></li><li></li></ul><!----><pre><code>*   hexo部署到Vercel</code></pre><!----><pre><code>    cover: &#39;&lt;https://t.tenmeng.com/moon/2023/03/Vercel_2023-04-13_06-35-44.png&gt;&#39;    abbrlink: f5fa4f8d    date: 2023-04-13 07:32:20    sticky:</code></pre><hr><p>Vercel简介：<a href="https://vercel.com/dashboard">vercel</a>是一个代码托管平台，它能够托管你的静态html界面，甚至能够托管你的node.js与Python服务端脚本，是<strong>不想买服务器的懒人的福音</strong>！本来我也是在阿里云服务器上部署的宝塔，但是最后经过考量，还是部署在Vercel上面，经过昨天的测试，Vercel是真的香，关键是速度还很快。</p><p><img src="https://t.tenmeng.com/moon/2023/03/Vercel_2023-04-13_06-35-44.png" alt="Vercel\_2023-04-13\_06-35-44"></p><p>本篇教程是我本来已经部署好本地的hexo，而且已经可以生成静态网页，只是从原来上传到服务器的方式，更换到Vercel平台，其中涉及到本地上传到 Github。 然后登陆Vercel，导入项目。</p><p><strong>使用Vercel部署Hexo项目步骤：</strong></p><ol><li><p>首先需要一个Vercel账号，这里<strong>推荐用GitHub账户关联，这样你就可以在vercel中直接托管你的GitHub库中的项目了</strong>，实现开发部署一步到位（网络不流畅可以考虑挂梯子）。</p></li><li><p>去github创建一个新的存储库，复制成功后，会有一个网址，.git结尾，复制下来备用。<img src="https://t.tenmeng.com/moon/2023/03/hexo_2023-04-13_07-08-21.png" alt="hexo\_2023-04-13\_07-08-21"></p></li><li><p>在hexo文件夹根目录**_config.yml**本地修改git，替换成刚才复制的地址。<img src="https://t.tenmeng.com/moon/2023/03/hexo_2023-04-13_07-09-31.png" alt="hexo\_2023-04-13\_07-09-31"></p></li><li><p>然后命令行，运行hexo d -g，第一次运行会稍微慢一点，然后会弹出github授权协议，同意即可，系统就会把渲染的网站上传到git的存储库中。</p></li><li><p>打开vercel登录，新建项目选择project。<img src="https://t.tenmeng.com/moon/2023/03/hexo_2023-04-13_07-20-31.png" alt="hexo\_2023-04-13\_07-20-31"></p></li><li><p>导入git刚才上传到github文件的存储库，没有登陆的登陆github账号即可，然后就交给系统开始部署了。</p></li><li><p>部署成功，即可看到烟花的网页效果，vercel系统会给一个域名，你也可以在Project Settings中添加自己的网址，非常的简单，先选择project（项目），然后添加网址，会让你更改网站的dns，更改好，就完成了。</p></li></ol><p>Full Name：cuixiaowei<br>Billing Address:<em>jiangsushengwuxishi<br>Phone Number</em>18626322662<br>Last 4 digits of customer contacting Phone Number:2662<br>我会联系一位客户专家，让他们知道您打过电话。 我只需要从您那里获取一些信息，我们的账户专员将验证付款信息并在 24 小时内为您更新。</p>]]></content>
+        <content type="html"><![CDATA[<p>Vercel简介：<a href="https://vercel.com/dashboard">vercel</a>是一个代码托管平台，它能够托管你的静态html界面，甚至能够托管你的node.js与Python服务端脚本，是<strong>不想买服务器的懒人的福音</strong>！本来我也是在阿里云服务器上部署的宝塔，但是最后经过考量，还是部署在Vercel上面，经过昨天的测试，Vercel是真的香，关键是速度还很快。</p><p><img src="https://t.tenmeng.com/moon/2023/03/Vercel_2023-04-13_06-35-44.png" alt="Vercel\_2023-04-13\_06-35-44"></p><p>本篇教程是我本来已经部署好本地的hexo，而且已经可以生成静态网页，只是从原来上传到服务器的方式，更换到Vercel平台，其中涉及到本地上传到 Github。 然后登陆Vercel，导入项目。</p><p><strong>使用Vercel部署Hexo项目步骤：</strong></p><ol><li><p>首先需要一个Vercel账号，这里<strong>推荐用GitHub账户关联，这样你就可以在vercel中直接托管你的GitHub库中的项目了</strong>，实现开发部署一步到位（网络不流畅可以考虑挂梯子）。</p></li><li><p>去github创建一个新的存储库，复制成功后，会有一个网址，.git结尾，复制下来备用。<img src="https://t.tenmeng.com/moon/2023/03/hexo_2023-04-13_07-08-21.png" alt="hexo\_2023-04-13\_07-08-21"></p></li><li><p>在hexo文件夹根目录**_config.yml**本地修改git，替换成刚才复制的地址。<img src="https://t.tenmeng.com/moon/2023/03/hexo_2023-04-13_07-09-31.png" alt="hexo\_2023-04-13\_07-09-31"></p></li><li><p>然后命令行，运行hexo d -g，第一次运行会稍微慢一点，然后会弹出github授权协议，同意即可，系统就会把渲染的网站上传到git的存储库中。</p></li><li><p>打开vercel登录，新建项目选择project。<img src="https://t.tenmeng.com/moon/2023/03/hexo_2023-04-13_07-20-31.png" alt="hexo\_2023-04-13\_07-20-31"></p></li><li><p>导入git刚才上传到github文件的存储库，没有登陆的登陆github账号即可，然后就交给系统开始部署了。</p></li><li><p>部署成功，即可看到烟花的网页效果，vercel系统会给一个域名，你也可以在Project Settings中添加自己的网址，非常的简单，先选择project（项目），然后添加网址，会让你更改网站的dns，更改好，就完成了。</p></li></ol><p>Full Name：cuixiaowei<br>Billing Address:<em>jiangsushengwuxishi<br>Phone Number</em>18626322662<br>Last 4 digits of customer contacting Phone Number:2662<br>我会联系一位客户专家，让他们知道您打过电话。 我只需要从您那里获取一些信息，我们的账户专员将验证付款信息并在 24 小时内为您更新。</p>]]></content>
       
       
+      <categories>
+          
+          <category> hexo部署到Vercel </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vercel </tag>
+            
+            <tag> hexo部署到Vercel </tag>
+            
+        </tags>
       
     </entry>
     
