@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://moonue.com/posts/af66b247.html</loc>
+    
+    <lastmod>2023-04-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://moonue.com/posts/f5fa4f8d.html</loc>
     
     <lastmod>2023-04-22</lastmod>
@@ -1641,6 +1650,27 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://moonue.com/tags/VScode/</loc>
+    <lastmod>2023-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonue.com/tags/VScode-NPM/</loc>
+    <lastmod>2023-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonue.com/tags/VScode-Hexo/</loc>
+    <lastmod>2023-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -1729,6 +1759,13 @@
   
   <url>
     <loc>https://moonue.com/categories/%E7%BD%91%E6%B8%B8%E5%8A%A0%E9%80%9F%E5%99%A8/</loc>
+    <lastmod>2023-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://moonue.com/categories/hexo/</loc>
     <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

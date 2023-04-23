@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>VScode侧边栏左下角，如何开启 NPM 脚本</title>
+      <link href="/posts/af66b247.html"/>
+      <url>/posts/af66b247.html</url>
+      
+        <content type="html"><![CDATA[<p>第一步：点击进入设置</p><p><img src="https://t.tenmeng.com/moon/2023/03/2333862-20220914205213475-1537788330.png" alt="img"></p><p>第二步：用户——&gt;扩展——&gt;Npm,依次设置三个地方</p><p><img src="https://t.tenmeng.com/moon/2023/03/2333862-20220914205649983-1658048637.png" alt="img"></p><p> 第三步：重启VScode，点开项目中的package.json，</p><p> <img src="https://t.tenmeng.com/moon/2023/03/2333862-20220914210930746-708744445.png" alt="img"></p><p> 第四步：按上图①②操作，就可以看到npm脚本了</p><p><img src="https://t.tenmeng.com/moon/2023/03/2333862-20220914211204685-1404624200.png" alt="img"></p><p>最重要的是终于可以使用鼠标点点就可以git上传了，非常方便。</p><p><img src="https://t.tenmeng.com/moon/2023/03/hexo_2023-04-23_07-54-53.png" alt="hexo_2023-04-23_07-54-53"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> VScode </tag>
+            
+            <tag> VScode NPM </tag>
+            
+            <tag> VScode Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo博客部署到Vercel</title>
       <link href="/posts/f5fa4f8d.html"/>
       <url>/posts/f5fa4f8d.html</url>
