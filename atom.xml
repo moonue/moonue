@@ -6,7 +6,7 @@
   <link href="https://www.moonue.com/atom.xml" rel="self"/>
   
   <link href="https://www.moonue.com/"/>
-  <updated>2024-03-04T12:54:39.894Z</updated>
+  <updated>2024-03-04T14:22:02.292Z</updated>
   <id>https://www.moonue.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给hexo静态博客添加RSS</title>
+    <link href="https://www.moonue.com/posts/f3d61436.html"/>
+    <id>https://www.moonue.com/posts/f3d61436.html</id>
+    <published>2024-03-04T13:43:06.000Z</published>
+    <updated>2024-03-04T14:22:02.292Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="安装feed插件"><a href="#安装feed插件" class="headerlink" title="安装feed插件"></a>安装feed插件</h2><p>hexo博客有一个专门生成RSS xml文件的插件<code>hexo-generator-feed</code><br> 我们来安装它</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed</span><br><span class="line">added 3 packages <span class="keyword">in</span> 30.155s</span><br></pre></td></tr></table></figure><p>看到added 3 packages说明安装成功了。</p><h2 id="启用插件"><a href="#启用插件" class="headerlink" title="启用插件"></a>启用插件</h2><p>在博客工程文件根目录下<code>_config.yml</code>文件中添加如下内容</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line">plugins:</span><br><span class="line">    hexo-generator-feed</span><br><span class="line"><span class="comment">#Feed Atom</span></span><br><span class="line">feed:</span><br><span class="line">    <span class="built_in">type</span>: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    <span class="built_in">limit</span>: 20</span><br></pre></td></tr></table></figure><h2 id="生成RSS"><a href="#生成RSS" class="headerlink" title="生成RSS"></a>生成RSS</h2><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="function">hexo <span class="title">g</span></span></span><br><span class="line"><span class="function">(<span class="params">node:<span class="number">6520</span></span>) [DEP0061] DeprecationWarning: fs.SyncWriteStream <span class="keyword">is</span> depre                                                                                                                           cated.</span></span><br><span class="line"><span class="function">INFO  Start processing</span></span><br><span class="line"><span class="function">INFO  Files loaded <span class="keyword">in</span> 6.33 s</span></span><br><span class="line"><span class="function">INFO  Generated: atom.xml &lt;----------成功生成atom.xml文件</span></span><br><span class="line"><span class="function">INFO  Generated: sitemap.xml</span></span><br><span class="line"><span class="function">INFO  Generated: baidusitemap.xml</span></span><br><span class="line"><span class="function">INFO  Generated: about/index.html</span></span><br><span class="line"><span class="function">......</span></span><br><span class="line"><span class="function">......</span></span><br><span class="line"><span class="function">......</span></span><br></pre></td></tr></table></figure><h2 id="订阅"><a href="#订阅" class="headerlink" title="订阅"></a>订阅</h2><p>下面以我博客为例子<br>订阅地址为：<a href="https://www.moonue.com/atom.xml%EF%BC%88PS%EF%BC%9A%E8%AE%A2%E9%98%85%E5%9C%B0%E5%9D%80%E6%94%B9%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%EF%BC%89">https://www.moonue.com/atom.xml（PS：订阅地址改为自己的博客）</a></p><p><strong>（完）</strong></p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><a href="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;安装feed插件&quot;&gt;&lt;a href=&quot;#安装feed插件&quot; class=&quot;headerlink&quot; title=&quot;安装feed插件&quot;&gt;&lt;/a&gt;安装feed插件&lt;/h2&gt;&lt;p&gt;hexo博客有一个专门生成RSS xml文件的插件&lt;code&gt;hexo-generator-</summary>
+      
+    
+    
+    
+    <category term="hexo插件" scheme="https://www.moonue.com/categories/hexo%E6%8F%92%E4%BB%B6/"/>
+    
+    
+    <category term="rss" scheme="https://www.moonue.com/tags/rss/"/>
+    
+    <category term="hexo" scheme="https://www.moonue.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Agr reader--精美好用的安卓RSS阅读器</title>
@@ -557,33 +583,6 @@
     <category term="DaVinci Resolve Studio 18" scheme="https://www.moonue.com/tags/DaVinci-Resolve-Studio-18/"/>
     
     <category term="DaVinci Resolve Studio 18破解版" scheme="https://www.moonue.com/tags/DaVinci-Resolve-Studio-18%E7%A0%B4%E8%A7%A3%E7%89%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>免费的下载歌曲网站歌曲宝（gequbao.com）</title>
-    <link href="https://www.moonue.com/posts/8eb42031.html"/>
-    <id>https://www.moonue.com/posts/8eb42031.html</id>
-    <published>2022-12-27T23:38:49.000Z</published>
-    <updated>2023-11-17T06:20:28.935Z</updated>
-    
-    <content type="html"><![CDATA[<p>要是在十年前，下载音乐，估计完全不担心找不到音乐下载的地方，但是在2022年了，下载音乐却越来越麻烦。版权大战让音乐下载，异常艰难，要不然就是下载或者听音乐，还需要下载各家的 APP ，不然就会有听不全的尴尬。今天就像大家推荐一个音乐下载的网站——歌曲宝。</p><p><img src="https://tt.tenmeng.com/md/TinySnap-2022-12-28-07.22.28.png" alt="TinySnap-2022-12-28-07.22.28"></p><p>官方网址：<a href="http://www.gequbao.com/">歌曲宝</a>（<a href="http://www.gequbao.com/">www.gequbao.com</a>）</p><p>歌曲宝是一个简洁的音乐视听和下载的网站，犹如当年的百度 MP3 下载，界面非常的简洁，只需要输入需要下载的歌曲名，即可搜索找到你喜欢的音乐，基本下载的音乐都是320kbps，可以说是无损音乐了。</p><h3 id="盈利方式："><a href="#盈利方式：" class="headerlink" title="盈利方式："></a>盈利方式：</h3><p>歌曲宝的盈利方式，应该是在提供音乐U盘，就是在他们的网站，购买音乐U盘，他们把下载好的U盘，在网上售卖。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;要是在十年前，下载音乐，估计完全不担心找不到音乐下载的地方，但是在2022年了，下载音乐却越来越麻烦。版权大战让音乐下载，异常艰难，要不然就是下载或者听音乐，还需要下载各家的 APP ，不然就会有听不全的尴尬。今天就像大家推荐一个音乐下载的网站——歌曲宝。&lt;/p&gt;
-&lt;p&gt;&lt;</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="https://www.moonue.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="免费下载音乐" scheme="https://www.moonue.com/tags/%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="歌曲宝" scheme="https://www.moonue.com/tags/%E6%AD%8C%E6%9B%B2%E5%AE%9D/"/>
     
   </entry>
   

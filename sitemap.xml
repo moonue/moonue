@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.moonue.com/posts/f3d61436.html</loc>
+    
+    <lastmod>2024-03-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.moonue.com/posts/61b2703.html</loc>
     
     <lastmod>2024-03-04</lastmod>
@@ -1839,6 +1848,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.moonue.com/tags/hexo/</loc>
+    <lastmod>2024-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -1976,6 +1992,13 @@
   
   <url>
     <loc>https://www.moonue.com/categories/Android%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2024-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.moonue.com/categories/hexo%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2024-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
