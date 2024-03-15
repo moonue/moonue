@@ -1,8 +1,8 @@
 @font-face{
-    font-family: 'ZhuZiAWan';
+    font-family: 'ZhuZiAWann';
     font-display: swap;
-    src: url('../font/ZhuZiAWan.ttf') format("truetype");
+    src: url('https://tt.tenmeng.com/moonue/ZhuZiAWann.ttf') format("truetype");
 }
 body {
-    font-family: 'ZhuZiAWan';
+    font-family: 'ZhuZiAWann';
 }
