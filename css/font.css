@@ -1,8 +1,8 @@
 @font-face{
-    font-family: 'ZhuZiAWann';
+    font-family: 'Noto Serif SC';
     font-display: swap;
     src: url('https://tt.tenmeng.com/moonue/ZhuZiAWann.ttf') format("truetype");
 }
 body {
-    font-family: 'ZhuZiAWann';
+    font-family: 'Noto Serif SC';
 }
