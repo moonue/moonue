@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>最好的工作流，从我的黑群晖开始 | 美阅</title><meta name="author" content="芦苇"><meta name="copyright" content="芦苇"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="一直以来，最想和大家分享的，就是我的群晖，可以说一年前我每天执迷于 Docker 的部署，那是一个几乎每天一个部署一个Docker，但是当我遇到群晖，我觉得是时候给我的Docker软件找一个家了。  先说Docker,那是我在玩服务器的时候，总喜欢Docker部署一些东西，Docker像是一台电脑，可以安装一个个软件，我们知道以前Linux电脑安装软件需要去改一些配置，这样部署的时候，才可以安装想">
+<meta property="og:type" content="article">
+<meta property="og:title" content="最好的工作流，从我的黑群晖开始">
+<meta property="og:url" content="https://www.moonue.com/posts/ec784bf7.html">
+<meta property="og:site_name" content="美阅">
+<meta property="og:description" content="一直以来，最想和大家分享的，就是我的群晖，可以说一年前我每天执迷于 Docker 的部署，那是一个几乎每天一个部署一个Docker，但是当我遇到群晖，我觉得是时候给我的Docker软件找一个家了。  先说Docker,那是我在玩服务器的时候，总喜欢Docker部署一些东西，Docker像是一台电脑，可以安装一个个软件，我们知道以前Linux电脑安装软件需要去改一些配置，这样部署的时候，才可以安装想">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://t.tenmeng.com:1800/i/2024/06/21/66759a78752ce.jpg">
+<meta property="article:published_time" content="2024-06-21T16:17:34.000Z">
+<meta property="article:modified_time" content="2024-06-21T16:17:39.768Z">
+<meta property="article:author" content="芦苇">
+<meta property="article:tag" content="软件">
+<meta property="article:tag" content="黑群晖">
+<meta property="article:tag" content="Docker">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://t.tenmeng.com:1800/i/2024/06/21/66759a78752ce.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.moonue.com/posts/ec784bf7.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-0303698314048951',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?73902c93450ae3b68df8e9fad618a90d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-EHEBZV4310"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-EHEBZV4310');
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '最好的工作流，从我的黑群晖开始',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: true,
+  isToc: false,
+  postUpdate: '2024-06-22 00:17:39'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script><link rel="stylesheet" href="/css/font.css"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="美阅" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://tt.tenmeng.com/md/1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">170</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">26</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://t.tenmeng.com:1800/i/2024/06/21/66759a78752ce.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="美阅"><img class="site-icon" src="https://tt.tenmeng.com/md/1.jpg"/><span class="site-name">美阅</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">最好的工作流，从我的黑群晖开始</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-06-21T16:17:34.000Z" title="发表于 2024-06-22 00:17:34">2024-06-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-06-21T16:17:39.768Z" title="更新于 2024-06-22 00:17:39">2024-06-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%BD%AF%E4%BB%B6/">软件</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span id="" data-flag-title="最好的工作流，从我的黑群晖开始"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="twikoo_visitors"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>一直以来，最想和大家分享的，就是我的群晖，可以说一年前我每天执迷于 Docker 的部署，那是一个几乎每天一个部署一个Docker，但是当我遇到群晖，我觉得是时候给我的Docker软件找一个家了。</p>
+<p><img src="https://t.tenmeng.com:1800/i/2024/06/21/66759a78752ce.jpg" alt="bg_1920up"></p>
+<p>先说Docker,那是我在玩服务器的时候，总喜欢Docker部署一些东西，Docker像是一台电脑，可以安装一个个软件，我们知道以前Linux电脑安装软件需要去改一些配置，这样部署的时候，才可以安装想要的软件，但是安装别的软件的时候，又会遇到别的配置需要修改，这无疑增加了程序员的麻烦，但是Docker的出现，完美的解决了这个问题。你可以部署多个软件在一个系统内，而且软件配置互不干扰，就像一艘货轮，上面可以放非常多的货柜，这样这首Docker巨轮可以安全的运行在大海之中。</p>
+<p>Github 的出现，让众多的软件开发者有了分享交流的平台，未来100年不会停止服务的平台，逐渐让更多软件开发者熟知，Github平台也是微软收购之后做的最好的软件代码托管的平台，虽然国内的也有一家，但是做的就相差甚远。</p>
+<p><img src="https://t.tenmeng.com:1800/i/2024/06/21/66759aaf69ecf.png" alt="4704ab1ac1ed42f8a7ddaf9d34c75642"></p>
+<p>Github虽然托管了众多的软件，相比Docker，这个软件还有自己的专有平台，</p>
+<p><a target="_blank" rel="noopener" href="https://registry.hub.docker.com/r/6053537/portainer-ce/">https://registry.hub.docker.com/r/6053537/portainer-ce/</a></p>
+<p>从网址我们可以看出hub.docker.com 是一个专有的软件平台，那就是Docker.com，这上面汇集了数以万计的Docker软件代码，当我打开群晖的Docker软件，就可以方便的安装部署，可视化的软件安装界面，让我这个小白也能够方便的安装，未来我也坚信，Docker会让更多的人熟知。</p>
+<p>在安装非常多的Docker软件之后，我接触到群晖，这是一个存储服务为基础的服务，但是让我探索到另一篇新天地。群晖同样是一款Linux系统为底层软件开发的操作系统，主要是为企业和个人的提供安全可靠的数据存储。这里可以知道，安全和稳定的私人数据存储，在现在看来，真的太重要了，你要知道在中国，一条公告，自己的数据就会消失的灰飞烟灭，什么36O网盘，99度网盘，狐狸网盘，是怎么一步步把用户的资料搞死的，方法无所不用，还博取同情，服务器压力大，用户都是薅羊毛怎样怎样的。</p>
+<p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a0af86abf.png" alt="yunpan_20240621234740"></p>
+<p>时过境迁之后，还是觉得，谁家的媳妇谁去爱，自己的数据，自己珍藏。之前我有一台联想笔记本，也有十多年了，正好用来安装黑群晖测试，数据丢过一次，但是使我欣慰的是，让我接触到群晖的强大功能。给了我2核6G的运存，要知道在买云厂商服务器的时候，是2核2G的，一个月就要50元的，2核6G运存的，根本买不起。</p>
+<p>群晖让我看到了无限可能，可以安装Docker应用，就连科学上网都特别方便，根本不用来回切换软件，只需要设置好软路由，要知道之前我在我笔记本上做过单臂软路由，群晖可是只是单独虚拟一个环境，妈呀，真的太香了。</p>
+<p>不能用公网IP，又成为我的一个难点，我就联系联通宽带师傅，师傅竟然送我一台TP-Link的宽带路由器，真的不说，大城市的宽带师傅，资源都是多，直接给你送一台路由器，关键是这台路由器浑身都是宝，我硬生生玩了2个礼拜。加上我的笔记本黑群晖，也了解到原来一个路由器的可玩性都这么高。加上我有了公网ip，实现了宽带的上网功能。</p>
+<p>这里提一下，我之前宽带使用的光猫帮我上网的，但是要使用公网ip需要用我的路由器连接，后来让宽带师傅给我给猫改成桥接模式，就是不用光猫直接拨号上网。这样我就方便的使用TP-Link路由器上网。从而简化了我家的网络结构，不用层层套网。</p>
+<p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a1e9b7d88.jpg" alt="O1CN01f4ye7v2EcQBcSkWHh_!!2211267048765-0-cib"></p>
+<p>群晖最让我自豪的是可以实现多次备份，我是设为8次，就是每改一个版本，我就会进行保存，当我想找回之前的版本，我只要在群晖本地下载之前的版本即可，不得不说，就这一点几乎可以秒杀绝大部分的网盘了，或者应该说群晖是当今最好的网盘之一，一点都不为过，或者应该给更高的评价————唯一一款最好的网盘。</p>
+<p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a29b244c8.png" alt="qunhui_20240621220554"></p>
+<p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a2be33023.png" alt="qunhui_20240621221117"></p>
+<p>群晖在我笔记本上面待了将近半年的时间，由于我当时使用的是笔记本，屏幕会一直亮着，这也为后面的问题埋下了伏笔，笔记本经过几个月的亮屏，屏幕开始闪烁，甚至不出现代码了，群晖安装到笔记本上面，用的是U盘启动，屏幕会亮着代码，我都是特地剪了一块指标盖着笔记本的屏幕，虽然群晖一开就是几个月，但是一次启动失败的时候，我的群晖就彻底的不能使用了。</p>
+<p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a22b25c8d.png" alt="qq20240621235405"></p>
+<p>接着就是数据的丢失，后来我又在咸鱼上买了一台戴尔的品牌机器，说是品牌机器，也可能是组装的，但是机箱是戴尔的，这点可以肯定。要说还是群晖的魔力，让我彻底的喜欢上了这样工作流，我直接花了300元，买了一台i5-4570的CPU，8G的内存，从无锡将近跑到苏州，就为了这台主机，说实在的，这台主机我特别欣赏两点，一是真的重，另外一点就是真的静音，从后面摸，冷风呼呼的，比我的游戏主力机还凉爽，这让我也特别放心的去工作，长时间待机。一开机就是几个月，偶尔有需求，也会去重启一下。</p>
+<p><strong>Synology Drive</strong></p>
+<p>这是我特别喜欢的软件，我的主力机都在使用它同步，之前负责Obsidian的同步工作，但是它老是胡弹出提醒，让我很不习惯，我现在改成了Nextcloud的Webdav存储，现在我把主力笔记改成了Logseq，直接使用群晖的Synology Drive 进行双向同步，我在手机上也安装了Synology Drive，无论哪边进行调整，群晖都会在一分钟之内进行同步传输。真正实现了，无论在哪，文件随时陪伴。</p>
+<p>更让我喜爱的还有群晖实现了我外网传输的需求，以前我传文件还得下载，然后传给同事，现在我只要动动手指，几个G的文件就分享给朋友了。不用我下载，不占用我手机空间，最主要的是响应速度快。有时候想要同事一个文件，又是在忙，又是在电脑上面等等问题，如果和我一样拥有群晖网盘，直接搜索文件，分分钟传输过去，哪有什么等个半天的情况。</p>
+<p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a2798bdfb.png" alt="Synology Drive_20240621235516"></p>
+<p>另外一个就是传输文件，之前没有群晖的时候，每次都是采用微信传输，电脑上面总要登陆微信，现在我只要大家群晖网盘找到文件传输的文件夹，直接在手机上添加，就会自动上传到电脑上面。直接拖动到文件里就可以实现插入，根本不需要登陆微信。</p>
+<p>前几天同事下载一个百度网盘的文件，5.39GB的文件，硬生生的下了两天，我让他传输文件给我，他说只能拷贝，压缩都压缩不了，后来发现他的硬盘都红了，空间不多了，把照片存在了相机的存储卡里，我于是就让他直接把文件拖到我的电脑里面，我在那台电脑里面配置好了Synology Drive，估计就半个小时就全部上传完成。</p>
+<p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a31655883.png" alt="ee_20240621235759"></p>
+<p>这是上海的摄影师，使用百度网盘传输过来的文件，就一百多个文件，我一保存，就厚着脸皮让我开会员，说是文件数量太多，保存不了，下载更是头疼，百度网盘下载的坑，我就不多说了，知道的都懂。关键是分享的人，能不能里面放一个压缩文件，这样下载一个就可以实现全部的照片。要是有群晖，可能这就是完全不一样的解决方案。</p>
+<p>好了，今天就和大家分享到这里，欢迎大家继续关注美阅，后面会和大家分享更多好的工作流，说真的，我真的有很多很多的软件和Docker程序，一些软件我会发在美阅的官网里，欢迎大家去美阅官网下载。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://www.moonue.com">芦苇</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://www.moonue.com/posts/ec784bf7.html">https://www.moonue.com/posts/ec784bf7.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.moonue.com" target="_blank">美阅</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%BD%AF%E4%BB%B6/">软件</a><a class="post-meta__tags" href="/tags/%E9%BB%91%E7%BE%A4%E6%99%96/">黑群晖</a><a class="post-meta__tags" href="/tags/Docker/">Docker</a></div><div class="post_share"><div class="social-share" data-image="https://t.tenmeng.com:1800/i/2024/06/21/66759a78752ce.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.png" target="_blank"><img class="post-qr-code-img" src="/img/wechat.png" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/img/alipay.png" target="_blank"><img class="post-qr-code-img" src="/img/alipay.png" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/posts/c1c5024b.html" title="酷我VIP破解版和一些我新发现的音乐软件"><img class="cover" src="https://t.tenmeng.com:1800/i/2024/06/12/6668e2cf6a98e.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">酷我VIP破解版和一些我新发现的音乐软件</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/855baefb.html" title="常用 PC 软件下载"><img class="cover" src="https://tt.tenmeng.com/moon/2023/03/windows.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-09-23</div><div class="title">常用 PC 软件下载</div></div></a></div><div><a href="/posts/4eaa138c.html" title="我的老旧笔记本安装（升级）黑群晖 7.1"><img class="cover" src="https://tt.tenmeng.com/moon/2023/03/gkihqEjXxJ5UZ1C.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-12-23</div><div class="title">我的老旧笔记本安装（升级）黑群晖 7.1</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://tt.tenmeng.com/md/1.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">芦苇</div><div class="author-info__description">你的软件工具箱</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">86</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">170</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">26</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://moonue.com"><i class="fas fa-house"></i><span>欢迎来到美阅官网</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://mp.weixin.qq.com/s/0Eia4dfMcRMBFZOYnufSRQ" target="_blank" title="微信公众号"><i class="fab fa-weixin"></i></a><a class="social-icon" href="mailto:cuixiaowei123@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://author.baidu.com/home/1547969604699572" target="_blank" title="百家号"><i class="fas fa-at"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">不定时更新内容，欢迎进群<a target="_blank" rel="noopener" href="https://t.me/moonue">Telegram</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/ec784bf7.html" title="最好的工作流，从我的黑群晖开始"><img src="https://t.tenmeng.com:1800/i/2024/06/21/66759a78752ce.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="最好的工作流，从我的黑群晖开始"/></a><div class="content"><a class="title" href="/posts/ec784bf7.html" title="最好的工作流，从我的黑群晖开始">最好的工作流，从我的黑群晖开始</a><time datetime="2024-06-21T16:17:34.000Z" title="发表于 2024-06-22 00:17:34">2024-06-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/c1c5024b.html" title="酷我VIP破解版和一些我新发现的音乐软件"><img src="https://t.tenmeng.com:1800/i/2024/06/12/6668e2cf6a98e.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="酷我VIP破解版和一些我新发现的音乐软件"/></a><div class="content"><a class="title" href="/posts/c1c5024b.html" title="酷我VIP破解版和一些我新发现的音乐软件">酷我VIP破解版和一些我新发现的音乐软件</a><time datetime="2024-06-11T23:51:15.000Z" title="发表于 2024-06-12 07:51:15">2024-06-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/d359d5f6.html" title="百度网盘新的的下载神器 ODE 多功能助手"><img src="https://t.tenmeng.com:1800/i/2024/05/16/6645409ea86ac.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="百度网盘新的的下载神器 ODE 多功能助手"/></a><div class="content"><a class="title" href="/posts/d359d5f6.html" title="百度网盘新的的下载神器 ODE 多功能助手">百度网盘新的的下载神器 ODE 多功能助手</a><time datetime="2024-05-15T22:24:54.000Z" title="发表于 2024-05-16 06:24:54">2024-05-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/b8d43cb7.html" title="达芬奇 v18.6.6最新版本下载安装DaVinci Resolve Studio后期专业调色剪辑软件"><img src="https://t.tenmeng.com:1800/i/2024/05/14/6642393577f9b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="达芬奇 v18.6.6最新版本下载安装DaVinci Resolve Studio后期专业调色剪辑软件"/></a><div class="content"><a class="title" href="/posts/b8d43cb7.html" title="达芬奇 v18.6.6最新版本下载安装DaVinci Resolve Studio后期专业调色剪辑软件">达芬奇 v18.6.6最新版本下载安装DaVinci Resolve Studio后期专业调色剪辑软件</a><time datetime="2024-05-13T16:16:39.000Z" title="发表于 2024-05-14 00:16:39">2024-05-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/290f373a.html" title="洛雪音乐助手免费下载全平台的好音乐软件"><img src="https://t.tenmeng.com:1800/i/2024/05/13/66422d97b4446.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="洛雪音乐助手免费下载全平台的好音乐软件"/></a><div class="content"><a class="title" href="/posts/290f373a.html" title="洛雪音乐助手免费下载全平台的好音乐软件">洛雪音乐助手免费下载全平台的好音乐软件</a><time datetime="2024-05-13T15:10:54.000Z" title="发表于 2024-05-13 23:10:54">2024-05-13</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2016 - 2024 By 芦苇</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><span>本网站由</span><a class="footer-support-logo" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" target="blank" title="又拍云"><img height="30" src="https://tt.tenmeng.com/moon/2023/03/uyun_logo6.png" alt="又拍云"></a><span>提供 CDN 加速</span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(() => {
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.tenmeng.com',
+      region: 'ap-shanghai',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://twikoo.tenmeng.com',
+      region: 'ap-shanghai',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+
+    
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(init,0)
+    else getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(init)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
