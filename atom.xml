@@ -6,7 +6,7 @@
   <link href="https://www.moonue.com/atom.xml" rel="self"/>
   
   <link href="https://www.moonue.com/"/>
-  <updated>2024-06-21T16:17:39.768Z</updated>
+  <updated>2024-07-12T05:27:23.851Z</updated>
   <id>https://www.moonue.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>亲测下载抖音视频的最新方法，什么付费的都是弟弟</title>
+    <link href="https://www.moonue.com/posts/57dc7121.html"/>
+    <id>https://www.moonue.com/posts/57dc7121.html</id>
+    <published>2024-07-12T03:54:36.000Z</published>
+    <updated>2024-07-12T05:27:23.851Z</updated>
+    
+    <content type="html"><![CDATA[<p>🔥 TikTokDownloader是完全开源，基于 HTTPX 模块实现的免费工具；批量下载抖音账号发布、喜欢、收藏作品；批量下载 TikTok 账号发布作品；下载抖音链接或 TikTok 链接作品；获取抖音直播推流地址；下载抖音直播视频；获取 TikTok 直播推流地址；下载 TikTok 直播视频；</p><p>从介绍即可看出，TikTokDownloader是一个非常方便的下载抖音视频的工具，开始我也是在寻找一个下载抖音视频的方法，但是事与愿违，尝试了多种方式，仍然不行，在部署一款在线下载的软件，部署了将近三十几遍，最后依然以失败而告终。</p><p><img src="https://t.tenmeng.com:1800/i/2024/07/12/6690bd291ae9b.jpg"></p><p>转头看到这款软件TikTokDownloader，它的下载方式是部署在本地的电脑上面使用，当时也是部署了不能使用，于是加到群里，和原作者沟通，才知道，原来抖音一直在封堵此种下载方式，作者经过三天的努力，我也第一时间能够使用下载抖音的无水印视频。</p><p>当然开始之前，其实作者已经能够实现采用界面的方式下载，但是因为抖音封堵的太快，现在更新最快的方式是采用代码命令的方式下载。后面估计会跟进界面的方式。</p><p>Windows 10 及以上用户可前往 <a href="https://github.com/JoeanAmier/TikTokDownloader/releases/latest">Releases</a> 下载已编译的 exe 程序，开箱即用！</p><p>当然有的人要说了，为什么要使用这种方式下载，我觉得是因为清晰度，我们在线看的清晰度很低，下载下来的清晰度要高得多，关键还是无水印。</p><h3 id="安装教程："><a href="#安装教程：" class="headerlink" title="安装教程："></a>安装教程：</h3><ol><li><p>安装不低于 <code>3.12</code> 版本的 <a href="https://www.python.org/">Python</a> 解释器</p></li><li><p>安装完之后，创建一个文件夹，然后在这个文件夹右键“在终端中打开”运行<img src="https://t.tenmeng.com:1800/i/2024/07/12/6690b6f72904d.png" alt="TikTokDownloader_2024-07-12_12-53-34"></p></li><li><p>首先拉取镜像，从镜像中，我们可以看出使用的最新的开发者镜像develop，如果拉取不了，那就要安装<a href="https://git-scm.com/">git</a>。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b develop https://github.com/JoeanAmier/TikTokDownloader.git</span><br></pre></td></tr></table></figure><p><img src="https://t.tenmeng.com:1800/i/2024/07/12/6690b75063cd5.png" alt="TikTokDownloader_2024-07-12_12-55-04"></p></li><li><p>下载完之后，进入到刚才拉取的项目里，右键“在终端中打开”输入下方代码安装安装需要的组件。当然你也可以使用cd的方式进入文件夹，然后运行代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -r requirements.txt</span><br></pre></td></tr></table></figure></li><li><p>安装完成后即可运行软件：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python main.py</span><br></pre></td></tr></table></figure></li><li><p>这时候就进入到软件的代码运行界面了，根据操作进行使用。</p></li><li><p>阅读 TikTokDownloader 的免责声明，根据提示输入内容</p></li><li><p>将 Cookie 信息写入配置文件，手动复制粘贴 Cookie（推荐）</p></li><li><p>返回程序界面，依次选择 <code>终端交互模式</code> -&gt; <code>批量下载链接作品(通用)</code> -&gt; <code>手动输入待采集的作品链接</code>，当然在界面里面只需要填写相应的数字即可。</p><p><img src="https://t.tenmeng.com:1800/i/2024/07/12/6690bb7fafbe6.png" alt="TikTokDownloader_2024-07-12_13-12-29"></p></li><li><p>输入抖音作品链接即可下载作品文件（复制的文字和链接，可以直接填写粘贴进去即可，TikTok 平台需要更多步骤，详见文档）</p></li><li><p>更多详细说明请查看 <strong><a href="https://github.com/JoeanAmier/TikTokDownloader/wiki/Documentation">项目文档</a></strong></p></li></ol><h4 id="Cookie获取教程："><a href="#Cookie获取教程：" class="headerlink" title="Cookie获取教程："></a>Cookie获取教程：</h4><ol><li>打开浏览器(可选无痕模式启动)，访问<code>https://www.douyin.com/</code></li><li>登录抖音账号</li><li>按 <code>F12</code> 打开开发人员工具</li><li>选择 <code>网络</code> 选项卡</li><li>勾选 <code>保留日志</code></li><li>在 <code>筛选器</code> 输入框输入 <code>cookie-name:odin_tt</code></li><li>点击 <code>抖音网页版</code> 左侧选项卡中 <code>直播</code>、<code>首页</code>、<code>推荐</code>、<code>关注</code> 等任意一个模块</li><li>在开发人员工具窗口选择任意一个数据包(如果无数据包，重复步骤7)</li><li>全选并复制 <code>Cookie</code> 的值</li><li>运行 <code>main.py</code> ，根据提示写入 <code>Cookie</code></li></ol><p><strong>截图示例：</strong></p><p>[<img src="https://t.tenmeng.com:1800/i/2024/07/12/6690ba313eeab.png" alt="开发人员工具"></p><p><strong>《完》</strong></p><h3 id="欢迎关注公众号："><a href="#欢迎关注公众号：" class="headerlink" title="欢迎关注公众号："></a>欢迎关注公众号：</h3><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;🔥 TikTokDownloader是完全开源，基于 HTTPX 模块实现的免费工具；批量下载抖音账号发布、喜欢、收藏作品；批量下载 TikTok 账号发布作品；下载抖音链接或 TikTok 链接作品；获取抖音直播推流地址；下载抖音直播视频；获取 TikTok 直播推流地</summary>
+      
+    
+    
+    
+    <category term="下载视频" scheme="https://www.moonue.com/categories/%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/"/>
+    
+    
+    <category term="抖音下载" scheme="https://www.moonue.com/tags/%E6%8A%96%E9%9F%B3%E4%B8%8B%E8%BD%BD/"/>
+    
+    <category term="无水印下载" scheme="https://www.moonue.com/tags/%E6%97%A0%E6%B0%B4%E5%8D%B0%E4%B8%8B%E8%BD%BD/"/>
+    
+    <category term="抖音" scheme="https://www.moonue.com/tags/%E6%8A%96%E9%9F%B3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>最好的工作流，从我的黑群晖开始</title>
     <link href="https://www.moonue.com/posts/ec784bf7.html"/>
     <id>https://www.moonue.com/posts/ec784bf7.html</id>
     <published>2024-06-21T16:17:34.000Z</published>
-    <updated>2024-06-21T16:17:39.768Z</updated>
+    <updated>2024-06-21T16:25:05.326Z</updated>
     
     <content type="html"><![CDATA[<p>一直以来，最想和大家分享的，就是我的群晖，可以说一年前我每天执迷于 Docker 的部署，那是一个几乎每天一个部署一个Docker，但是当我遇到群晖，我觉得是时候给我的Docker软件找一个家了。</p><p><img src="https://t.tenmeng.com:1800/i/2024/06/21/66759a78752ce.jpg" alt="bg_1920up"></p><p>先说Docker,那是我在玩服务器的时候，总喜欢Docker部署一些东西，Docker像是一台电脑，可以安装一个个软件，我们知道以前Linux电脑安装软件需要去改一些配置，这样部署的时候，才可以安装想要的软件，但是安装别的软件的时候，又会遇到别的配置需要修改，这无疑增加了程序员的麻烦，但是Docker的出现，完美的解决了这个问题。你可以部署多个软件在一个系统内，而且软件配置互不干扰，就像一艘货轮，上面可以放非常多的货柜，这样这首Docker巨轮可以安全的运行在大海之中。</p><p>Github 的出现，让众多的软件开发者有了分享交流的平台，未来100年不会停止服务的平台，逐渐让更多软件开发者熟知，Github平台也是微软收购之后做的最好的软件代码托管的平台，虽然国内的也有一家，但是做的就相差甚远。</p><p><img src="https://t.tenmeng.com:1800/i/2024/06/21/66759aaf69ecf.png" alt="4704ab1ac1ed42f8a7ddaf9d34c75642"></p><p>Github虽然托管了众多的软件，相比Docker，这个软件还有自己的专有平台，</p><p><a href="https://registry.hub.docker.com/r/6053537/portainer-ce/">https://registry.hub.docker.com/r/6053537/portainer-ce/</a></p><p>从网址我们可以看出hub.docker.com 是一个专有的软件平台，那就是Docker.com，这上面汇集了数以万计的Docker软件代码，当我打开群晖的Docker软件，就可以方便的安装部署，可视化的软件安装界面，让我这个小白也能够方便的安装，未来我也坚信，Docker会让更多的人熟知。</p><p>在安装非常多的Docker软件之后，我接触到群晖，这是一个存储服务为基础的服务，但是让我探索到另一篇新天地。群晖同样是一款Linux系统为底层软件开发的操作系统，主要是为企业和个人的提供安全可靠的数据存储。这里可以知道，安全和稳定的私人数据存储，在现在看来，真的太重要了，你要知道在中国，一条公告，自己的数据就会消失的灰飞烟灭，什么36O网盘，99度网盘，狐狸网盘，是怎么一步步把用户的资料搞死的，方法无所不用，还博取同情，服务器压力大，用户都是薅羊毛怎样怎样的。</p><p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a0af86abf.png" alt="yunpan_20240621234740"></p><p>时过境迁之后，还是觉得，谁家的媳妇谁去爱，自己的数据，自己珍藏。之前我有一台联想笔记本，也有十多年了，正好用来安装黑群晖测试，数据丢过一次，但是使我欣慰的是，让我接触到群晖的强大功能。给了我2核6G的运存，要知道在买云厂商服务器的时候，是2核2G的，一个月就要50元的，2核6G运存的，根本买不起。</p><p>群晖让我看到了无限可能，可以安装Docker应用，就连科学上网都特别方便，根本不用来回切换软件，只需要设置好软路由，要知道之前我在我笔记本上做过单臂软路由，群晖可是只是单独虚拟一个环境，妈呀，真的太香了。</p><p>不能用公网IP，又成为我的一个难点，我就联系联通宽带师傅，师傅竟然送我一台TP-Link的宽带路由器，真的不说，大城市的宽带师傅，资源都是多，直接给你送一台路由器，关键是这台路由器浑身都是宝，我硬生生玩了2个礼拜。加上我的笔记本黑群晖，也了解到原来一个路由器的可玩性都这么高。加上我有了公网ip，实现了宽带的上网功能。</p><p>这里提一下，我之前宽带使用的光猫帮我上网的，但是要使用公网ip需要用我的路由器连接，后来让宽带师傅给我给猫改成桥接模式，就是不用光猫直接拨号上网。这样我就方便的使用TP-Link路由器上网。从而简化了我家的网络结构，不用层层套网。</p><p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a1e9b7d88.jpg" alt="O1CN01f4ye7v2EcQBcSkWHh_!!2211267048765-0-cib"></p><p>群晖最让我自豪的是可以实现多次备份，我是设为8次，就是每改一个版本，我就会进行保存，当我想找回之前的版本，我只要在群晖本地下载之前的版本即可，不得不说，就这一点几乎可以秒杀绝大部分的网盘了，或者应该说群晖是当今最好的网盘之一，一点都不为过，或者应该给更高的评价————唯一一款最好的网盘。</p><p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a29b244c8.png" alt="qunhui_20240621220554"></p><p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a2be33023.png" alt="qunhui_20240621221117"></p><p>群晖在我笔记本上面待了将近半年的时间，由于我当时使用的是笔记本，屏幕会一直亮着，这也为后面的问题埋下了伏笔，笔记本经过几个月的亮屏，屏幕开始闪烁，甚至不出现代码了，群晖安装到笔记本上面，用的是U盘启动，屏幕会亮着代码，我都是特地剪了一块指标盖着笔记本的屏幕，虽然群晖一开就是几个月，但是一次启动失败的时候，我的群晖就彻底的不能使用了。</p><p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a22b25c8d.png" alt="qq20240621235405"></p><p>接着就是数据的丢失，后来我又在咸鱼上买了一台戴尔的品牌机器，说是品牌机器，也可能是组装的，但是机箱是戴尔的，这点可以肯定。要说还是群晖的魔力，让我彻底的喜欢上了这样工作流，我直接花了300元，买了一台i5-4570的CPU，8G的内存，从无锡将近跑到苏州，就为了这台主机，说实在的，这台主机我特别欣赏两点，一是真的重，另外一点就是真的静音，从后面摸，冷风呼呼的，比我的游戏主力机还凉爽，这让我也特别放心的去工作，长时间待机。一开机就是几个月，偶尔有需求，也会去重启一下。</p><p><strong>Synology Drive</strong></p><p>这是我特别喜欢的软件，我的主力机都在使用它同步，之前负责Obsidian的同步工作，但是它老是胡弹出提醒，让我很不习惯，我现在改成了Nextcloud的Webdav存储，现在我把主力笔记改成了Logseq，直接使用群晖的Synology Drive 进行双向同步，我在手机上也安装了Synology Drive，无论哪边进行调整，群晖都会在一分钟之内进行同步传输。真正实现了，无论在哪，文件随时陪伴。</p><p>更让我喜爱的还有群晖实现了我外网传输的需求，以前我传文件还得下载，然后传给同事，现在我只要动动手指，几个G的文件就分享给朋友了。不用我下载，不占用我手机空间，最主要的是响应速度快。有时候想要同事一个文件，又是在忙，又是在电脑上面等等问题，如果和我一样拥有群晖网盘，直接搜索文件，分分钟传输过去，哪有什么等个半天的情况。</p><p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a2798bdfb.png" alt="Synology Drive_20240621235516"></p><p>另外一个就是传输文件，之前没有群晖的时候，每次都是采用微信传输，电脑上面总要登陆微信，现在我只要大家群晖网盘找到文件传输的文件夹，直接在手机上添加，就会自动上传到电脑上面。直接拖动到文件里就可以实现插入，根本不需要登陆微信。</p><p>前几天同事下载一个百度网盘的文件，5.39GB的文件，硬生生的下了两天，我让他传输文件给我，他说只能拷贝，压缩都压缩不了，后来发现他的硬盘都红了，空间不多了，把照片存在了相机的存储卡里，我于是就让他直接把文件拖到我的电脑里面，我在那台电脑里面配置好了Synology Drive，估计就半个小时就全部上传完成。</p><p><img src="https://t.tenmeng.com:1800/i/2024/06/21/6675a31655883.png" alt="ee_20240621235759"></p><p>这是上海的摄影师，使用百度网盘传输过来的文件，就一百多个文件，我一保存，就厚着脸皮让我开会员，说是文件数量太多，保存不了，下载更是头疼，百度网盘下载的坑，我就不多说了，知道的都懂。关键是分享的人，能不能里面放一个压缩文件，这样下载一个就可以实现全部的照片。要是有群晖，可能这就是完全不一样的解决方案。</p><p>好了，今天就和大家分享到这里，欢迎大家继续关注美阅，后面会和大家分享更多好的工作流，说真的，我真的有很多很多的软件和Docker程序，一些软件我会发在美阅的官网里，欢迎大家去美阅官网下载。</p>]]></content>
     
@@ -542,37 +570,6 @@
     <category term="免费音乐试听" scheme="https://www.moonue.com/tags/%E5%85%8D%E8%B4%B9%E9%9F%B3%E4%B9%90%E8%AF%95%E5%90%AC/"/>
     
     <category term="Listen 1" scheme="https://www.moonue.com/tags/Listen-1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>免费开源的Umi-OCR 文字识别工具</title>
-    <link href="https://www.moonue.com/posts/920093d.html"/>
-    <id>https://www.moonue.com/posts/920093d.html</id>
-    <published>2023-03-28T23:47:08.000Z</published>
-    <updated>2023-11-17T06:20:28.935Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>免费，开源，可批量的离线OCR软件</strong>平时文字识别，比较麻烦，只能借助微信，或者QQ。但是使用Umi-OCR的话，就很方便了。不需要去登陆微信，就可以去文字识别，非常的方便。</p><h2 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h2><ul><li><strong>免费</strong>：本项目所有代码开源，完全免费。</li><li><strong>方便</strong>：解压即用，离线运行，无需网络。</li><li><strong>批量</strong>：可批量导入处理图片，结果保存到本地 txt &#x2F; md &#x2F; jsonl 多种格式文件。也可以即时截屏识别。</li><li><strong>高效</strong>：采用 PaddleOCR-json C++ 识别引擎。只要电脑性能足够，通常比在线OCR服务更快。</li><li><strong>精准</strong>：默认使用PPOCR-v3模型库。除了能准确辨认常规文字，对手写、方向不正、杂乱背景等情景也有不错的识别率。可设置<strong>忽略区域</strong>排除水印、设置<strong>文块后处理</strong>合并排版段落，得到规整的文本。</li></ul><p><a href="https://camo.githubusercontent.com/e1e4c737c433010bf455b0ffc62172b1009d7e912f77c60bfd5cc60db0259148/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312e332d653436313034633466633630636162642e706e67"><img src="https://camo.githubusercontent.com/e1e4c737c433010bf455b0ffc62172b1009d7e912f77c60bfd5cc60db0259148/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312e332d653436313034633466633630636162642e706e67" alt="img"></a></p><p><a href="https://camo.githubusercontent.com/a0be832ec374fa2df746fe683599c180317c8ff2b7e0b7bc00295d7bf21270c0/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312e332d2e706e67"><img src="https://camo.githubusercontent.com/a0be832ec374fa2df746fe683599c180317c8ff2b7e0b7bc00295d7bf21270c0/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312e332d2e706e67" alt="img"></a></p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><blockquote><p>Umi-OCR 软件本体含 <strong>简体中文&amp;英文</strong> 通用识别库。<br>配套 <strong>多国语言识别扩展包</strong> 可导入 <code>繁中,英,日,韩,俄,德,法</code> 识别库，请按需下载。</p></blockquote><p>Github下载：<a href="https://github.com/hiroi-sora/Umi-OCR/releases/tag/v1.3.3">Release v1.3.3</a></p><p>蓝奏云下载：<a href="https://hiroi-sora.lanzoul.com/s/umi-ocr">https://hiroi-sora.lanzoul.com/s/umi-ocr</a></p><h2 id="兼容性"><a href="#兼容性" class="headerlink" title="兼容性"></a>兼容性</h2><ul><li>系统支持 Win10 x64 及以上版本。</li><li>CPU必须具有AVX指令集。</li><li>出现初始化引擎失败等问题时请参考 <a href="https://github.com/hiroi-sora/Umi-OCR#%E9%97%AE%E9%A2%98%E6%8E%92%E9%99%A4">问题排除</a> 。</li></ul><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>关于<strong>忽略指定区域</strong>的特殊功能：</p><blockquote><p>类似含水印的视频截图、含有UI&#x2F;按钮的游戏截图等，往往只需要提取字幕区域的文本，而避免提取到水印和UI文本。本软件可设置忽略某些区域内的文字，来实现这一目的。</p><p>当有大量的影视和游戏截图需要整理归档，或者想翻找包含某一段台词&#x2F;字幕的截图；将这些图片提取出文字、然后Ctrl+F是一个很有效的方法。这是开发本软件的初衷。</p></blockquote><p>关于离线OCR引擎 <a href="https://github.com/hiroi-sora/PaddleOCR-json">PaddleOCR-json</a> ：</p><blockquote><p>对 <a href="https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.6">PaddleOCR 2.6 cpu_avx_mkl C++</a> 的封装。效率高于Python版本PPOCR及部分Python编写的OCR引擎，通常比在线OCR服务更快(省去网络传输的时间)。支持更换Paddle官方模型（兼容v2和v3版本）或自己训练的模型，支持修改PPOCR各项参数。通过添加不同的语言模型，软件可识别多国语言。</p></blockquote><h2 id="简单上手"><a href="#简单上手" class="headerlink" title="简单上手"></a>简单上手</h2><h4 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h4><p>下载压缩包并解压全部文件即可。</p><h4 id="截图识别"><a href="#截图识别" class="headerlink" title="截图识别"></a>截图识别</h4><p>点击截图按钮或自定义快捷键，唤起截图识别。</p><p><a href="https://camo.githubusercontent.com/bd40b5b93b3b5b7d918221dbca26c55e114a86b69c83b9ea294d763e3ffbc8e4/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312d772d2e706e67"><img src="https://camo.githubusercontent.com/bd40b5b93b3b5b7d918221dbca26c55e114a86b69c83b9ea294d763e3ffbc8e4/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f312d772d2e706e67" alt="img"></a></p><h4 id="粘贴图片到软件"><a href="#粘贴图片到软件" class="headerlink" title="粘贴图片到软件"></a>粘贴图片到软件</h4><p>在任何地方（如文件管理器，网页，微信）复制图片，软件上点击粘贴按钮，自动识别。</p><p><a href="https://camo.githubusercontent.com/1e44f170973d873178c89ab346d98c5315831b5704a529b39dbe507e3c5dfc67/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f322d772d2e706e67"><img src="https://camo.githubusercontent.com/1e44f170973d873178c89ab346d98c5315831b5704a529b39dbe507e3c5dfc67/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f322d772d2e706e67" alt="img"></a></p><h4 id="批量识别本地图片文件"><a href="#批量识别本地图片文件" class="headerlink" title="批量识别本地图片文件"></a>批量识别本地图片文件</h4><p>将图片或文件夹拖进软件，批量转换文字。也可以点击按钮打开浏览窗口导入。</p><p>识别结果将保存到本地。可选生成纯文本txt文件、带链接Markdown文件、原始信息jsonl文件等不同格式。可配置任务完成后执行关机&#x2F;待机。</p><p><a href="https://camo.githubusercontent.com/58ca753a39d09ad54573e9d8eebafae62c5d29188288bd153c3669da0c71f40a/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f332d772d2e706e67"><img src="https://camo.githubusercontent.com/58ca753a39d09ad54573e9d8eebafae62c5d29188288bd153c3669da0c71f40a/68747470733a2f2f74757069616e2e6c692f696d616765732f323032322f30392f32392f332d772d2e706e67" alt="img"></a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;免费，开源，可批量的离线OCR软件&lt;/strong&gt;平时文字识别，比较麻烦，只能借助微信，或者QQ。但是使用Umi-OCR的话，就很方便了。不需要去登陆微信，就可以去文字识别，非常的方便。&lt;/p&gt;
-&lt;h2 id=&quot;软件简介&quot;&gt;&lt;a href=&quot;#软件简介&quot; </summary>
-      
-    
-    
-    
-    <category term="免费" scheme="https://www.moonue.com/categories/%E5%85%8D%E8%B4%B9/"/>
-    
-    <category term="开源" scheme="https://www.moonue.com/categories/%E5%BC%80%E6%BA%90/"/>
-    
-    
-    <category term="免费OCR" scheme="https://www.moonue.com/tags/%E5%85%8D%E8%B4%B9OCR/"/>
-    
-    <category term="Umi-OCR" scheme="https://www.moonue.com/tags/Umi-OCR/"/>
-    
-    <category term="开源OCR" scheme="https://www.moonue.com/tags/%E5%BC%80%E6%BA%90OCR/"/>
     
   </entry>
   
