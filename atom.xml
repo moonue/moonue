@@ -6,7 +6,7 @@
   <link href="https://www.moonue.com/atom.xml" rel="self"/>
   
   <link href="https://www.moonue.com/"/>
-  <updated>2024-08-11T00:00:07.994Z</updated>
+  <updated>2024-08-13T00:04:44.054Z</updated>
   <id>https://www.moonue.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>内置音源的安卓元力音乐</title>
+    <link href="https://www.moonue.com/posts/21ef15d7.html"/>
+    <id>https://www.moonue.com/posts/21ef15d7.html</id>
+    <published>2024-08-12T23:42:13.000Z</published>
+    <updated>2024-08-13T00:04:44.054Z</updated>
+    
+    <content type="html"><![CDATA[<p>这款音乐软件是我比较喜欢的音乐播放器，唯一有个缺点，就是会提醒有安全风险，我是三星手机，去研究了作者的软件，从官网上面下载安装也是提示有风险，只能等待作者改进了。</p><p><img src="https://t.tenmeng.com:1800/i/2024/08/13/66baa30f21d83.jpg" alt="GI6L2pkiZgQ"></p><p>软件非常的简洁，可以导入歌单，支持腾讯音乐和网易云音乐，基本这两个支持，就等于支持了大部分的音乐平台。</p><p>元力音乐搜索音乐的时候有两个音源可以使用，测试怀疑是网易云和腾讯音源的搜索，而且可以方便的下载。使用了大半个月，基本没什么问题。虽然提示有安全风险，但是也可以从手机上设置不提醒，就和pc上面一样，设置为信任的软件即可。</p><p><img src="https://t.tenmeng.com:1800/i/2024/08/13/66baa1f23bc00.jpg" alt="软件界面"></p><h4 id="软件下载："><a href="#软件下载：" class="headerlink" title="软件下载："></a><strong>软件下载：</strong></h4><p>元力音乐下载地址：<br><a href="https://haitang.lanzouw.com/b00moi551c">https://haitang.lanzouw.com/b00moi551c</a></p><p>音源：<br><a href="http://music.haitangw.net/%E5%85%83%E5%8A%9B%E9%9F%B3%E4%B9%90.json">http://music.haitangw.net/元力音乐.json</a></p><p>当然你也可以关注作者的微信公众号元力菌，黑白头像的那个。</p><p><img src="https://t.tenmeng.com:1800/i/2024/08/13/66baa2041210b.jpg" alt="下载界面"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这款音乐软件是我比较喜欢的音乐播放器，唯一有个缺点，就是会提醒有安全风险，我是三星手机，去研究了作者的软件，从官网上面下载安装也是提示有风险，只能等待作者改进了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://t.tenmeng.com:1800/i/2024/08/1</summary>
+      
+    
+    
+    
+    <category term="音乐" scheme="https://www.moonue.com/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="元力" scheme="https://www.moonue.com/tags/%E5%85%83%E5%8A%9B/"/>
+    
+    <category term="音乐播放器" scheme="https://www.moonue.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    
+    <category term="音源" scheme="https://www.moonue.com/tags/%E9%9F%B3%E6%BA%90/"/>
+    
+  </entry>
   
   <entry>
     <title>Poweramp 我最喜欢的安卓本地音乐客户端</title>
@@ -547,32 +576,6 @@
     <category term="客户端" scheme="https://www.moonue.com/tags/%E5%AE%A2%E6%88%B7%E7%AB%AF/"/>
     
     <category term="媒体软件" scheme="https://www.moonue.com/tags/%E5%AA%92%E4%BD%93%E8%BD%AF%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Stable Diffusion 部署教程</title>
-    <link href="https://www.moonue.com/posts/5a5206f9.html"/>
-    <id>https://www.moonue.com/posts/5a5206f9.html</id>
-    <published>2023-06-18T23:11:00.000Z</published>
-    <updated>2023-11-17T06:20:28.827Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="开源的Stable-Diffusion"><a href="#开源的Stable-Diffusion" class="headerlink" title="开源的Stable Diffusion"></a>开源的Stable Diffusion</h2><p>目前AI绘画最火的当属Midjorney和Stable Diffusion，但是由于Midjourney没有开源，因此我们主要分享下Stable Diffusion，后面我们会补充介绍下Midjourney。</p><p>公开资料显示，<strong>Stable</strong> Diffusion<strong>是StabilityAI公司于2022年提出的</strong>，<a href="https://arxiv.org/pdf/2112.10752.pdf">论文</a>和<a href="https://github.com/CompVis/stable-diffusion">代码</a>都已开源。StabilityAI在10月28日完成了1.01亿美元的融资，目前估值已经超过10亿美元。</p><p>本篇文章注意是教大家如何部署 Stable Diffusion，我也是在部署之后，体验很好来和大家分享，也方便大家在部署的时候防止踩坑。</p><p>官网介绍：<a href="https://stability.ai/blog/stable-diffusion-public-release">https://stability.ai/blog/stable-diffusion-public-release</a> </p><h3 id="必要前提："><a href="#必要前提：" class="headerlink" title="必要前提："></a>必要前提：</h3><p>科学上网。很多链接都需要用到。</p><p>要使用stable-diffusion，包括两部分：需要下载stable-diffusion-webui作为可视化界面，底层调用我们下载的模型即可，模型就是上面我给你的地址进去可以下载。环境要求：要顺利运行stable-diffusion-webui和模型， 需要足够大的显存，最低配置4GB显存，基本配置6GB显存，推荐配置12GB显存以上。当然电脑的内存也不能太小，最好大于16GB，总之显存和内存越大越好。</p><p>显卡的显存需要足够大，至于6g，我的是NVIDIA 2060显卡，效果还是一般，所以显卡这块真的要好。</p><h2 id="本地环境要求"><a href="#本地环境要求" class="headerlink" title="本地环境要求"></a>本地环境要求</h2><ul><li><p>在下载 <code>AI</code> 绘画工具前，电脑上需要提前下载一些运行的环境</p></li><li><p>另外本地需要有 <code>python</code> 环境，官方要求下载 <code>Python 3.10.6</code> 版本</p></li><li><p>其中 <code>python</code> 的下载地址：<a href="https://www.python.org/downloads/">www.python.org/downloads/</a></p></li><li><p>另外还需要安装 <code>Git</code>，下载地址：<a href="https://git-scm.com/downloads/">git-scm.com&#x2F;downloads&#x2F;</a></p></li><li><p><code>python</code> 安装完成后，我们运行以下命令，将 <code>pip</code> 升级到最新</p></li></ul><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python -m pip install <span class="attr">--upgrade</span> pip</span><br></pre></td></tr></table></figure><h2 id="下载-Stable-Diffusion"><a href="#下载-Stable-Diffusion" class="headerlink" title="下载 Stable Diffusion"></a>下载 Stable Diffusion</h2><ul><li><code>Stable Diffusion</code> 开源地址：<a href="https://link.juejin.cn/?target=https://github.com/AUTOMATIC1111/stable-diffusion-webui">github.com&#x2F;AUTOMATIC11…</a></li><li>可以看到 <code>AI</code> 绘画是开源在 <code>Github</code> 上面的，所以想要下载需要科学上网</li><li>接下来的步骤，请全程开启科学上网</li><li>这里提供两种下载方式：</li><li>第一种使用 <code>Git</code> 命令：<code>git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git</code>(这里需要下载的时间很长，看外网的速度)</li><li>第二种直接下载压缩包文件，如下图方法2所示：</li></ul><p><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b567e102e9af444f88d707bf31ef379f~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp" alt="2种不同的下载方式"></p><h2 id="运行启动"><a href="#运行启动" class="headerlink" title="运行启动"></a>运行启动</h2><ul><li>下载到本地后，如果你是 <code>windows</code> 系统，直接双击文件夹中的 <code>webui-user.bat</code></li><li>如果你是 <code>MACOS</code> 或者 <code>Linux</code> 系统，请运行命令 <code>./webui.sh</code></li><li>第一次启动会下载各种依赖，时间比较久，而且最新版加入了一个近 <code>4GB</code> 的默认模型 <code>v1-5-pruned-emaonly.safetensors</code> 也是要下载的，所以耐心等就可以了。</li><li>如果想要加快下载速度的话，可以提前下载好这个模型，然后放到 <code>models/Stable-diffusion</code> 文件夹中即可，然后再启动 <code>webui-user.bat</code>，这样就不会再重新下载这个模型了</li><li>模型默认官方下载地址：<a href="https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main">huggingface.co&#x2F;runwayml&#x2F;st…</a></li><li>如果安装过程顺利，直接在浏览器打开 <code>http://127.0.0.1:7860</code></li><li>访问成功即是安装成功，打开的页面大概如下</li></ul><p><img src="https://tt.tenmeng.com/moon/2023/03/Stable%20Diffusion_2023-06-19_06-39-44.png" alt="Stable Diffusion_2023-06-19_06-39-44"></p><h2 id="启动参数"><a href="#启动参数" class="headerlink" title="启动参数"></a>启动参数</h2><ul><li><p>如果你是 <code>windows</code> 系统，可以在 <code>webui-user.bat</code> 中的 <code>set COMMANDLINE_ARGS</code> 中配置启动参数</p></li><li><p>如果你是 <code>MacOS</code> 系统，可以在 <code>webui-macos-env.sh</code> 中的 <code>export COMMANDLINE_ARGS</code> 中配置启动参数</p></li><li><p><strong>常见的启动参数如下：</strong></p></li><li><p><strong>–server-name：</strong> 默认启动绑定的 ip 是 <code>127.0.0.1</code>，只能是你自己电脑可以访问 <code>webui</code>，如果你想让同个局域网的人都可以访问的话，可以配置该参数</p></li><li><p><strong>–port：</strong> 默认端口是 <code>7860</code>，如果想换个端口，可以配置该参数，例如：<code>--port 8888</code></p></li><li><p><strong>–gradio-auth username:password：</strong> 如果你希望给 <code>webui</code> 设置登录密码，可以配置该参数，例如：<code>--gradio-auth tinygeeker:123456</code></p></li><li><p><strong>–use-cpu：</strong> 默认使用 <code>GPU</code> 算力（需要 <code>Nvidia</code> 显卡），如果没显卡，可以配置该参数，改用 <code>CPU</code> 算力</p></li><li><p><strong>–share：</strong> 默认启动 <code>127.0.0.1</code>，如果加上此参数，会给一个公网地址，可任意访问，但是有效期只有3小时</p></li><li><p><strong>–medvram：</strong> 为低显存（比如：4G）启用模型优化，会牺牲一点速度</p></li><li><p><strong>–lowvram：</strong> 为极低显存（比如：2G）启用模型优化，会牺牲很多速度</p></li><li><p><strong>–autolaunch：</strong> 启动时自动打开浏览器访问 <code>webui</code></p></li><li><p><strong>–api：</strong> 可以在启动 <code>stable-diffusion-webui</code> 的同时，启动一个接口服务</p></li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">常用 Nvidia 显卡启动参数</span></span><br><span class="line">COMMANDLINE_ARGS=--xformers --autolaunch</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">常用 AMD 显卡启动参数</span></span><br><span class="line">COMMANDLINE_ARGS=--precision full --no-half --opt-sub-quad-attention --lowvram </span><br></pre></td></tr></table></figure><h2 id="提示词及模型网站推荐"><a href="#提示词及模型网站推荐" class="headerlink" title="提示词及模型网站推荐"></a>提示词及模型网站推荐</h2><p>提示词网站：<a href="https://moonvy.com/apps/ops/">https://moonvy.com/apps/ops/</a></p><p>模型及Prompt：<a href="https://civitai.com/">https://civitai.com/</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;开源的Stable-Diffusion&quot;&gt;&lt;a href=&quot;#开源的Stable-Diffusion&quot; class=&quot;headerlink&quot; title=&quot;开源的Stable Diffusion&quot;&gt;&lt;/a&gt;开源的Stable Diffusion&lt;/h2&gt;&lt;p&gt;目前</summary>
-      
-    
-    
-    
-    <category term="Stable Diffusion" scheme="https://www.moonue.com/categories/Stable-Diffusion/"/>
-    
-    
-    <category term="Stable Diffusion" scheme="https://www.moonue.com/tags/Stable-Diffusion/"/>
-    
-    <category term="Stable Diffusion部署" scheme="https://www.moonue.com/tags/Stable-Diffusion%E9%83%A8%E7%BD%B2/"/>
     
   </entry>
   
