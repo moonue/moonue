@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>使用Android原生开发的电视直播软件——我的电视</title>
+      <link href="/posts/a841dd8c.html"/>
+      <url>/posts/a841dd8c.html</url>
+      
+        <content type="html"><![CDATA[<p>很多网友留言谈到电视直播软件，不只是大家，我也想找一款稳定的电视直播软件，现在直播电视的软件也是有两个趋势，一个是通过微信，抖音直播的电视台，例如CCTV这种，但是这种有个限制，就是很多电视台看不了，只给你那么几个台直播。类似抖音看短视频解说的电影，但是你要看原版的电影，你得去爱奇艺交会员。</p><p>另外一个就是你家里有电视的，你要交数字电视机顶盒费用，名称为有限电视费用，这个就可以看所有电视台费用，国外电视台是看不到的，只能看过年电视。基本有非常多的选择了，而且可以看CCTV5直播了。</p><p>上次我看奥运会，直播的时候，信号直接给我掐断了，真的是鬼得很。所以就是电视台直播，遇到比较大的赛事，网络信号都给你掐掉。</p><p><img src="https://github.com/yaoxieyoulei/mytv-android/raw/main/screenshots/Screenshot_panel.png" alt="img"></p><p>网络上就出现很多人在找信号源了，之前有人推荐Github上的信号源，我亲测速度非常不理想，卡的很。今天给大家推荐这款App叫我的电视。</p><p>这款软件封装的还是很不错的，界面简洁，而且电视台都能看，不清楚是怎么实现的。</p><p>清晰度非常高，这点绝对值得推荐，网上有分享那种，信号源差的很，这款软件的直播效果非常优秀。</p><p>这款软件是使用Android原生开发的电视直播软件</p><h4 id="下载链接："><a href="#下载链接：" class="headerlink" title="下载链接："></a>下载链接：</h4><p>官方地址：<a href="https://github.com/yaoxieyoulei/mytv-android">https://github.com/yaoxieyoulei/mytv-android</a></p><p>美阅下载：<a href="https://aijige.com:5210/s/8skemtSbEjAi59L">https://aijige.com:5210/s/8skemtSbEjAi59L</a></p><h4 id="注意"><a href="#注意" class="headerlink" title="注意:"></a>注意:</h4><p>这款软件有个缺点，就是在使用的时候，需要设备有IPv6功能，我家路由器没有这个，也可以去设备运营商咨询，或者网络运营商，要开通IPv6功能。手机测试使用自己流量的话，可以直接使用。</p><p>画面默认4:3,自己点击一下切换画面比例即可恢复正常。</p><h2 id="使用简介"><a href="#使用简介" class="headerlink" title="使用简介"></a>使用简介</h2><h3 id="操作方式"><a href="#操作方式" class="headerlink" title="操作方式"></a>操作方式</h3><blockquote><p>遥控器操作方式与主流电视直播软件类似；</p></blockquote><ul><li>频道切换：使用上下方向键，或者数字键切换频道；屏幕上下滑动；</li><li>频道选择：OK键；单击屏幕；</li><li>设置页面：按下菜单、帮助键，长按OK键；双击、长按屏幕；</li></ul><h3 id="触摸键位对应"><a href="#触摸键位对应" class="headerlink" title="触摸键位对应"></a>触摸键位对应</h3><ul><li>方向键：屏幕上下左右滑动</li><li>OK键：点击屏幕</li><li>长按OK键：长按屏幕</li><li>菜单、帮助键：双击屏幕</li></ul><h3 id="自定义设置"><a href="#自定义设置" class="headerlink" title="自定义设置"></a>自定义设置</h3><ul><li>访问以下网址：<code>http://&lt;设备IP&gt;:10481</code></li><li>打开应用设置界面，移到最后一项</li><li>支持自定义直播源、自定义节目单、缓存时间等等</li><li>须知：网页中引用了<code>jsdelivr</code>的cdn，请确保能够正常访问</li></ul><p><img src="https://github.com/yaoxieyoulei/mytv-android/raw/main/screenshots/Screenshot_temp_panel.png" alt="img"></p><h3 id="自定义直播源"><a href="#自定义直播源" class="headerlink" title="自定义直播源"></a>自定义直播源</h3><ul><li>设置入口：自定义设置网址</li><li>格式支持：m3u格式、tvbox格式</li></ul><h3 id="多直播源"><a href="#多直播源" class="headerlink" title="多直播源"></a>多直播源</h3><ul><li>设置入口：打开应用设置界面，选中<code>自定义直播源</code>项，点击后将弹出历史直播源列表</li><li>历史直播源列表：短按可切换当前直播源（需重启），长按将清除历史记录；该功能类似于<code>多仓</code>，主要用于简化直播源切换流程</li><li>须知：<ol><li>当直播源数据获取成功时，会将该直播源保存到历史直播源列表中</li><li>当直播源数据获取失败时，会将该直播源移出历史直播源列表</li></ol></li></ul><h3 id="多线路"><a href="#多线路" class="headerlink" title="多线路"></a>多线路</h3><ul><li>功能描述：同一频道拥有多个播放地址，相关标识位于频道名称后面</li><li>切换线路：左右方向键；屏幕左右滑动</li><li>自动切换：当当前线路播放失败后，将自动播放下一个线路，直至最后</li><li>须知：<ol><li>当某一线路播放成功后，会将该线路的<code>域名</code>保存到<code>可播放域名列表</code>中</li><li>当某一线路播放失败后，会将该线路的<code>域名</code>移出<code>可播放域名列表</code></li><li>当播放某一频道时，将优先选择匹配<code>可播放域名列表</code>的线路</li></ol></li></ul><h3 id="自定义节目单"><a href="#自定义节目单" class="headerlink" title="自定义节目单"></a>自定义节目单</h3><ul><li>设置入口：自定义设置网址</li><li>格式支持：.xml、.xml.gz格式</li></ul><h3 id="多节目单"><a href="#多节目单" class="headerlink" title="多节目单"></a>多节目单</h3><ul><li>设置入口：打开应用设置界面，选中<code>自定义节目单</code>项，点击后将弹出历史节目单列表</li><li>具体功能请参照<code>多直播源</code></li></ul><h3 id="当天节目单"><a href="#当天节目单" class="headerlink" title="当天节目单"></a>当天节目单</h3><ul><li>功能入口：打开应用选台界面，选中某一频道，按下菜单、帮助键、双击屏幕，将打开当天节目单</li><li>须知：由于该应用不支持回放功能，所以更早的节目单没必要展示</li></ul><p><img src="https://github.com/yaoxieyoulei/mytv-android/blob/main/screenshots/Screenshot_settings.png?raw=true" alt="Screenshot_settings.png"></p><h3 id="频道收藏"><a href="#频道收藏" class="headerlink" title="频道收藏"></a>频道收藏</h3><ul><li>功能入口：打开应用选台界面，选中某一频道，长按OK键、长按屏幕，将收藏&#x2F;取消收藏该频道</li><li>切换显示收藏列表：首先移动到频道列表顶部，然后再次按下方向键上，将切换显示收藏列表；手机长按频道信息切换</li></ul><p><img src="https://t.tenmeng.com:1800/i/2024/09/07/66dc6aea96f62.png" alt="xiaoxuanfeng"></p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p><p>（完）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电视 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 直播 </tag>
+            
+            <tag> 电视 </tag>
+            
+            <tag> tv </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在这个纷杂的时代，我安装了一个网络收音机</title>
       <link href="/posts/784b5f42.html"/>
       <url>/posts/784b5f42.html</url>
