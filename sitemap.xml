@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.moonue.com/posts/853acb44.html</loc>
+    
+    <lastmod>2024-09-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.moonue.com/posts/a841dd8c.html</loc>
     
     <lastmod>2024-09-18</lastmod>
@@ -2311,6 +2320,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.moonue.com/tags/Notion/</loc>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.moonue.com/tags/%E6%95%99%E8%82%B2%E7%89%88/</loc>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -2553,6 +2576,13 @@
   
   <url>
     <loc>https://www.moonue.com/categories/%E7%94%B5%E8%A7%86/</loc>
+    <lastmod>2024-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.moonue.com/categories/Notion/</loc>
     <lastmod>2024-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
