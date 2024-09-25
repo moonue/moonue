@@ -6,7 +6,7 @@
   <link href="https://www.moonue.com/atom.xml" rel="self"/>
   
   <link href="https://www.moonue.com/"/>
-  <updated>2024-09-22T16:14:48.605Z</updated>
+  <updated>2024-09-25T00:04:41.592Z</updated>
   <id>https://www.moonue.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>BT软件哪家强，这一款qbittorrent是你的不二之选</title>
+    <link href="https://www.moonue.com/posts/27bed7f4.html"/>
+    <id>https://www.moonue.com/posts/27bed7f4.html</id>
+    <published>2024-09-24T23:26:40.000Z</published>
+    <updated>2024-09-25T00:04:41.592Z</updated>
+    
+    <content type="html"><![CDATA[<p>作为广受玩家喜爱的下载平台之一，BT是很多人喜爱的下载方式，它是众多软件爱好者的福音，</p><p>当然除了bt也有一些确实优秀的下载方式，电驴、迅雷等，但是它们也有各自的问题和限制，需要我们不断地探索和寻找更好的下载方式。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/25/66f352030ea2d.jpg" alt="125-220301160S00-L"></p><p>比如使用新的下载工具或者技术，来提高下载速度和稳定性。Bt下载方式应运而生，这是一种非常方便的技术，也是互联网的开放精神，人人为我，我为人人。</p><p>我们都知道迅雷下载非常有名，但是遇到很多版权问题的资源，就偃旗息鼓。然后就是迅雷的各种会员收费限制，明明可以跑起来的带宽，没有扣钱的路上，给你建一个收费站，恶心死你。</p><p>当然BT的出现，现在在竞争的压力下，迅雷已经好了很多，收敛了许多。当然这款BT软件也是我在哔哩哔哩上面看到的，那是我想找一个方便的下载windows系统。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/25/66f35220e077c.png" alt="qBittorrent_2024-09-25_07-51-10"></p><p>windows系统我们都知道，这个是非常好用的安装系统的软件，但是就是文件大，有个5—6GB的大小。然后就安装这款BT软件使用，几分钟就下载好了。</p><p>当然这款软件不是下载方便我就喜欢的，还有一个就是它的界面设计挺好看的，非常的简洁，没有广告的那种，不是那种只有下载功能好用，界面设计的很过时设计。而且这款软件在更新方面，非常的迅速，作者的维护很及时，这个真的要非常感谢幕后的作者。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/25/66f352360e763.png" alt="qBittorrent_2024-09-25_07-51-49"></p><p>最后就是配置的问题，当时我是在B站学习的，当然后期我也会在美阅官网（阅读原文）继续更新配置内容，方便大家的下载使用。</p><p>这是一款开源的下载软件，qBittorrent 项目旨在提供 µTorrent 的开源软件替代品。</p><p>此外，qBittorrent 在所有主要平台（FreeBSD、Linux、macOS、OS&#x2F;2、Windows）上运行并提供相同的功能。</p><p>qBittorrent 基于<a href="https://www.qt.io/">Qt</a>工具包和<a href="https://www.libtorrent.org/">libtorrent-rasterbar</a>库。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/25/66f3527c8c7f1.png" alt="qBittorrent_2024-09-25_07-49-54"></p><h3 id="qBittorrent的基本功能："><a href="#qBittorrent的基本功能：" class="headerlink" title="qBittorrent的基本功能："></a>qBittorrent的基本功能：</h3><ul><li>精致的 µTorrent 式用户界面</li><li>无广告</li><li>高度集成且可扩展的搜索引擎<ul><li>在多个 Torrent 搜索网站同时进行搜索</li><li>特定类别的搜索请求（例如书籍、音乐、软件）</li></ul></li><li>带有高级下载过滤器（包括正则表达式）的 RSS 提要支持</li><li>支持许多 Bittorrent 扩展：<ul><li>磁力链接</li><li>分布式哈希表（DHT）、对等交换协议（PEX）、本地对等发现（LSD）</li><li>私人种子</li><li>加密连接</li><li>等等……</li></ul></li><li>通过使用 AJAX 编写的 Web 用户界面进行远程控制<ul><li>与常规 GUI 几乎相同</li></ul></li><li>顺序下载（按顺序下载）</li><li>对种子、跟踪器和对等点的高级控制<ul><li>Torrent 排队和优先级</li><li>Torrent 内容选择和优先级</li></ul></li><li>带宽调度器</li><li>Torrent 创建工具</li><li>IP 过滤（兼容 eMule 和 PeerGuardian 格式）</li><li>兼容 IPv6</li><li>UPnP &#x2F; NAT-PMP 端口转发支持</li><li>适用于所有平台：Windows、Linux、macOS、FreeBSD、OS&#x2F;2</li><li>提供<a href="https://www.transifex.com/sledgehammer999/qbittorrent/">约 70 种语言版本</a></li></ul><p><img src="https://t.tenmeng.com:1800/i/2024/09/25/66f352909b3d0.png" alt="qBittorrent_2024-09-25_07-52-35"></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p>官网下载：</p><p><a href="https://www.qbittorrent.org/download">https://www.qbittorrent.org/download</a></p><p>美阅下载</p><p><a href="https://aijige.com:5210/s/Gfq2wR2dSWw6pf3">https://aijige.com:5210/s/Gfq2wR2dSWw6pf3</a></p><p>（完）</p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;作为广受玩家喜爱的下载平台之一，BT是很多人喜爱的下载方式，它是众多软件爱好者的福音，&lt;/p&gt;
+&lt;p&gt;当然除了bt也有一些确实优秀的下载方式，电驴、迅雷等，但是它们也有各自的问题和限制，需要我们不断地探索和寻找更好的下载方式。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https:</summary>
+      
+    
+    
+    
+    <category term="下载" scheme="https://www.moonue.com/categories/%E4%B8%8B%E8%BD%BD/"/>
+    
+    
+    <category term="下载" scheme="https://www.moonue.com/tags/%E4%B8%8B%E8%BD%BD/"/>
+    
+    <category term="BT" scheme="https://www.moonue.com/tags/BT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>直播软件推荐这两款给大家，纯净的爱不释手！</title>
     <link href="https://www.moonue.com/posts/37892390.html"/>
     <id>https://www.moonue.com/posts/37892390.html</id>
     <published>2024-09-22T15:17:48.000Z</published>
-    <updated>2024-09-22T16:14:48.605Z</updated>
+    <updated>2024-09-22T16:15:11.575Z</updated>
     
     <content type="html"><![CDATA[<p>这两款直播软件，是我不经意间看到的，但是不得不说，真的好用，直播软件是可以观看抖音直播和哔哩哔哩直播，还可以看虎牙直播，以及斗鱼直播，这几个直播是涵盖了80%的直播平台，不用操心看直播的烦恼。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/22/66f03e4f38124.png" alt="PixPin_2024-09-22_23-20-38"></p><p>一个是这个作者对于直播这个事情，真的非常的用心去做，站在了用户的角度，观看体验非常的舒适，有些平台第一次需要登陆，大家只要授权一下就可以使用了，简直不要太方便。</p><p>这点真的羡慕国外的平台，他们真的很认真做好自己的服务，就像steam，真的把游戏这个娱乐项目，深耕下去，国内你看看这几个平台，恨不得把你的银行卡给要去，广告费，会员费，一点都不想耽误攒钱的速度。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/23/66f041e378338.png" alt="PixPin_2024-09-23_00-02-51"></p><p>清晰度是他们的首把利剑，不登录不给你看高清视频，登录页就是一个大坑，不点击不让你快速的进去，现在我的QQ音乐，我都懒得打开，动一动手机，就进去淘宝了，这点我真的想说腾讯和阿里的速度就是快，不知道的还以为两个是好兄弟公司呢！</p><p>微信支付和支付宝的接入速度这么慢，终于是找到原因了，要是让QQ音乐团队去做，说不定早成了，现在一点点关于淘宝接入微信支付的信息，都能够上个头条。关键是试了好几个月了，进度太慢，QQ音乐都能够动动手机就跳转到淘宝，不得不说没有利益资本的事情，大家都装装样子！</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/22/66f03e78db9ea.png" alt="PixPin_2024-09-22_23-57-25"></p><p>直播这个也是这个问题，大家都是希望把用户圈在自己的平台上，但是世界哪有什么大而全的事情呢？微信这么厉害，还能够冒出个抖音，所以不能太绝对。抱着开放的心态，才是一个大平台应该去做的事情。</p><p>以前刚接触视频平台的时候，最喜欢就就是土豆和56网，土豆的视频质量高，而且广告少，56网给的空间大，后来被优酷收购了土豆，以为优酷会成为中国最有潜力的视频平台，但是接连的亏损，然后就是广告越来越长，现在我都懒得去上优酷视频，手机上连这个app都没有装。</p><p>今天介绍第一个是这个聚合直播，这个是PC版本，之前我以为要收费呢！打开微软自带的应用商店，就可以下载，非常的方便。</p><p>🖥 Windows&#x2F;XBox建议下载UWP版<a href="https://www.microsoft.com/store/apps/9N1TWG2G84VD">聚合直播</a>，体验会更好，旁边有个试用版，</p><p><a href="https://www.microsoft.com/store/apps/9N1TWG2G84VD">https://www.microsoft.com/store/apps/9N1TWG2G84VD</a></p><p>如果是想给自己安卓手机，可以使用手机下载这款软件：</p><p><a href="https://aijige.com:5210/s/PzmrFcjZtMa3JFm">https://aijige.com:5210/s/PzmrFcjZtMa3JFm</a></p><p>这两款软件，好像又是一款软件，反正我是都安装了，而且没有删掉，因为我喜欢看绝地求生，所以一直保留着。</p><p>当然这里让我想到，我们还是雷神游戏加速器的粉丝，感谢雷神游戏加速器的厚爱，一直是美阅公众号幕后的赞助商，这里也推荐大家玩绝地求生的时候使用美阅提供的口令，免费使用50小时。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/22/66f03d7716e1d.png" alt="lskl-1"></p><p>另外一个就是可以使用奇妙游戏加速器的口令，可以免费使用3天。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/22/66f03e3858265.jpg" alt="1000040911"></p><p>美阅商店：<a href="https://shop.tenmeng.com/">https://shop.tenmeng.com/</a></p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
     
@@ -548,32 +576,6 @@
     <category term="Adobe破解" scheme="https://www.moonue.com/tags/Adobe%E7%A0%B4%E8%A7%A3/"/>
     
     <category term="photoshop" scheme="https://www.moonue.com/tags/photoshop/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开屏广告跳过神器-李跳跳+2024年2964最新规则</title>
-    <link href="https://www.moonue.com/posts/13953952.html"/>
-    <id>https://www.moonue.com/posts/13953952.html</id>
-    <published>2024-03-23T23:50:49.000Z</published>
-    <updated>2024-03-24T06:40:41.579Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h3><p>去年八月份可以说是很多安卓用户的“至暗时刻”，因为那个月有很多良心APP接连收到律师函，从而停止更新维护……</p><p>其中热度最高且最受欢迎的当属李跳跳。它功能可能不是最强大的，但绝对是最良心的！离线使用，没有任何套路，因此收货了一大批忠实用户。</p><p><img src="https://t.tenmeng.com:1800/i/2024/03/24/65ff6aa8aef2d.jpg" alt="img"></p><p>虽然李跳跳目前还能正常打开使用，但由于各大APP频繁更新，导致之前的那些规则可能已经失效了不少。</p><p>于是今天莫理给大家搞来了2024年最新的三千多条规则，强烈建议导入！</p><hr><h3 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h3><p><a href="https://aijige.com:5210/s/CnqLryyt6SrWgtE">https://aijige.com:5210/s/CnqLryyt6SrWgtE</a></p><h3 id="李跳跳规则导入"><a href="#李跳跳规则导入" class="headerlink" title="李跳跳规则导入"></a><strong>李跳跳规则导入</strong></h3><p>首先找到规则文件，点击其中的一个文件，在打开方式这里选择「<strong>HTML查看程序</strong>」，一般手机都会自带这个选项，我用其他的测试感觉都不太行。</p><p><img src="https://t.tenmeng.com:1800/i/2024/03/24/65ff6a0b1a2f5.jpg" alt="959a8cc87782c3aeaf5085a70b566c9"></p><p>打开文件以后，<strong>长按选择全选，然后点击复制</strong>，这样就把所有规则拷贝到剪切板了。</p><p>然后打开李跳跳APP，点击 <strong>更多→右上角“···”→导入规则。</strong></p><p><img src="https://t.tenmeng.com:1800/i/2024/03/24/65ff6a2972636.jpg" alt="1944efa4b4751d024fb8275fd2588c5"></p><p>最后在输入框里粘贴规则，点击“保存”即可，提示成功导入就说明没问题了，如果提示错误就需要反思一下自己是否操作有误。</p><p>由于给大家分享的是两个规则文件，导入的方法都一样，大家选择其中一个进行导入其实就够用了。</p><p>试了一些不同的APP，效果都非常好，尤其是QQ音乐跳过的速度很快。</p><p><strong>（完）</strong></p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;去年八月份可以说是很多安卓用户的“至暗时刻”，因为那个月有很多良心APP接连收到律师函，从而停止更新维护…</summary>
-      
-    
-    
-    
-    <category term="李跳跳" scheme="https://www.moonue.com/categories/%E6%9D%8E%E8%B7%B3%E8%B7%B3/"/>
-    
-    
-    <category term="李跳跳" scheme="https://www.moonue.com/tags/%E6%9D%8E%E8%B7%B3%E8%B7%B3/"/>
-    
-    <category term="开屏广告" scheme="https://www.moonue.com/tags/%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A/"/>
     
   </entry>
   
