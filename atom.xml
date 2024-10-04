@@ -6,7 +6,7 @@
   <link href="https://www.moonue.com/atom.xml" rel="self"/>
   
   <link href="https://www.moonue.com/"/>
-  <updated>2024-09-29T00:02:52.123Z</updated>
+  <updated>2024-10-04T23:54:10.131Z</updated>
   <id>https://www.moonue.com/</id>
   
   <author>
@@ -17,11 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>IDM6.42.22 Internet Download Manager开心版</title>
+    <link href="https://www.moonue.com/posts/a2bfccd4.html"/>
+    <id>https://www.moonue.com/posts/a2bfccd4.html</id>
+    <published>2024-10-04T23:30:03.000Z</published>
+    <updated>2024-10-04T23:54:10.131Z</updated>
+    
+    <content type="html"><![CDATA[<p>关于 IDM 相信大家都不陌生，它的全称是 Internet Download Manager（简称 IDM），向来被誉为是最强的下载神器。最近我给大家推荐了ndm，但是再用的过程中，发现还是有问题，主要是我需要下载网站http网址文件的时候，下载不了，不知道是不是哪里设置错误，所以只能暂时搁置，重新使用idm下载。</p><p><img src="https://t.tenmeng.com:1800/i/2024/03/25/660111a3869bb.png" alt="idm"></p><p>IDM用了很多年，也习惯了使用idm下载文件，能够多线程下载文件从而提升下载速度，还可以自动嗅探下载网页视频，配合脚本还可以实现百度网盘不限速下载，超级实用。最多64线程，速度极快。</p><p>最重要的是这是一款支持插件的下载器，可以使用 Chrome 浏览器的插件实现百度网盘下载，实现接管浏览器下载，体验丝般顺滑。尤其是下载大文件，非常的方便。</p><h3 id="无广告的下载"><a href="#无广告的下载" class="headerlink" title="无广告的下载"></a>无广告的下载</h3><p>迅雷是一款非常有魔力的下载工具。早些时候的快车、网络蚂蚁等下载工具也不知道是从什么时候开始没落，仿佛莫名其妙地一夜间被迅雷所取代了。</p><p>随后，P2P 加速、离线下载等功能更进一步巩固了迅雷的统治地位。如今 QQ 旋风也倒下了，现在离开了迅雷，我们甚至都不知道还有什么可选的下载工具还剩下。</p><p>更糟糕的是迅雷越来越 “丰富” 的界面，充满了广告和弹窗，还有 “非会员就限速” 的玄学。</p><p>IDM 则非常的简洁，打开设置选项，几乎没有任何多余的设置，更没有牛皮癣广告，弹窗广告等。</p><p>如果你是一名互联网 “老司机”，那么你一定听说过【IDM】这款下载工具的大名！它的全名 Internet Download Manager（互联网下载管理器），缩写就是 IDM。</p><p>IDM 是一款非常经典、功能强大的 Windows 文件多线程下载加速软件，在电脑玩家中口碑爆棚，被称为必装的 HTTP 下载神器！除了极致的下载加速性能外，还提供了自动链接捕获、下载队列、站点抓取、映射服务器、视频音频下载、国外网盘加速下载、静默下载等众多功能……</p><p>IDM 最佳的 Windows 下载工具 - 将下载加速发挥到极致！</p><h3 id="使用教程："><a href="#使用教程：" class="headerlink" title="使用教程："></a>使用教程：</h3><ol><li>直接下载安装IDM6.42.22 开心版(傻瓜式安装后免激活).exe文件。</li><li>双击文件打开安装，稍后程序会自动安装，选择D盘文件夹。</li><li>电脑防护软件会弹出安全警告，我们只需要点击<strong>信任</strong>即可。</li></ol><h3 id="浏览器插件设置："><a href="#浏览器插件设置：" class="headerlink" title="浏览器插件设置："></a>浏览器插件设置：</h3><blockquote><p>电脑浏览器插件设置：用不到的话可以不设置。</p></blockquote><ol><li>打开Chome插件页面–设置，拓展程序，管理拓展程序。<img src="https://t.tenmeng.com:1800/i/2024/10/05/67007fb8b289b.png"></li><li>打开IDM安装文件的文件夹，在idm桌面软件图标的位置右键，弹出的菜单中点击打开文件所在位置。<img src="https://t.tenmeng.com:1800/i/2024/10/05/67007fbb9d8f2.png" alt="moon_2024-10-05_07-43-39"></li><li>找到IDMGCExt.crx文件，直接选中文件，拖到chrome插件管理器中，这时候Chrome可能会弹出安装选项，选择是即可，没有弹出可忽略。<img src="https://t.tenmeng.com:1800/i/2024/10/05/67007f6302748.png" alt="moon_2024-10-05_07-46-37"></li><li>最后在chrome上面开启插件，插件的右下角有个开启选项。<img src="https://t.tenmeng.com:1800/i/2024/10/05/67007fc2519bb.png" alt="moon_2024-10-05_07-48-05"></li></ol><h3 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h3><p><a href="https://aijige.com:5210/s/LcE5jZmbJrjmePq">https://aijige.com:5210/s/LcE5jZmbJrjmePq</a></p><p><strong>《完》</strong></p><h3 id="欢迎关注公众号："><a href="#欢迎关注公众号：" class="headerlink" title="欢迎关注公众号："></a>欢迎关注公众号：</h3><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;关于 IDM 相信大家都不陌生，它的全称是 Internet Download Manager（简称 IDM），向来被誉为是最强的下载神器。最近我给大家推荐了ndm，但是再用的过程中，发现还是有问题，主要是我需要下载网站http网址文件的时候，下载不了，不知道是不是哪里设置</summary>
+      
+    
+    
+    
+    <category term="软件" scheme="https://www.moonue.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="Windows" scheme="https://www.moonue.com/categories/Windows/"/>
+    
+    
+    <category term="IDM" scheme="https://www.moonue.com/tags/IDM/"/>
+    
+    <category term="IDM破解版" scheme="https://www.moonue.com/tags/IDM%E7%A0%B4%E8%A7%A3%E7%89%88/"/>
+    
+    <category term="Internet Download Manager" scheme="https://www.moonue.com/tags/Internet-Download-Manager/"/>
+    
+    <category term="IDM6.42.22" scheme="https://www.moonue.com/tags/IDM6-42-22/"/>
+    
+  </entry>
+  
+  <entry>
     <title>办公急需pdf文件处理，怎么少得了福昕PDF绿色版</title>
     <link href="https://www.moonue.com/posts/f428d7fb.html"/>
     <id>https://www.moonue.com/posts/f428d7fb.html</id>
     <published>2024-09-28T23:28:48.000Z</published>
-    <updated>2024-09-29T00:02:52.123Z</updated>
+    <updated>2024-09-29T00:03:58.529Z</updated>
     
     <content type="html"><![CDATA[<p>pdf文件是办公专用的文件处理工具，我们很多软件都是兼容的pdf格式，可能打开的时候比较麻烦，当然那是之前，现在基本上所有的文件都在向pdf文件方向发展。</p><p>我觉得最重要的是方便，pdf文件格式小巧，不用向word一样需要文件格式兼容性考量，还要考录字体等，而且不同设备，出来的效果也有很大不同，尤其是汇报给领导，非常的不方便。</p><p>pdf文件一旦导出之后，修改是很麻烦的，这一点你安装的软件，很少有满足条件可以去修改的内容，所以在输出pdf文件之前，一定要先保存一份原来的文档。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/29/66f898cf6fc1e.png" alt="moon_2024-09-29_07-57-25"></p><p>输出之后就非常的方便了，当然我一般输出pdf之前都是用Typora编辑器编辑Markdown文件，然后通过css格式输出。</p><p>另外就是用福昕PDF文件编辑器压缩文件，非常的方便。福昕PDF其实是收费的软件，但是今天和大家分享这款绿色版，编辑也非常的方便，操作一会儿就立刻拥有方便的pdf编辑软件。</p><p>在这里我也把我的基本流程给大家，我是先去Notion把文件编辑好，notion拥有非常方便的编辑效果，我也找了很多的软件，以及方法，但是效果一直没有notion的好，说实在的notion知道的都懂，太方便了。</p><p>然后我就会把我的照片传到notion，编辑好之后下载成pdf文件，这时候由于我照片拍摄的文件比较大，所以下载下来需要一段时间，下载好之后会发现文件很大，然后导入福昕PDF文件编辑器进行压缩，就会非常的方便，300M的文件，压缩完只有1M大小。这个效率真的杠杠的。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/29/66f898dacaaf1.jpg" alt="b1664980ab9e57f95733ace9cb6cbe1ddc15450a"></p><p>另外就是工作中难免会有错误的地方，pdf文件都已经倒出来了，再重复上面的步骤，也是真的有点不耐烦，但是只要动动脑子，还是很有效果的，通过福昕PDF文件编辑器改几个字也是非常方便的。</p><p>就这样轻松完成领导安排的任务，是不是非常的方便呢！这个软件是我用过屡试不爽的方法，也推荐给大家。</p><p>当然这里我也想顺便分享给大家，我的新思路，就是在上传到Notion之前我先进行批量的压缩文件，通过adobe lightroom 批量的压缩我的照片文件，这样上传的时候也非常的方便，接着下载也不用等待，直接实现秒下载，关键是后面通过pdf文件编辑也省了。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/29/66f898e424a82.png" alt="moon_2024-09-29_07-58-21"></p><p>那notion吸引我的是表格处理，可以非常方便的把我的文件通过表格管理的方式实现，我最喜欢的就是里面的模板功能，我只要设定好了格式模板，每次点击就省去输入四五百字的麻烦，能不方便吗？</p><p>当然，福昕PDF也要先保留着，这是我应急方便的软件，不能说就放弃了。</p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p>美阅下载：</p><p><a href="https://aijige.com:5210/s/9gq8gtojg6rkYww">https://aijige.com:5210/s/9gq8gtojg6rkYww</a></p><p>（完）</p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
     
@@ -548,33 +580,6 @@
     <category term="DaVinci Resolve Studio" scheme="https://www.moonue.com/tags/DaVinci-Resolve-Studio/"/>
     
     <category term="剪辑" scheme="https://www.moonue.com/tags/%E5%89%AA%E8%BE%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>洛雪音乐助手免费下载全平台的好音乐软件</title>
-    <link href="https://www.moonue.com/posts/290f373a.html"/>
-    <id>https://www.moonue.com/posts/290f373a.html</id>
-    <published>2024-05-13T15:10:54.000Z</published>
-    <updated>2024-09-18T17:14:58.519Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h3><p>洛雪音乐助手，一个基于 Electron + Vue 开发的音乐软件。</p><p><img src="https://t.tenmeng.com:1800/i/2024/05/13/66422d97b4446.png" alt="洛雪音乐助手"></p><p>这是一款截止2024年最好的免费听歌下载软件，目前作者已经开源了，只需要更换音源就可以免费听歌下载歌曲，目前有安卓版本和PC版本，非常的好用，是我测试目前最好用的音乐下载工具。当然，你也可以在线听歌，关键是支持几乎全平台的音乐库。</p><p><img src="https://t.tenmeng.com:1800/i/2024/05/13/6642343c95537.png" alt="LX Music_2024-05-13_23-38-10"></p><h3 id="洛雪音乐助手的特点："><a href="#洛雪音乐助手的特点：" class="headerlink" title="洛雪音乐助手的特点："></a>洛雪音乐助手的特点：</h3><ol><li>免费且无广告</li></ol><p>本项目开发的初衷仅是为了对新技术的学习与研究，因此软件直至停止维护都将会一直保持纯净</p><ol start="2"><li>多端支持</li></ol><p>本项目支持在<strong>Windows</strong>、<strong>Mac OS</strong>、<strong>Linux</strong>、<strong>Android</strong>平台上运行。注：不计划支持IOS</p><ol start="3"><li>开源</li></ol><p>本项目开源发布于 GitHub 面向全世界人用作对技术的学习交流使用</p><h3 id="洛雪最新音源（在线导入）："><a href="#洛雪最新音源（在线导入）：" class="headerlink" title="洛雪最新音源（在线导入）："></a>洛雪最新音源（在线导入）：</h3><ol><li>iKun V109：<a href="http://110.42.38.239:1314/script">http://110.42.38.239:1314/script</a></li><li>野草音源：<a href="https://tt.tenmeng.com/moonue/js/yecao.js">https://tt.tenmeng.com/moonue/js/yecao.js</a></li></ol><p><img src="https://t.tenmeng.com:1800/i/2024/05/13/66423447b379a.png" alt="LX Music_2024-05-13_23-38-47"></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p>Windows：<a href="https://aijige.com:5210/s/cKpjM6C8jRrdPcG">https://aijige.com:5210/s/cKpjM6C8jRrdPcG</a></p><p>Android：<a href="https://aijige.com:5210/s/rxa269QQzTXZXZT">https://aijige.com:5210/s/rxa269QQzTXZXZT</a></p><p>Mac版本：<a href="https://aijige.com:5210/s/wRSMHzBNTFr6ni4">https://aijige.com:5210/s/wRSMHzBNTFr6ni4</a></p><p>关于有的粉丝谈到洛雪怎么没有下载选项，只需要在设置里面开启下载，在使用软件的时候右键音乐就可以下载了。</p><p><img src="https://t.tenmeng.com:1800/i/2024/05/17/66468e97cdd63.png" alt="洛雪_2024-05-17_06-49-55"></p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;洛雪音乐助手，一个基于 Electron + Vue 开发的音乐软件。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;</summary>
-      
-    
-    
-    
-    <category term="音乐" scheme="https://www.moonue.com/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="洛雪" scheme="https://www.moonue.com/tags/%E6%B4%9B%E9%9B%AA/"/>
-    
-    <category term="洛雪音乐助手" scheme="https://www.moonue.com/tags/%E6%B4%9B%E9%9B%AA%E9%9F%B3%E4%B9%90%E5%8A%A9%E6%89%8B/"/>
     
   </entry>
   
