@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>图床新选择，我的兰空图床</title>
+      <link href="/posts/3fe8b5b5.html"/>
+      <url>/posts/3fe8b5b5.html</url>
+      
+        <content type="html"><![CDATA[<p>图床这个事情要从 Markdown 文件说起，在之前我在用 Word 文件的时候，都是在上传的时候，就会把图片一起拖拽进去排版，这样的排版方式我用了很长的时间。</p><p><img src="https://pic.tenmeng.com/i/2024/10/27/671e6238b4538.png" alt="moon_2024-10-27_23-54-19"></p><p>从认识和学习 Markdown 之后，我逐渐喜欢这样的写作方式，这样的方式编辑文章，使我的思绪可以一直保持着不被打断。这其中涉及到一个问题就是图床。</p><p>我们喜欢用文字记录生活，但是我们也希望用图片留住美好，文字有文字的美，图片有图片的震撼。图床这时应运而生。</p><p>在使用 obsidian 过程中，还是在使用 Typora 编辑我的内容，包括现在很多的笔记软件，都逐渐的开始对图片和文字进行分离存储，这样也大大方便内容的存储和查询，图片就成为很多棘手的问题，就像 Notion 对于图片的大小进行了限制（5MB），但是如果是自建图床，就会大大节省空间。</p><p><img src="https://pic.tenmeng.com/i/2024/10/27/671e62ac8db50.jpg" alt="eurasian-squirrel-9136593_1280"></p><p>现在，美阅的网站页面也越来越多，加上我们的浏览量越来越高了，但是图床一直没有一个好的着陆点，现在美阅官网一直是 vercel.com 上面进行部署的，但是有个问题，如果也是用 vercel 放置图片的话，流量就会吃紧，所以不得不为图片另辟蹊径。</p><p>开始我想我自建了群晖，可以方便的在群晖上面搭建 Docker 应用，但是最近出现一个问题，群晖的网络越来越差，甚至我的分享链接在公司的网络里面，竟然访问不了。网络真的越来越成为我的新的问题。</p><p>经过我的测试，因为我是联通的公网 IP 搭建的群晖 Nas ，联通和移动网络访问还好，但是一旦使用电信，速度瞬间成了2G网络。不仅如此，因为我在使用群晖搭建的图床，导致我的网站加载图片都开始慢慢悠悠的，明显的感觉到网络的不稳定。</p><p><img src="https://pic.tenmeng.com/i/2024/10/27/671e62d80bdde.jpg" alt="jeju-island-1684040_1280"></p><p>经过我的一再核算，毅然还是进行更换图床，对比市面上的所有服务器，轻量云，还是觉得使用自己购买的华为云L实例价格最便宜。</p><p>我是99元购买的华为云L实例，类似轻量云，600GB的月流量，40g的硬盘空间，还是非常的香，由于域名有一个是备案了的，我就用二级域名做了一个图床应用，真的很香。当然后面我打算把也搭建一个。速度还是很不错的。</p><p>现在回头看，其实我用图床的图片其实不多，大的文件和图片都是放在群晖里面，只要把网站需要的图片才上传到图床里。如果用S3或者存储桶的话，价格还是比较高的，加上如果被刷流量，那就真成了冤大头了。</p><p><img src="https://pic.tenmeng.com/i/2024/10/27/671e630a4bdad.jpg" alt="flowers-9085492_1280"></p><p>期间也看了 cloudflare 的免费10g，说实在的对我来说，免费的还是不足以支撑我的流量，加上如果一旦采用这个方案，更大的问题是，以后都会因为这个图床，而要不断的给这个服务充钱。</p><p>当然这里我采用了著名的兰空图床，我开始以为不交钱就会受到很多的限制，但是我万万没想到的是，是我眼光太短浅了，兰空图床把能给你的都给你了，不需要其他烦人的权限，上传下载，还有设置，真的非常的方便，就连广告位都没有给你放一个，就知道兰空图床有多纯洁了。</p><p>这样的软件实属不多见，另外就是兰空图床搭配 PicGo 可以非常的方便上传，尤其我在使用的时候，搭配起来非常的丝滑。</p><h1 id="兰空图床地址："><a href="#兰空图床地址：" class="headerlink" title="兰空图床地址："></a>兰空图床地址：</h1><p><a href="https://github.com/lsky-org/lsky-pro">https://github.com/lsky-org/lsky-pro</a></p><h1 id="PicGo-插件："><a href="#PicGo-插件：" class="headerlink" title="PicGo 插件："></a>PicGo 插件：</h1><p><a href="https://github.com/hellodk34/picgo-plugin-lankong">https://github.com/hellodk34/picgo-plugin-lankong</a></p><p>至于教程我就不多说了，有一点就是，在获取 Auth token 的方法，只需要在搭建的服务器上，连接ssh 换成相应的网址和账号密码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">curl --location --request POST &#x27;https://your.domain/api/v1/tokens&#x27; \</span><br><span class="line">--form &#x27;email=&quot;your_email@address&quot;&#x27; \</span><br><span class="line">--form &#x27;password=&quot;your_passwd&quot;&#x27;</span><br></pre></td></tr></table></figure><p>就可以获取到一窜代码，替换到Bearer 后面即可。</p><p><img src="https://pic.tenmeng.com/i/2024/10/27/671e61cfbc666.png" alt="moon_2024-10-27_06-53-58"></p><p>（完）</p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 图床 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 图床 </tag>
+            
+            <tag> 服务器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>24款音乐软件大公开，网盘搬家那些事</title>
+      <link href="/posts/d978a475.html"/>
+      <url>/posts/d978a475.html</url>
+      
+        <content type="html"><![CDATA[<p>最近在找软件的时候，发现一个频道有很多夸克网盘的软件，但是里面有非常多的音乐软件，我带这个好奇的心理去下载，发现夸克网盘最近成了他们的根据地。明明有很多有阿里云盘链接的，但是为了能够推广夸克网盘，竟然也把阿里云盘的资源下架了。</p><p><img src="https://t.tenmeng.com:1800/i/2024/10/24/67198f3ea2008.png" alt="moon_2024-10-24_08-03-27"></p><p>这是什么精神？这是为了赚钱，不惜牺牲分享好软件的便携性，当然夸克网盘也让我恶心了一把，竟然在网页端不让下载，只能通过手机端，或者电脑客户端下载，这是妥妥的让你想吃瓜，必须买个盆洗瓜呀！</p><p>关键是还有更烦的，网页端保存登陆之后下载的话，自动触发下载夸克网盘客户端功能，这是什么操作，要是不能下载，可以谈了提示，选择题都不出了，大家只能下载夸克客户端，这是什么体验逻辑，空间不舍得给，套路可没少给。</p><p>以往我的经验，可以使用浏览器伪装下载，竟然也行不通了，安卓端没有客户端直接不让你下载，iOS 也没有好到哪里去，没有客户端，啥也不是。当然这都是没有开会员的情况，开会员的老板，可以在评论区吱个声，网页版能不能直接下载。</p><p><img src="https://t.tenmeng.com:1800/i/2024/10/24/67198f3ea1f8e.png" alt="moon_2024-10-11_07-26-29"></p><p>到这里我也无计可施了，我就把我之前的三星Note 8备用机给掏出来了，安装夸克客户端，用手机端下载，当然我是不想让我的电脑被这个客户端给污染了，毕竟用的少，只有几款软件在下载，速度也是感人，25个apk软件，下载了尽1个小时，唯一方便的是手机上可以批量选中下载。</p><p>这是我在有时间的情况下可以方便的下载，想象大家每人想下载软件，都安装一个的话，用户得有多烦，分享的人是赚到钱了，烦恼却丢给了相要下载的用户。</p><p>在美阅这里，我们是不会做这种事情，我们采用自建的群晖服务器给大家免费下载，这其中，连个广告都没有。这背后需要的是群晖24小时开机，和服务商拿到公网 IP，需要大量的时间研究分享的软件，稳定性等等，绝不是一两句话可以说清楚的。</p><p>言归正传，本次分享的25款音乐软件，好几款都是美阅公众号分享过的音乐软件，但是分享下来总共有24款，本来也希望给大家测试的，但是我觉得已经有洛雪够用了，就不想一一下载测试了，大家有想要尝试的，可以自行下载使用。</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/nFxoEHukxASM2d5cdhQLr99LQSmyuMfCAa8bIaMj0gaexJXeiaa3h64kae1mYHzBkaVSYfoWFoxrkiaoloHlRWTw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp" alt="图片"></p><p>当然这其中我也发现有的电信运营的线路，访问不了我们的网站，这里大家可以使用自己的手机浏览器访问（用手机的4G或5G流量）即可。</p><h2 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h2><p><a href="https://m.tenmeng.com:9047/#/soft/apk/music">https://m.tenmeng.com:9047/#/soft/apk/music</a></p><p><a href="https://aijige.com:5210/s/oP7xHS5owoFa6BS">https://aijige.com:5210/s/oP7xHS5owoFa6BS</a></p><p>（完）</p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 音乐 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网盘 </tag>
+            
+            <tag> 音乐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>极致的阅读体验，让读书是一种享受</title>
       <link href="/posts/2f65b187.html"/>
       <url>/posts/2f65b187.html</url>
