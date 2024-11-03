@@ -6,7 +6,7 @@
   <link href="https://www.moonue.com/atom.xml" rel="self"/>
   
   <link href="https://www.moonue.com/"/>
-  <updated>2024-10-27T15:58:21.851Z</updated>
+  <updated>2024-11-03T15:38:43.433Z</updated>
   <id>https://www.moonue.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Bitwarden 所到之处，皆是安全！</title>
+    <link href="https://www.moonue.com/posts/d83e0877.html"/>
+    <id>https://www.moonue.com/posts/d83e0877.html</id>
+    <published>2024-11-03T14:35:57.000Z</published>
+    <updated>2024-11-03T15:38:43.433Z</updated>
+    
+    <content type="html"><![CDATA[<p>说起密码管理软件，不得不说我也是找了很久才找到这款开源的密码管理软件，它实现了我记密码太多不方便记忆的问题，喜欢上网的人，都遇到过注册账号的问题，当然现在也有很多网站开始使用一个账号，多个网站进行授权登陆的方式。但是始终让我记密码，是个真的很麻烦的问题。</p><p><img src="https://pic.tenmeng.com/i/2024/11/03/672797c5de6a0.png" alt="微信截图_20241031203616"></p><p>Bitwarden就是这款软件，我使用了几年了，非常的方便，我在使用过程中，几乎是满意度非常高的产品，当然网上也有很多人群去推荐它。我再之前也给美阅的粉丝安利过这款产品，当时我还特地给大家注册链接，但是几乎没几个人用，后来我就低调的删除了。</p><p>虽然没有给大家使用，但是我也在坚持使用，逐渐喜欢上这款软件，甚至现在我都离不开它。部署过十几次，每当有更换服务器的时候，我都会第一时间给部署这款开源的密码管理软件。</p><p>当然如果你没有服务器可以使用 Bitwarden 官方的服务，他们对于个人是免费的，所以有时候有人会问是自己自建本地服务，还是采用官方服务，有一个网友就回答，你觉得你自己搭建的服务器，会比官方的稳定？</p><p>所以，如果你没有稳定的服务器，还是直接在官网注册使用，这样个人就可以使用Bitwarden官方的密码管理软件。我是很早就接触了这个密码管理软件，一直使用自建服务，所以还是喜欢自己去搭建这款开源的密码管理软件。</p><p><img src="https://pic.tenmeng.com/i/2024/11/03/672798310c62b.png" alt="apps-combo-logo"></p><p>至于为什么会想到分享，主要是我最近发现这款软件在我的手机上，好像同步不了了，网页端是可以的，插件也可以使用，只有手机端不能使用。来来回回安装了七八次，还是不行。</p><p>我这次也是吃了亏，也希望我自己能够总结经验，不至于自己遇到问题，解决的一塌糊涂。事情是这样的，我发现自己的现在的手机不能使用 Bitwarden ，我就把我之前的这款软件卸载了，重新安装了测试版，现在谷歌商店是可以申请参加软件内测的版本，死活进不去，提示我遇到未知的问题。</p><p>来来回回在安装和卸载中反复折腾，我以为是我手机安装的App问题导致的，然后就去找我服务端的问题，然后安装最新版本的 Bitwarden，当时我以为我的是最新版本的，万万没想到还是使用不了，然后就又在我群晖上面折腾，始终还是没有好。</p><p><img src="https://pic.tenmeng.com/i/2024/11/03/6727988cd6c2d.png" alt="微信截图_20241103233626"></p><p>我又开始寻找问题，我想可能最新版本不支持，可能是我 docker 部署的是在我的群晖内网上面，因为我又公网ip，我的网址外面要登录进来，要加端口号。例如<a href="https://m.tenmeng.com:4915/#/login%E8%BF%99%E6%A0%B7%EF%BC%8C%E6%88%91%E5%B0%B1%E9%87%8D%E6%96%B0%E5%9C%A8%E6%88%91%E7%9A%84%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E9%9D%A2%E8%BF%9B%E8%A1%8C%E4%BA%86%E9%83%A8%E7%BD%B2%EF%BC%8C%E7%84%B6%E5%90%8E%E5%B0%B1%E6%98%AF%E9%83%A8%E7%BD%B2ssl%EF%BC%8C%E5%8F%8D%E4%BB%A3%E7%90%86%EF%BC%8C%E7%BB%88%E4%BA%8E%E9%83%A8%E7%BD%B2%E5%AE%8C%E4%BA%86%E3%80%82">https://m.tenmeng.com:4915/#/login这样，我就重新在我的华为云服务器上面进行了部署，然后就是部署ssl，反代理，终于部署完了。</a></p><p>但是还是不能够登陆，这时候我真的有点开始蒙了，怎么回事，我这时候就开始想找个替代品了，找了半天都没有找到合适的，有的是本地，有的是配合坚果云啥的，无一例外都很麻烦，要不然就是需要花钱。Bitwarden 想想还是非常好的，只是我现在连不上，期间也找了几款，研究起来也是非常麻烦。甚至有的还没有中文，需要找汉化版。但是最重要的一点，真的很难用。</p><p>期间，也找到网上的博主，加好友询问，他的安卓手机版是否可以使用，他说他的这款软件可以使用，我就有把思路放在了重新安装，我开始用我之前的旧手机，看看能不能登陆，意外的是旧手机可以登陆，然后我新手机安装这个软件以前的版本，也意外的可以使用了。</p><p><img src="https://pic.tenmeng.com/i/2024/11/03/672798d36acaf.png" alt="微信截图_20241103233738"></p><p>但是我心里却不舒服，我的软件难道就不能使用最新版的软件了？我就把我新手机重新安装最新的版本，不出意外的还是不能用，我又在网上寻找答案。这时候我注意到，我的 Bitwarden 的Docker软件部署的是之前的版本，虽然也是最新版本，那是之前的版本，所以导致我的手机版本不能使用。</p><p>所以我又重新去找软件的最新版本，部署到我的群晖里面，一切安好，功能非常齐全，而且全部功能都可以使用，完美的解决所有问题，非常的欣慰。</p><p>总结这次问题，是我没有注意软件作者更换了镜像，我还在使用老的版本，导致系统不兼容。当然现在我也把我的二次验证，放在了 Bitwarden 上面，非常的方便，我把所有的二次验证使用 Bitwarden TOTP 即可方便的登陆我的账号。</p><p><img src="https://pic.tenmeng.com/i/2024/11/03/672797c9c960e.png" alt="微信截图_20241103232534"></p><p>现在，我登录华为云，以前每次登陆都会短信通知，然后我使用短信验证码登陆华为云，现在我更改成了密码验证器TOTP,不用接收短信，即可方便的去往我想去的地方，方便至极。</p><p>（完）</p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;说起密码管理软件，不得不说我也是找了很久才找到这款开源的密码管理软件，它实现了我记密码太多不方便记忆的问题，喜欢上网的人，都遇到过注册账号的问题，当然现在也有很多网站开始使用一个账号，多个网站进行授权登陆的方式。但是始终让我记密码，是个真的很麻烦的问题。&lt;/p&gt;
+&lt;p&gt;&lt;i</summary>
+      
+    
+    
+    
+    <category term="密码管理器" scheme="https://www.moonue.com/categories/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%99%A8/"/>
+    
+    
+    <category term="开源" scheme="https://www.moonue.com/tags/%E5%BC%80%E6%BA%90/"/>
+    
+    <category term="密码" scheme="https://www.moonue.com/tags/%E5%AF%86%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
     <title>图床新选择，我的兰空图床</title>
     <link href="https://www.moonue.com/posts/3fe8b5b5.html"/>
     <id>https://www.moonue.com/posts/3fe8b5b5.html</id>
     <published>2024-10-27T15:10:23.000Z</published>
-    <updated>2024-10-27T15:58:21.851Z</updated>
+    <updated>2024-10-27T16:00:19.752Z</updated>
     
     <content type="html"><![CDATA[<p>图床这个事情要从 Markdown 文件说起，在之前我在用 Word 文件的时候，都是在上传的时候，就会把图片一起拖拽进去排版，这样的排版方式我用了很长的时间。</p><p><img src="https://pic.tenmeng.com/i/2024/10/27/671e6238b4538.png" alt="moon_2024-10-27_23-54-19"></p><p>从认识和学习 Markdown 之后，我逐渐喜欢这样的写作方式，这样的方式编辑文章，使我的思绪可以一直保持着不被打断。这其中涉及到一个问题就是图床。</p><p>我们喜欢用文字记录生活，但是我们也希望用图片留住美好，文字有文字的美，图片有图片的震撼。图床这时应运而生。</p><p>在使用 obsidian 过程中，还是在使用 Typora 编辑我的内容，包括现在很多的笔记软件，都逐渐的开始对图片和文字进行分离存储，这样也大大方便内容的存储和查询，图片就成为很多棘手的问题，就像 Notion 对于图片的大小进行了限制（5MB），但是如果是自建图床，就会大大节省空间。</p><p><img src="https://pic.tenmeng.com/i/2024/10/27/671e62ac8db50.jpg" alt="eurasian-squirrel-9136593_1280"></p><p>现在，美阅的网站页面也越来越多，加上我们的浏览量越来越高了，但是图床一直没有一个好的着陆点，现在美阅官网一直是 vercel.com 上面进行部署的，但是有个问题，如果也是用 vercel 放置图片的话，流量就会吃紧，所以不得不为图片另辟蹊径。</p><p>开始我想我自建了群晖，可以方便的在群晖上面搭建 Docker 应用，但是最近出现一个问题，群晖的网络越来越差，甚至我的分享链接在公司的网络里面，竟然访问不了。网络真的越来越成为我的新的问题。</p><p>经过我的测试，因为我是联通的公网 IP 搭建的群晖 Nas ，联通和移动网络访问还好，但是一旦使用电信，速度瞬间成了2G网络。不仅如此，因为我在使用群晖搭建的图床，导致我的网站加载图片都开始慢慢悠悠的，明显的感觉到网络的不稳定。</p><p><img src="https://pic.tenmeng.com/i/2024/10/27/671e62d80bdde.jpg" alt="jeju-island-1684040_1280"></p><p>经过我的一再核算，毅然还是进行更换图床，对比市面上的所有服务器，轻量云，还是觉得使用自己购买的华为云L实例价格最便宜。</p><p>我是99元购买的华为云L实例，类似轻量云，600GB的月流量，40g的硬盘空间，还是非常的香，由于域名有一个是备案了的，我就用二级域名做了一个图床应用，真的很香。当然后面我打算把也搭建一个。速度还是很不错的。</p><p>现在回头看，其实我用图床的图片其实不多，大的文件和图片都是放在群晖里面，只要把网站需要的图片才上传到图床里。如果用S3或者存储桶的话，价格还是比较高的，加上如果被刷流量，那就真成了冤大头了。</p><p><img src="https://pic.tenmeng.com/i/2024/10/27/671e630a4bdad.jpg" alt="flowers-9085492_1280"></p><p>期间也看了 cloudflare 的免费10g，说实在的对我来说，免费的还是不足以支撑我的流量，加上如果一旦采用这个方案，更大的问题是，以后都会因为这个图床，而要不断的给这个服务充钱。</p><p>当然这里我采用了著名的兰空图床，我开始以为不交钱就会受到很多的限制，但是我万万没想到的是，是我眼光太短浅了，兰空图床把能给你的都给你了，不需要其他烦人的权限，上传下载，还有设置，真的非常的方便，就连广告位都没有给你放一个，就知道兰空图床有多纯洁了。</p><p>这样的软件实属不多见，另外就是兰空图床搭配 PicGo 可以非常的方便上传，尤其我在使用的时候，搭配起来非常的丝滑。</p><h1 id="兰空图床地址："><a href="#兰空图床地址：" class="headerlink" title="兰空图床地址："></a>兰空图床地址：</h1><p><a href="https://github.com/lsky-org/lsky-pro">https://github.com/lsky-org/lsky-pro</a></p><h1 id="PicGo-插件："><a href="#PicGo-插件：" class="headerlink" title="PicGo 插件："></a>PicGo 插件：</h1><p><a href="https://github.com/hellodk34/picgo-plugin-lankong">https://github.com/hellodk34/picgo-plugin-lankong</a></p><p>至于教程我就不多说了，有一点就是，在获取 Auth token 的方法，只需要在搭建的服务器上，连接ssh 换成相应的网址和账号密码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">curl --location --request POST &#x27;https://your.domain/api/v1/tokens&#x27; \</span><br><span class="line">--form &#x27;email=&quot;your_email@address&quot;&#x27; \</span><br><span class="line">--form &#x27;password=&quot;your_passwd&quot;&#x27;</span><br></pre></td></tr></table></figure><p>就可以获取到一窜代码，替换到Bearer 后面即可。</p><p><img src="https://pic.tenmeng.com/i/2024/10/27/671e61cfbc666.png" alt="moon_2024-10-27_06-53-58"></p><p>（完）</p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
     
@@ -48,7 +75,7 @@
     <link href="https://www.moonue.com/posts/d978a475.html"/>
     <id>https://www.moonue.com/posts/d978a475.html</id>
     <published>2024-10-23T23:25:55.000Z</published>
-    <updated>2024-10-24T00:13:19.279Z</updated>
+    <updated>2024-10-27T16:00:19.746Z</updated>
     
     <content type="html"><![CDATA[<p>最近在找软件的时候，发现一个频道有很多夸克网盘的软件，但是里面有非常多的音乐软件，我带这个好奇的心理去下载，发现夸克网盘最近成了他们的根据地。明明有很多有阿里云盘链接的，但是为了能够推广夸克网盘，竟然也把阿里云盘的资源下架了。</p><p><img src="https://t.tenmeng.com:1800/i/2024/10/24/67198f3ea2008.png" alt="moon_2024-10-24_08-03-27"></p><p>这是什么精神？这是为了赚钱，不惜牺牲分享好软件的便携性，当然夸克网盘也让我恶心了一把，竟然在网页端不让下载，只能通过手机端，或者电脑客户端下载，这是妥妥的让你想吃瓜，必须买个盆洗瓜呀！</p><p>关键是还有更烦的，网页端保存登陆之后下载的话，自动触发下载夸克网盘客户端功能，这是什么操作，要是不能下载，可以谈了提示，选择题都不出了，大家只能下载夸克客户端，这是什么体验逻辑，空间不舍得给，套路可没少给。</p><p>以往我的经验，可以使用浏览器伪装下载，竟然也行不通了，安卓端没有客户端直接不让你下载，iOS 也没有好到哪里去，没有客户端，啥也不是。当然这都是没有开会员的情况，开会员的老板，可以在评论区吱个声，网页版能不能直接下载。</p><p><img src="https://t.tenmeng.com:1800/i/2024/10/24/67198f3ea1f8e.png" alt="moon_2024-10-11_07-26-29"></p><p>到这里我也无计可施了，我就把我之前的三星Note 8备用机给掏出来了，安装夸克客户端，用手机端下载，当然我是不想让我的电脑被这个客户端给污染了，毕竟用的少，只有几款软件在下载，速度也是感人，25个apk软件，下载了尽1个小时，唯一方便的是手机上可以批量选中下载。</p><p>这是我在有时间的情况下可以方便的下载，想象大家每人想下载软件，都安装一个的话，用户得有多烦，分享的人是赚到钱了，烦恼却丢给了相要下载的用户。</p><p>在美阅这里，我们是不会做这种事情，我们采用自建的群晖服务器给大家免费下载，这其中，连个广告都没有。这背后需要的是群晖24小时开机，和服务商拿到公网 IP，需要大量的时间研究分享的软件，稳定性等等，绝不是一两句话可以说清楚的。</p><p>言归正传，本次分享的25款音乐软件，好几款都是美阅公众号分享过的音乐软件，但是分享下来总共有24款，本来也希望给大家测试的，但是我觉得已经有洛雪够用了，就不想一一下载测试了，大家有想要尝试的，可以自行下载使用。</p><p><img src="https://mmbiz.qpic.cn/sz_mmbiz_png/nFxoEHukxASM2d5cdhQLr99LQSmyuMfCAa8bIaMj0gaexJXeiaa3h64kae1mYHzBkaVSYfoWFoxrkiaoloHlRWTw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp" alt="图片"></p><p>当然这其中我也发现有的电信运营的线路，访问不了我们的网站，这里大家可以使用自己的手机浏览器访问（用手机的4G或5G流量）即可。</p><h2 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h2><p><a href="https://m.tenmeng.com:9047/#/soft/apk/music">https://m.tenmeng.com:9047/#/soft/apk/music</a></p><p><a href="https://aijige.com:5210/s/oP7xHS5owoFa6BS">https://aijige.com:5210/s/oP7xHS5owoFa6BS</a></p><p>（完）</p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
     
@@ -542,35 +569,6 @@
     <category term="QQ超级会员" scheme="https://www.moonue.com/tags/QQ%E8%B6%85%E7%BA%A7%E4%BC%9A%E5%91%98/"/>
     
     <category term="二手" scheme="https://www.moonue.com/tags/%E4%BA%8C%E6%89%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TuneFree 音遇自由-免费音乐软件</title>
-    <link href="https://www.moonue.com/posts/a7be529c.html"/>
-    <id>https://www.moonue.com/posts/a7be529c.html</id>
-    <published>2024-07-24T23:44:49.000Z</published>
-    <updated>2024-07-24T23:48:47.945Z</updated>
-    
-    <content type="html"><![CDATA[<p>音乐软件是一个常用的软件，喜欢音乐的人，总是在生活中让音乐陪伴；在上班的途中，在家里欣赏，游山玩水的过程中，也离不开音乐的陪伴。音乐软件也随之多变，有时是小宇宙听播客，有时候听收音机，有时候也去找免费的音乐软件。</p><p><img src="https://t.tenmeng.com:1800/i/2024/07/25/66a190eb2f159.png" alt="tun_20240725071855"></p><p>今天给大家推荐一款漂亮的音乐软件，我是被它外表吸引的软件，但是当我使用的时候，竟然功能一点也不马虎。跟着音乐的封面图片变软件界面，不得不说真的是一绝。</p><p><img src="https://t.tenmeng.com:1800/i/2024/07/25/66a190f37df32.png" alt="tun_2024-07-25_07-29-55"></p><p>这是一个套在网易云音乐的软件，可以用网易云登录，这点挺神奇的，之前收藏的音乐，都可以登陆之后找到。重点是vip音乐都可以听。以前我总是想着大而全，但是现在我觉得小而美也是不错的选择，没有必要非听那首歌，百万好歌，何必只恋那首曲子。</p><p>另外就是可以下载歌曲，歌曲文件随便选择，非常方便，我一般都是下载无损音乐，这点还是真的太方便了，把自己喜欢的歌曲全部放在NAS里面。</p><p><img src="https://t.tenmeng.com:1800/i/2024/07/25/66a190fea8afc.png" alt="tune_2024-07-25_06-43-52"></p><p>这个软件真的太好了，不知道如何做到这么漂亮，想到了网易云音乐之前也是主打小而美，但是偏偏越来越商业化，一大堆用不掉功能，越来越臃肿，听音乐就离不开广告，开屏广告防不胜防。</p><p>至于安卓版本，还没有尝试，等测试完了在和大家分享。另外就是一定要登录，不登录提示白名单啥的，只需要登陆就可以使用了。推荐的话，我给五颗星，太爱了。</p><p><img src="https://t.tenmeng.com:1800/i/2024/07/25/66a19112392c9.png" alt="tune_2024-07-25_06-44-42"></p><p>官网地址：<a href="https://csm.sayqz.com/">https://csm.sayqz.com/</a></p><p>目前只有PC 版本和Android版本，还没有IOS版本。</p><p>如果你也喜欢音乐，还在为各种音乐付费而烦恼，欢迎关注美阅公众号，一起做一个音乐搭子。美阅持续会为大家推荐当前最优秀的音乐软件。</p><p><strong>《完》</strong></p><h3 id="欢迎关注公众号："><a href="#欢迎关注公众号：" class="headerlink" title="欢迎关注公众号："></a>欢迎关注公众号：</h3><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;音乐软件是一个常用的软件，喜欢音乐的人，总是在生活中让音乐陪伴；在上班的途中，在家里欣赏，游山玩水的过程中，也离不开音乐的陪伴。音乐软件也随之多变，有时是小宇宙听播客，有时候听收音机，有时候也去找免费的音乐软件。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://t.ten</summary>
-      
-    
-    
-    
-    <category term="音乐软件" scheme="https://www.moonue.com/categories/%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-    <category term="TuneFree" scheme="https://www.moonue.com/tags/TuneFree/"/>
-    
-    <category term="音乐" scheme="https://www.moonue.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="下载" scheme="https://www.moonue.com/tags/%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
