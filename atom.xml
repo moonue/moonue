@@ -6,7 +6,7 @@
   <link href="https://www.moonue.com/atom.xml" rel="self"/>
   
   <link href="https://www.moonue.com/"/>
-  <updated>2024-11-20T23:33:45.605Z</updated>
+  <updated>2024-11-27T23:40:05.690Z</updated>
   <id>https://www.moonue.com/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Omnivore 的关闭，Wallabag 的完美替代</title>
+    <link href="https://www.moonue.com/posts/bd4a5aee.html"/>
+    <id>https://www.moonue.com/posts/bd4a5aee.html</id>
+    <published>2024-11-26T23:25:22.000Z</published>
+    <updated>2024-11-27T23:40:05.690Z</updated>
+    
+    <content type="html"><![CDATA[<p>不得不说最近免费软件 Omnivore 是最让人唏嘘的一件事，这是一款稍后阅读软件，当时红极一时，我也是去尝试使用了一下，软件体验非常不错，但是刚用习惯，就被打脸了，作者火速关闭了服务，这款软件是非常的方便，而且还有多个客户端可以使用。</p><p><img src="https://pic.tenmeng.com/i/2024/11/28/6747ac5cce170.png" alt="moon_2024-11-28_07-33-15"></p><p>半年多，习惯了去收藏进行稍后阅读，但是说实在的，还没有去认真看几回，作者就关闭了服务，当时还特别开心，担心收费，作者还大方的说如果收藏的过多，还可以联系后台，申请添加数量，这种美好，觉得是占了大便宜，就在上个月作者发文章，说在11月底关闭 Omnivore 的服务，原因是服务器费用太高。</p><p>虽然 Omnivore 作者也说有开源版本可以搭建，但是由于难度较高，几乎没有什么人搭建成功，所以只能赶紧找个替代品，找了几个都是收费的，而且还不便宜，有的一个月9.9美金，原来稍后阅读时长也真的不便宜。</p><p>其中最满意的是 <strong>Wallabag</strong>，它是开源的一款软件，有人说它是上个世纪的界面，但是我觉得还好，体验上面没得说，唯一有的问题的不要开启二次验证，手机版本客户端不支持，因为是开源自建，所以也不能开启邮箱的二次验证，密码的话，可以自己更改。</p><h3 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h3><ol><li>打开群晖的 Docker 软件，搜索<code>wallabag</code>，选择第一个<code>wallabag/wallabag</code>镜像进行下载。<img src="https://pic.tenmeng.com/i/2024/11/28/6747ad3835b24.png"></li><li>在等待下载过程中，在【File Station】套件中创建<code>wallabag</code>文件夹，并在该文件夹中新建<code>images</code>和<code>data</code>分别存放图片和文件。<img src="https://pic.tenmeng.com/i/2024/11/28/6747aa6395f83.png" alt="moon_2024-11-28_07-14-21"></li><li>设置<code>wallabag</code>文件夹权限为 Everyone 可读写，并勾选应用到子文件、文件夹。<img src="https://pic.tenmeng.com/i/2024/11/28/6747aa720bc99.png" alt="moon_2024-11-28_07-15-50"></li><li>等待镜像下载完毕。设置环境变量<code>SYMFONY__ENV__DOMAIN_NAME</code>为后面将要反代的域名（例如<a href="https://m.tenmeng.com:12443/">https://m.tenmeng.com:12443/</a>）</li><li>运行<code>wallabag</code>镜像，端口设置为任意端口（8187）与容器的80端口进行映射。<img src="https://pic.tenmeng.com/i/2024/11/28/6747aaad1ef58.png" alt="moon_2024-11-28_07-16-44"></li><li>把容器中的<code>/var/www/wallabag/web/assets/images</code>、<code>/var/www/wallabag/data</code>文件分别与前面新建的 images、data 文件夹进行映射。<img src="https://pic.tenmeng.com/i/2024/11/28/6747aabe3d419.png" alt="moon_2024-11-28_07-19-45"></li><li>确认配置没有问题后直接启动容器。</li></ol><h3 id="PC端的使用"><a href="#PC端的使用" class="headerlink" title="PC端的使用"></a>PC端的使用</h3><ol><li>浏览器打开域名即可访问。（账户密码都为：wallabag）开通公网ip的话，可以先设置群晖系统的反代。登录门户——高级——反向代理。<img src="https://pic.tenmeng.com/i/2024/11/28/6747ac151dfef.png" alt="moon_2024-11-28_07-32-09"></li><li>在<strong>右上角-&gt;config</strong>菜单中修改语言为中文。<img src="https://pic.tenmeng.com/i/2024/11/28/6747aaed188de.png" alt="moon_2024-11-28_07-20-49"></li><li>在<strong>右上角-&gt;教程</strong> 菜单中选择安装浏览器插件。</li><li><strong>按要求配置插件。</strong></li><li>配置完成后，打开要保存的网页，点击插件就能把文章保存到 Wallabag 。</li><li>保存到 Wallabag 的文章。<img src="https://pic.tenmeng.com/i/2024/11/28/6747acd9b3b2a.png" alt="moon_2024-11-28_07-35-22"></li><li>点击文章后，可以对文章进行重新抓取、打印、导出等操作。</li></ol><h3 id="手机端"><a href="#手机端" class="headerlink" title="手机端"></a>手机端</h3><ol><li>下载手机APP并按照要求输入客户端ID、密钥、用户名和密码完成登录。</li><li>APP上也能阅读保存的文章。</li><li>如果要在手机上保存文章，用浏览器打开文章链接地址后，并把当前页面分享到 Wallabag 即可。<img src="https://pic.tenmeng.com/i/2024/11/28/6747ad28c8c3d.jpg" alt="1000044323"></li></ol><h3 id="温馨提示"><a href="#温馨提示" class="headerlink" title="温馨提示"></a>温馨提示</h3><p>如果希望保存的文章，图片也给备份的话在<strong>登录后台——内部设施——在本地缓存图片，填写1</strong>即可</p><p><img src="https://pic.tenmeng.com/i/2024/11/28/6747ab0677454.png" alt="moon_2024-11-28_07-21-29"></p><h2 id="欢迎关注公众号"><a href="#欢迎关注公众号" class="headerlink" title="欢迎关注公众号"></a>欢迎关注公众号</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><a href="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;不得不说最近免费软件 Omnivore 是最让人唏嘘的一件事，这是一款稍后阅读软件，当时红极一时，我也是去尝试使用了一下，软件体验非常不错，但是刚用习惯，就被打脸了，作者火速关闭了服务，这款软件是非常的方便，而且还有多个客户端可以使用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;h</summary>
+      
+    
+    
+    
+    <category term="开源" scheme="https://www.moonue.com/categories/%E5%BC%80%E6%BA%90/"/>
+    
+    
+    <category term="Omnivore" scheme="https://www.moonue.com/tags/Omnivore/"/>
+    
+    <category term="Wallabag" scheme="https://www.moonue.com/tags/Wallabag/"/>
+    
+    <category term="稍后阅读" scheme="https://www.moonue.com/tags/%E7%A8%8D%E5%90%8E%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Adobe 全家桶激活软件，Adobe-GenP-3.4.2</title>
     <link href="https://www.moonue.com/posts/65b919f5.html"/>
     <id>https://www.moonue.com/posts/65b919f5.html</id>
     <published>2024-11-20T23:13:28.000Z</published>
-    <updated>2024-11-20T23:33:45.605Z</updated>
+    <updated>2024-11-27T23:40:35.572Z</updated>
     
     <content type="html"><![CDATA[<p>本网站提供的软件支持Adobe全家桶。美阅亲测可用。下载如果软件报毒，请关闭杀毒软件，或者添加信任之后进行安装。</p><p>昨天在使用LR 的时候，发现突然不能用了，然后就用之前的 Adobe-GenP-3.0 去激活，但是还是遗憾的不能使用，所以只能重新找到这款激活软件的最新版本。</p><p><img src="https://t.tenmeng.com:1800/i/2024/03/25/660119391c715.jpg" alt="b45ef8a51981b33e6579162fb804c33c"></p><p>目前最新版本的激活软件，测试可以激活最新版本的 Adobe 全家桶。其中也有个问题，就是我们要在自己的 PC 上面安装好自己的 Adobe 软件，新注册账户 adobe的，可以先进行免费试用，然后我们就可以安装想要的 Adobe 软件了。 当然这个时候给的是未激活的。然后我们再采用美阅提供的Adobe-GenP-3.4.2去激活。</p><p>当然我是因为要用 LR 的其中一个功能，所以这个就有了这篇文章，当然这里也顺便谈一下我用 LR 的一些心得，因为我要用 Lightroom 的批量图片转换功能，这一点非常好用，传统的方法是一张一张图片去压缩，非常的麻烦，所以采用批量的压缩方法，这样我一次可以压缩80多张的照片，从200多兆，压缩到30兆，真的很方便，然后再采用 Notion，进行排版编辑等。</p><p>所以基本上我都是要用 Lightroom，当然这个软件还有太多的功能，例如管理照片，可以和Eagle 付费软件相媲美的，而且还支持调色，这点也是非常多的摄影爱好者特别喜欢的。</p><p><img src="https://pic.tenmeng.com/i/2024/11/21/673e71b57def5.png" alt="Snipaste_2024-11-21_07-32-40"></p><p>Adobe-GenP-3.4.2软件下载</p><p><a href="https://aijige.com:5210/s/ceJF869X3J5NeWt">https://aijige.com:5210/s/ceJF869X3J5NeWt</a></p>]]></content>
     
@@ -540,35 +569,6 @@
     <category term="steam破解" scheme="https://www.moonue.com/tags/steam%E7%A0%B4%E8%A7%A3/"/>
     
     <category term="游戏" scheme="https://www.moonue.com/tags/%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>内置音源的安卓元力音乐</title>
-    <link href="https://www.moonue.com/posts/21ef15d7.html"/>
-    <id>https://www.moonue.com/posts/21ef15d7.html</id>
-    <published>2024-08-12T23:42:13.000Z</published>
-    <updated>2024-08-13T00:06:52.970Z</updated>
-    
-    <content type="html"><![CDATA[<p>这款音乐软件是我比较喜欢的音乐播放器，唯一有个缺点，就是会提醒有安全风险，我是三星手机，去研究了作者的软件，从官网上面下载安装也是提示有风险，只能等待作者改进了。</p><p><img src="https://t.tenmeng.com:1800/i/2024/08/13/66baa30f21d83.jpg" alt="GI6L2pkiZgQ"></p><p>软件非常的简洁，可以导入歌单，支持腾讯音乐和网易云音乐，基本这两个支持，就等于支持了大部分的音乐平台。</p><p>元力音乐搜索音乐的时候有两个音源可以使用，测试怀疑是网易云和腾讯音源的搜索，而且可以方便的下载。使用了大半个月，基本没什么问题。虽然提示有安全风险，但是也可以从手机上设置不提醒，就和pc上面一样，设置为信任的软件即可。</p><p><img src="https://t.tenmeng.com:1800/i/2024/08/13/66baa1f23bc00.jpg" alt="软件界面"></p><h4 id="软件下载："><a href="#软件下载：" class="headerlink" title="软件下载："></a><strong>软件下载：</strong></h4><p>元力音乐下载地址：<br><a href="https://haitang.lanzouw.com/b00moi551c">https://haitang.lanzouw.com/b00moi551c</a></p><p>音源：<br><a href="http://music.haitangw.net/%E5%85%83%E5%8A%9B%E9%9F%B3%E4%B9%90.json">http://music.haitangw.net/元力音乐.json</a></p><p>当然你也可以关注作者的微信公众号元力菌，黑白头像的那个。</p><p><img src="https://t.tenmeng.com:1800/i/2024/08/13/66baa2041210b.jpg" alt="下载界面"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;这款音乐软件是我比较喜欢的音乐播放器，唯一有个缺点，就是会提醒有安全风险，我是三星手机，去研究了作者的软件，从官网上面下载安装也是提示有风险，只能等待作者改进了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://t.tenmeng.com:1800/i/2024/08/1</summary>
-      
-    
-    
-    
-    <category term="音乐" scheme="https://www.moonue.com/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-    
-    <category term="元力" scheme="https://www.moonue.com/tags/%E5%85%83%E5%8A%9B/"/>
-    
-    <category term="音乐播放器" scheme="https://www.moonue.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
-    
-    <category term="音源" scheme="https://www.moonue.com/tags/%E9%9F%B3%E6%BA%90/"/>
     
   </entry>
   
