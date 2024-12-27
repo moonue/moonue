@@ -6,7 +6,7 @@
   <link href="https://www.moonue.com/atom.xml" rel="self"/>
   
   <link href="https://www.moonue.com/"/>
-  <updated>2024-11-27T23:40:05.690Z</updated>
+  <updated>2024-12-27T15:49:10.473Z</updated>
   <id>https://www.moonue.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>音源大更新，落雪音乐下载</title>
+    <link href="https://www.moonue.com/posts/26c24a7e.html"/>
+    <id>https://www.moonue.com/posts/26c24a7e.html</id>
+    <published>2024-12-26T23:38:51.000Z</published>
+    <updated>2024-12-27T15:49:10.473Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近没有更新美阅的文章了，时间感觉不知不觉就过了一个月了，当然今天给大家分享几个不错的落雪音源，朴素的分享，从上次一次分享几十个音乐的软件，发现真正我们用的其实就那么几个，最好用的还是落雪音乐，从软件下载的角度，落雪音源目前是最好的第三方音乐软件最好的补充版本。</p><p>更换音源也非常方便，只要打开落雪音乐，在设置中点击自定义音源管理，即可添加音源。把网址勾选即可使用音源，非常的方便，推荐使用在线导入的方式。</p><p><img src="https://pic.tenmeng.com/i/2024/12/27/676ec63887905.png" alt="wechat_2024-12-27_073448_899"></p><p><img src="https://pic.tenmeng.com/i/2024/12/27/676ec6346342d.png" alt="moon_2024-12-27_22-49-46"></p><h4 id="导入方法："><a href="#导入方法：" class="headerlink" title="导入方法："></a>导入方法：</h4><ol><li>下载LX music。<ol><li>pc 下载链接：<a href="https://aijige.com:5210/s/6i6Wb83NeQ7yWnt">https://aijige.com:5210/s/6i6Wb83NeQ7yWnt</a></li><li>安卓下载地址：<a href="https://aijige.com:5210/s/qfw5fANrEFzDmZn">https://aijige.com:5210/s/qfw5fANrEFzDmZn</a></li></ol></li><li>下载完成后打开对应的apk或exe文件，按引导进行下载安装。</li><li>安装完成后运行软件。</li><li>安卓用户按左上角三条杠（更多），选择设置</li></ol><p><strong>PC端用户按左侧边栏设置图标</strong></p><p>两端用户都找到音乐来源一栏。</p><ol><li><p>从刚才提供的音源链接中下载对应版本的音源。</p></li><li><p>返回刚才的界面，点击自定义音源，导入刚才的音源文件。</p></li><li><p>导入成功后，关闭窗口，点击导入的音源后的方框，等待初始化完成。</p></li><li><p>完成后就可以听歌了。</p></li></ol><p><img src="https://pic.tenmeng.com/i/2024/12/27/676ec63fc2aaa.png" alt="moon_2024-12-27_22-50-13"></p><h4 id="初始化错误的自主排障的方法："><a href="#初始化错误的自主排障的方法：" class="headerlink" title="初始化错误的自主排障的方法："></a><strong>初始化错误的自主排障的方法：</strong></h4><p>1、检查音源文件是否为对应版本（洛雪1.1.0音源已停止使用）</p><p>2、切换音源文件</p><p>3、PC2.5.0和安卓1.1.0版本用户注意别选错音源（23年10月29日洛雪已停止内置音源的使用）</p><h3 id="音源获取地址："><a href="#音源获取地址：" class="headerlink" title="音源获取地址："></a>音源获取地址：</h3><h5 id="在线导入"><a href="#在线导入" class="headerlink" title="在线导入"></a>在线导入</h5><table><thead><tr><th>名称</th><th>链接</th></tr></thead><tbody><tr><td>野草</td><td><a href="https://tt.tenmeng.com/moonue/js/yecao202412.js">https://tt.tenmeng.com/moonue/js/yecao202412.js</a></td></tr><tr><td>Huibq</td><td><a href="https://raw.githubusercontent.com/pdone/lx-music-source/main/huibq/latest.js">https://raw.githubusercontent.com/pdone/lx-music-source/main/huibq/latest.js</a></td></tr><tr><td>Flower</td><td><a href="https://raw.githubusercontent.com/pdone/lx-music-source/main/flower/latest.js">https://raw.githubusercontent.com/pdone/lx-music-source/main/flower/latest.js</a></td></tr><tr><td></td><td></td></tr></tbody></table><h5 id="在线导入-加速链接"><a href="#在线导入-加速链接" class="headerlink" title="在线导入 - 加速链接"></a>在线导入 - 加速链接</h5><table><thead><tr><th>名称</th><th>链接</th></tr></thead><tbody><tr><td>野草</td><td><a href="https://tt.tenmeng.com/moonue/js/yecao202412.js">https://tt.tenmeng.com/moonue/js/yecao202412.js</a></td></tr><tr><td>Huibq</td><td><a href="https://ghproxy.net/https://raw.githubusercontent.com/pdone/lx-music-source/main/huibq/latest.js">https://ghproxy.net/https://raw.githubusercontent.com/pdone/lx-music-source/main/huibq/latest.js</a></td></tr><tr><td>Flower</td><td><a href="https://ghproxy.net/https://raw.githubusercontent.com/pdone/lx-music-source/main/flower/latest.js">https://ghproxy.net/https://raw.githubusercontent.com/pdone/lx-music-source/main/flower/latest.js</a></td></tr></tbody></table><h2 id="欢迎关注公众号"><a href="#欢迎关注公众号" class="headerlink" title="欢迎关注公众号"></a>欢迎关注公众号</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><a href="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近没有更新美阅的文章了，时间感觉不知不觉就过了一个月了，当然今天给大家分享几个不错的落雪音源，朴素的分享，从上次一次分享几十个音乐的软件，发现真正我们用的其实就那么几个，最好用的还是落雪音乐，从软件下载的角度，落雪音源目前是最好的第三方音乐软件最好的补充版本。&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="开源" scheme="https://www.moonue.com/categories/%E5%BC%80%E6%BA%90/"/>
+    
+    <category term="免费音乐" scheme="https://www.moonue.com/categories/%E5%85%8D%E8%B4%B9%E9%9F%B3%E4%B9%90/"/>
+    
+    
+    <category term="落雪音源" scheme="https://www.moonue.com/tags/%E8%90%BD%E9%9B%AA%E9%9F%B3%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Omnivore 的关闭，Wallabag 的完美替代</title>
     <link href="https://www.moonue.com/posts/bd4a5aee.html"/>
     <id>https://www.moonue.com/posts/bd4a5aee.html</id>
     <published>2024-11-26T23:25:22.000Z</published>
-    <updated>2024-11-27T23:40:05.690Z</updated>
+    <updated>2024-11-27T23:41:25.615Z</updated>
     
     <content type="html"><![CDATA[<p>不得不说最近免费软件 Omnivore 是最让人唏嘘的一件事，这是一款稍后阅读软件，当时红极一时，我也是去尝试使用了一下，软件体验非常不错，但是刚用习惯，就被打脸了，作者火速关闭了服务，这款软件是非常的方便，而且还有多个客户端可以使用。</p><p><img src="https://pic.tenmeng.com/i/2024/11/28/6747ac5cce170.png" alt="moon_2024-11-28_07-33-15"></p><p>半年多，习惯了去收藏进行稍后阅读，但是说实在的，还没有去认真看几回，作者就关闭了服务，当时还特别开心，担心收费，作者还大方的说如果收藏的过多，还可以联系后台，申请添加数量，这种美好，觉得是占了大便宜，就在上个月作者发文章，说在11月底关闭 Omnivore 的服务，原因是服务器费用太高。</p><p>虽然 Omnivore 作者也说有开源版本可以搭建，但是由于难度较高，几乎没有什么人搭建成功，所以只能赶紧找个替代品，找了几个都是收费的，而且还不便宜，有的一个月9.9美金，原来稍后阅读时长也真的不便宜。</p><p>其中最满意的是 <strong>Wallabag</strong>，它是开源的一款软件，有人说它是上个世纪的界面，但是我觉得还好，体验上面没得说，唯一有的问题的不要开启二次验证，手机版本客户端不支持，因为是开源自建，所以也不能开启邮箱的二次验证，密码的话，可以自己更改。</p><h3 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h3><ol><li>打开群晖的 Docker 软件，搜索<code>wallabag</code>，选择第一个<code>wallabag/wallabag</code>镜像进行下载。<img src="https://pic.tenmeng.com/i/2024/11/28/6747ad3835b24.png"></li><li>在等待下载过程中，在【File Station】套件中创建<code>wallabag</code>文件夹，并在该文件夹中新建<code>images</code>和<code>data</code>分别存放图片和文件。<img src="https://pic.tenmeng.com/i/2024/11/28/6747aa6395f83.png" alt="moon_2024-11-28_07-14-21"></li><li>设置<code>wallabag</code>文件夹权限为 Everyone 可读写，并勾选应用到子文件、文件夹。<img src="https://pic.tenmeng.com/i/2024/11/28/6747aa720bc99.png" alt="moon_2024-11-28_07-15-50"></li><li>等待镜像下载完毕。设置环境变量<code>SYMFONY__ENV__DOMAIN_NAME</code>为后面将要反代的域名（例如<a href="https://m.tenmeng.com:12443/">https://m.tenmeng.com:12443/</a>）</li><li>运行<code>wallabag</code>镜像，端口设置为任意端口（8187）与容器的80端口进行映射。<img src="https://pic.tenmeng.com/i/2024/11/28/6747aaad1ef58.png" alt="moon_2024-11-28_07-16-44"></li><li>把容器中的<code>/var/www/wallabag/web/assets/images</code>、<code>/var/www/wallabag/data</code>文件分别与前面新建的 images、data 文件夹进行映射。<img src="https://pic.tenmeng.com/i/2024/11/28/6747aabe3d419.png" alt="moon_2024-11-28_07-19-45"></li><li>确认配置没有问题后直接启动容器。</li></ol><h3 id="PC端的使用"><a href="#PC端的使用" class="headerlink" title="PC端的使用"></a>PC端的使用</h3><ol><li>浏览器打开域名即可访问。（账户密码都为：wallabag）开通公网ip的话，可以先设置群晖系统的反代。登录门户——高级——反向代理。<img src="https://pic.tenmeng.com/i/2024/11/28/6747ac151dfef.png" alt="moon_2024-11-28_07-32-09"></li><li>在<strong>右上角-&gt;config</strong>菜单中修改语言为中文。<img src="https://pic.tenmeng.com/i/2024/11/28/6747aaed188de.png" alt="moon_2024-11-28_07-20-49"></li><li>在<strong>右上角-&gt;教程</strong> 菜单中选择安装浏览器插件。</li><li><strong>按要求配置插件。</strong></li><li>配置完成后，打开要保存的网页，点击插件就能把文章保存到 Wallabag 。</li><li>保存到 Wallabag 的文章。<img src="https://pic.tenmeng.com/i/2024/11/28/6747acd9b3b2a.png" alt="moon_2024-11-28_07-35-22"></li><li>点击文章后，可以对文章进行重新抓取、打印、导出等操作。</li></ol><h3 id="手机端"><a href="#手机端" class="headerlink" title="手机端"></a>手机端</h3><ol><li>下载手机APP并按照要求输入客户端ID、密钥、用户名和密码完成登录。</li><li>APP上也能阅读保存的文章。</li><li>如果要在手机上保存文章，用浏览器打开文章链接地址后，并把当前页面分享到 Wallabag 即可。<img src="https://pic.tenmeng.com/i/2024/11/28/6747ad28c8c3d.jpg" alt="1000044323"></li></ol><h3 id="温馨提示"><a href="#温馨提示" class="headerlink" title="温馨提示"></a>温馨提示</h3><p>如果希望保存的文章，图片也给备份的话在<strong>登录后台——内部设施——在本地缓存图片，填写1</strong>即可</p><p><img src="https://pic.tenmeng.com/i/2024/11/28/6747ab0677454.png" alt="moon_2024-11-28_07-21-29"></p><h2 id="欢迎关注公众号"><a href="#欢迎关注公众号" class="headerlink" title="欢迎关注公众号"></a>欢迎关注公众号</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><a href="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></a></p>]]></content>
     
@@ -542,33 +569,6 @@
     <category term="KOReader" scheme="https://www.moonue.com/tags/KOReader/"/>
     
     <category term="开源" scheme="https://www.moonue.com/tags/%E5%BC%80%E6%BA%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>免费搬空Steam的GameBox，双人成行和荒野大镖客我都已经免费收入囊中</title>
-    <link href="https://www.moonue.com/posts/c7b5e729.html"/>
-    <id>https://www.moonue.com/posts/c7b5e729.html</id>
-    <published>2024-08-15T23:53:35.000Z</published>
-    <updated>2024-08-15T23:59:29.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>作为广受玩家喜爱的游戏平台之一，Steam可谓是无人能及的第一名。说它是第二名，那绝对是没有人敢自称第一的。</p><p>今天给大家分享一个白嫖游戏的神器，直接搬空Steam，各种新游戏全都有，哎就很棒！<img src="https://t.tenmeng.com:1800/i/2024/08/16/66be912833438.png" alt="Steam"></p><p><img src="https://t.tenmeng.com:1800/i/2024/08/16/66be94e39a1d2.png" alt="PixPin_2024-08-16_07-39-00"><img src="https://t.tenmeng.com:1800/i/2024/08/16/66be94e0a46d1.png" alt="PixPin_2024-08-16_07-38-43"></p><h2 id="GameBox（电脑端），直接免费搬空-Steam"><a href="#GameBox（电脑端），直接免费搬空-Steam" class="headerlink" title="GameBox（电脑端），直接免费搬空 Steam"></a>GameBox（电脑端），直接免费搬空 Steam</h2><p>开发者号称要搬空整个Steam，软件内含有近千款游戏，资源相当的丰富。</p><p>Gamebox的中文译名是”游戏盒子”，需要进行安装才能使用，安装方法相对来说比较简单，直接下一步到底即可，这里就不做展开了。</p><p>界面布局UI设计也相当的简洁，没有任何广告弹窗，看起来就很舒适。</p><p><a href="https://www.ittel.cn/wp-content/uploads/2024/03/1709934797604.png"><img src="https://t.tenmeng.com:1800/i/2024/08/16/66be9454e7b19.png" alt="img"></a></p><p>想玩什么游戏，直接在搜索框内搜索就可以了，或者也可以在底部的分类里，按照各游戏类型分类寻找。</p><p><a href="https://www.ittel.cn/wp-content/uploads/2024/03/1709934797997.png"><img src="https://t.tenmeng.com:1800/i/2024/08/16/66be94590358a.png" alt="img"></a></p><p>随便进入一个游戏，和其他平台的游戏宣传一样，一个宣传视频、几张精彩片段、一段游戏介绍。</p><p>如果游戏有特定的设置，也会有详细地说明，比如这个《幻兽帕鲁》开发者很贴心地附上了中文设置步骤</p><p><a href="https://www.ittel.cn/wp-content/uploads/2024/03/1709934798253.png"><img src="https://www.ittel.cn/wp-content/uploads/2024/03/1709934798253.png" alt="详细说明页"></a></p><p>接下来点击“安装游戏”，选择需要下载的资源安装包&#x2F;版本，设置好下载和安装目录就可以开始正式下载游戏了。</p><p><a href="https://www.ittel.cn/wp-content/uploads/2024/03/1709934798397.png"><img src="https://www.ittel.cn/wp-content/uploads/2024/03/1709934798397.png" alt="img"></a></p><h3 id="下载不限速"><a href="#下载不限速" class="headerlink" title="下载不限速"></a>下载不限速</h3><p>游戏资源的下载速度也是相当快，基本稳定在60M&#x2F;s，几分钟就能下载好一个游戏，当然我的网速没那么快，要登陆天翼云盘账号，100M的宽带10M左右。</p><p><a href="https://www.ittel.cn/wp-content/uploads/2024/03/1709934798702.png"><img src="https://www.ittel.cn/wp-content/uploads/2024/03/1709934798702.png" alt="img"></a></p><p>如果盒子无法正常创建下载（例如下图这种情况），可以尝试关闭然后以管理员身份运行游戏盒子。</p><p><a href="https://www.ittel.cn/wp-content/uploads/2024/03/1709934798792.png"><img src="https://www.ittel.cn/wp-content/uploads/2024/03/1709934798792.png" alt="img"></a></p><h3 id="先上车后补票"><a href="#先上车后补票" class="headerlink" title="先上车后补票"></a>先上车后补票</h3><p>作者还为每个游戏都提供了补票链接，点击一下就可以直接跳转至Steam商店进行补票！</p><p><img src="https://t.tenmeng.com:1800/i/2024/08/16/66be94d7d864c.png" alt="PixPin_2024-08-16_07-39-22"></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://aijige.com:5210/s/LPogq3tMtJGBjzn">https://aijige.com:5210/s/LPogq3tMtJGBjzn</a></p><p>（完）</p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;作为广受玩家喜爱的游戏平台之一，Steam可谓是无人能及的第一名。说它是第二名，那绝对是没有人敢自称第一的。&lt;/p&gt;
-&lt;p&gt;今天给大家分享一个白嫖游戏的神器，直接搬空Steam，各种新游戏全都有，哎就很棒！&lt;img src=&quot;https://t.tenmeng.com:18</summary>
-      
-    
-    
-    
-    <category term="游戏" scheme="https://www.moonue.com/categories/%E6%B8%B8%E6%88%8F/"/>
-    
-    
-    <category term="steam破解" scheme="https://www.moonue.com/tags/steam%E7%A0%B4%E8%A7%A3/"/>
-    
-    <category term="游戏" scheme="https://www.moonue.com/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
