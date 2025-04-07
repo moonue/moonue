@@ -6,7 +6,7 @@
   <link href="https://www.moonue.com/atom.xml" rel="self"/>
   
   <link href="https://www.moonue.com/"/>
-  <updated>2025-04-05T23:53:00.091Z</updated>
+  <updated>2025-04-07T23:49:35.610Z</updated>
   <id>https://www.moonue.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>下载网盘资源，夸克网盘的最佳提取插件</title>
+    <link href="https://www.moonue.com/posts/8e3cc1f7.html"/>
+    <id>https://www.moonue.com/posts/8e3cc1f7.html</id>
+    <published>2025-04-07T15:01:30.000Z</published>
+    <updated>2025-04-07T23:49:35.610Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前网盘下载，大部分都是采用阿里云盘，以及百度网盘下载，但是由于百度和阿里都是最先进的技术手段，加上版权的大棒，让我们很多采用的下载网盘，纷纷另辟蹊径，开始把重心的下载地址放到了夸克网盘。</p><p>夸克网盘凭借着和博主分成的方式，在夸克上传文件的方式分享赚取收益，而且提取也很难，使用官方的下载客户端区区只有200k，太寒颤了。</p><p><img src="https://pic.tenmeng.com/i/2025/04/08/67f463f9e14e8.png" alt="moon_2025-04-06_21-03-44"></p><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>今天给大家推荐的这个浏览器插件是一个先进的下载，首先下载油猴插件，相信了解浏览器插件的人都知道这款插件，非常有名，以下是它的简介，<strong>篡改猴 (Tampermonkey)</strong> 是拥有 <strong>超过 1000 万用户</strong> 的最流行的浏览器扩展之一。 它适用于 <a href="https://www.tampermonkey.net/index.php?browser=chrome"><strong>Chrome</strong></a>、<a href="https://www.tampermonkey.net/index.php?browser=edge"><strong>Microsoft Edge</strong></a>、<a href="https://www.tampermonkey.net/index.php?browser=safari"><strong>Safari</strong></a>、<a href="https://www.tampermonkey.net/index.php?browser=opera"><strong>Opera Next</strong></a> 和 <a href="https://www.tampermonkey.net/index.php?browser=firefox"><strong>Firefox</strong></a>。</p><p>有些人也会把篡改猴(Tampermonkey)称作油猴(Greasemonkey)，尽管后者只是一款仅适用于 Firefox 浏览器的浏览器扩展程序。</p><p>它允许用户自定义并<strong>增强您最喜爱的网页的功能</strong>。用户脚本是小型 JavaScript 程序，可用于向网页添加新功能或修改现有功能。使用 篡改猴，您可以轻松在任何网站上创建、管理和运行这些用户脚本。</p><p>例如，使用 篡改猴，您可以向网页添加一个新按钮，可以快速在社交媒体上分享链接，或自动填写带有个人信息的表格。在数字化时代，这特别有用，因为网页常常被用作访问广泛的服务和应用程序的用户界面。</p><p><img src="https://pic.tenmeng.com/i/2025/04/08/67f4643d7ff6c.png" alt="moon_20250408074800"></p><p>此外，篡改猴 <strong>使您轻松找到并安装其他用户创建的用户脚本</strong>。这意味着您可以快速轻松地访问为您喜爱的网页定制的广泛库，而无需花费数小时编写自己的代码。</p><p>无论您是希望为您的站点添加新功能的 <strong>Web 开发人员</strong>，还是只是希望 <strong>改善在线体验的普通用户</strong>，篡改猴 都是您的工具箱中的一个很好的工具。</p><p><img src="https://pic.tenmeng.com/i/2025/04/08/67f464614baa2.png" alt="22_20250407225647"></p><p>从介绍中，我们可以看出来，我们首先下载浏览器中的油猴插件，然后再下载脚本，下载插件的地方就是各大浏览器应用商店。而下载脚本的地方，我推荐Greasy Fork（<a href="https://greasyfork.org/zh-CN%EF%BC%89%E3%80%82">https://greasyfork.org/zh-CN）。</a></p><p>今天主要给大家推荐的是这款插件，可以方便的下载夸克网盘的插件，之前一直很难下载夸克网盘的资源，但是使用这款插件脚本之后，只有保存别人分享的文件，保存到自己网盘，下载起来特别的方便。</p><p><img src="https://pic.tenmeng.com/i/2025/04/08/67f463845ba80.png" alt="qq_20250408074436"></p><h3 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h3><p>脚本地址：<a href="https://greasyfork.org/zh-CN/scripts/523351-%E8%8E%B7%E5%8F%96%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE">https://greasyfork.org/zh-CN/scripts/523351-%E8%8E%B7%E5%8F%96%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE</a></p><h2 id="欢迎关注公众号"><a href="#欢迎关注公众号" class="headerlink" title="欢迎关注公众号"></a>欢迎关注公众号</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><a href="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;之前网盘下载，大部分都是采用阿里云盘，以及百度网盘下载，但是由于百度和阿里都是最先进的技术手段，加上版权的大棒，让我们很多采用的下载网盘，纷纷另辟蹊径，开始把重心的下载地址放到了夸克网盘。&lt;/p&gt;
+&lt;p&gt;夸克网盘凭借着和博主分成的方式，在夸克上传文件的方式分享赚取收益，而且</summary>
+      
+    
+    
+    
+    <category term="下载" scheme="https://www.moonue.com/categories/%E4%B8%8B%E8%BD%BD/"/>
+    
+    <category term="夸克网盘" scheme="https://www.moonue.com/categories/%E5%A4%B8%E5%85%8B%E7%BD%91%E7%9B%98/"/>
+    
+    
+    <category term="网盘下载" scheme="https://www.moonue.com/tags/%E7%BD%91%E7%9B%98%E4%B8%8B%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Readest：专为热爱阅读的你打造的全能电子书阅读器</title>
     <link href="https://www.moonue.com/posts/7ff831d0.html"/>
     <id>https://www.moonue.com/posts/7ff831d0.html</id>
     <published>2025-04-05T23:40:06.000Z</published>
-    <updated>2025-04-05T23:53:00.091Z</updated>
+    <updated>2025-04-05T23:54:51.671Z</updated>
     
     <content type="html"><![CDATA[<p>在这个数字化阅读时代，<strong>Readest</strong> 以其卓越的功能和贴心的设计，为读者带来前所未有的沉浸式阅读体验。无论你是求知若渴的学生、忙于研究的学者，还是纯粹的阅读爱好者，Readest 都能满足你对完美阅读工具的所有期待。我也是用了一段时间，还是很喜欢这款软件，美阅之前也给大家推荐过了一款开源阅读，也很不错，<a href="https://mp.weixin.qq.com/s/FI6OOGDlSNPGn8eS0bCNjw">我的新的纯净阅读软件-legado阅读</a>。</p><p><img src="https://pic.tenmeng.com/i/2025/04/06/67f1c21a8742f.png" alt="moon_2025-04-06_07-34-17"></p><h2 id="Readest核心功能亮点"><a href="#Readest核心功能亮点" class="headerlink" title="Readest核心功能亮点"></a>Readest<strong>核心功能亮点</strong></h2><h3 id="📖-并行阅读-高效对比阅读"><a href="#📖-并行阅读-高效对比阅读" class="headerlink" title="📖 并行阅读 - 高效对比阅读"></a>📖 <strong>并行阅读 - 高效对比阅读</strong></h3><ul><li>独特的分屏功能让你可以<strong>并排打开两个文档</strong>，轻松对照阅读</li><li>同步滚动功能确保对比阅读时保持一致的进度</li><li>特别适合学术研究、语言学习和文献对照</li></ul><h3 id="✍️-全能笔记系统-一站式知识管理"><a href="#✍️-全能笔记系统-一站式知识管理" class="headerlink" title="✍️ 全能笔记系统 - 一站式知识管理"></a>✍️ <strong>全能笔记系统 - 一站式知识管理</strong></h3><ul><li><strong>高亮标记</strong>重要内容，支持多种颜色分类</li><li>添加<strong>书签</strong>快速定位关键章节</li><li><strong>手写笔记</strong>和文字批注完美结合</li><li><strong>全文搜索</strong>功能让你瞬间找到任何标注过的内容</li></ul><h3 id="🎨-深度个性化定制"><a href="#🎨-深度个性化定制" class="headerlink" title="🎨 深度个性化定制"></a>🎨 <strong>深度个性化定制</strong></h3><ul><li>多种<strong>字体选择</strong>和大小调整，找到最适合你眼睛的阅读体验</li><li>自定义<strong>布局</strong>和<strong>主题颜色</strong>（包括护眼模式）</li><li>日间&#x2F;夜间模式一键切换，全天候舒适阅读</li></ul><h3 id="🧠-智能辅助工具"><a href="#🧠-智能辅助工具" class="headerlink" title="🧠 智能辅助工具"></a>🧠 <strong>智能辅助工具</strong></h3><ul><li>内置<strong>多语言词典</strong>，生词一点即查</li><li>即时<strong>翻译</strong>功能打破语言障碍</li><li><strong>维基百科</strong>快速查阅，拓展阅读深度</li><li><strong>AI文本摘要</strong>帮助快速掌握长篇内容要点</li></ul><h3 id="🌐-无缝跨平台体验"><a href="#🌐-无缝跨平台体验" class="headerlink" title="🌐 无缝跨平台体验"></a>🌐 <strong>无缝跨平台体验</strong></h3><ul><li>所有设备和平台间<strong>自动同步</strong>阅读进度</li><li>书库、笔记和标注实时更新</li><li>手机、平板、电脑随心切换，阅读永不中断</li></ul><h3 id="🔊-AI朗读-解放双眼"><a href="#🔊-AI朗读-解放双眼" class="headerlink" title="🔊 AI朗读 - 解放双眼"></a>🔊 <strong>AI朗读 - 解放双眼</strong></h3><ul><li>先进的**AI文本转语音(TTS)**技术</li><li>多种语音风格和语速选择</li><li>支持后台播放，让阅读变成”听书”</li></ul><h2 id="为什么选择Readest？"><a href="#为什么选择Readest？" class="headerlink" title="为什么选择Readest？"></a><strong>为什么选择Readest？</strong></h2><p>✅ <strong>学术研究</strong>：文献管理、对照阅读、笔记整理一气呵成<br>✅ <strong>语言学习</strong>：词典翻译+并行阅读，提升学习效率<br>✅ <strong>休闲阅读</strong>：打造最舒适的个性化阅读环境<br>✅ <strong>专业需求</strong>：PDF、EPUB等专业格式完美支持  </p><p><img src="https://pic.tenmeng.com/i/2025/04/06/67f1c2480e7d6.png" alt="moon_2025-04-06_07-52-04"></p><h2 id="立即体验"><a href="#立即体验" class="headerlink" title="立即体验"></a><strong>立即体验</strong></h2><p>📱 <strong>下载地址</strong>：[官网链接]<br>🔄 <strong>支持平台</strong>：Windows&#x2F;macOS&#x2F;Android&#x2F;iOS  </p><p>让Readest成为你探索知识海洋的最佳伙伴，开启全新的阅读旅程！  </p><h3 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h3><p>官网：<a href="https://readest.com/">https://readest.com/</a></p><p>美阅本地：<a href="https://github.com/readest/readest/releases/download/v0.9.30/Readest_0.9.30_arm64.apk">https://github.com/readest/readest/releases/download/v0.9.30/Readest_0.9.30_arm64.apk</a></p><h2 id="欢迎关注公众号"><a href="#欢迎关注公众号" class="headerlink" title="欢迎关注公众号"></a>欢迎关注公众号</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><a href="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></a></p>]]></content>
     
@@ -535,34 +562,6 @@
     <category term="下载" scheme="https://www.moonue.com/tags/%E4%B8%8B%E8%BD%BD/"/>
     
     <category term="NDM" scheme="https://www.moonue.com/tags/NDM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BT软件哪家强，这一款qbittorrent是你的不二之选</title>
-    <link href="https://www.moonue.com/posts/27bed7f4.html"/>
-    <id>https://www.moonue.com/posts/27bed7f4.html</id>
-    <published>2024-09-24T23:26:40.000Z</published>
-    <updated>2024-09-25T00:05:56.704Z</updated>
-    
-    <content type="html"><![CDATA[<p>作为广受玩家喜爱的下载平台之一，BT是很多人喜爱的下载方式，它是众多软件爱好者的福音，</p><p>当然除了bt也有一些确实优秀的下载方式，电驴、迅雷等，但是它们也有各自的问题和限制，需要我们不断地探索和寻找更好的下载方式。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/25/66f352030ea2d.jpg" alt="125-220301160S00-L"></p><p>比如使用新的下载工具或者技术，来提高下载速度和稳定性。Bt下载方式应运而生，这是一种非常方便的技术，也是互联网的开放精神，人人为我，我为人人。</p><p>我们都知道迅雷下载非常有名，但是遇到很多版权问题的资源，就偃旗息鼓。然后就是迅雷的各种会员收费限制，明明可以跑起来的带宽，没有扣钱的路上，给你建一个收费站，恶心死你。</p><p>当然BT的出现，现在在竞争的压力下，迅雷已经好了很多，收敛了许多。当然这款BT软件也是我在哔哩哔哩上面看到的，那是我想找一个方便的下载windows系统。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/25/66f35220e077c.png" alt="qBittorrent_2024-09-25_07-51-10"></p><p>windows系统我们都知道，这个是非常好用的安装系统的软件，但是就是文件大，有个5—6GB的大小。然后就安装这款BT软件使用，几分钟就下载好了。</p><p>当然这款软件不是下载方便我就喜欢的，还有一个就是它的界面设计挺好看的，非常的简洁，没有广告的那种，不是那种只有下载功能好用，界面设计的很过时设计。而且这款软件在更新方面，非常的迅速，作者的维护很及时，这个真的要非常感谢幕后的作者。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/25/66f352360e763.png" alt="qBittorrent_2024-09-25_07-51-49"></p><p>最后就是配置的问题，当时我是在B站学习的，当然后期我也会在美阅官网（阅读原文）继续更新配置内容，方便大家的下载使用。</p><p>这是一款开源的下载软件，qBittorrent 项目旨在提供 µTorrent 的开源软件替代品。</p><p>此外，qBittorrent 在所有主要平台（FreeBSD、Linux、macOS、OS&#x2F;2、Windows）上运行并提供相同的功能。</p><p>qBittorrent 基于<a href="https://www.qt.io/">Qt</a>工具包和<a href="https://www.libtorrent.org/">libtorrent-rasterbar</a>库。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/25/66f3527c8c7f1.png" alt="qBittorrent_2024-09-25_07-49-54"></p><h3 id="qBittorrent的基本功能："><a href="#qBittorrent的基本功能：" class="headerlink" title="qBittorrent的基本功能："></a>qBittorrent的基本功能：</h3><ul><li>精致的 µTorrent 式用户界面</li><li>无广告</li><li>高度集成且可扩展的搜索引擎<ul><li>在多个 Torrent 搜索网站同时进行搜索</li><li>特定类别的搜索请求（例如书籍、音乐、软件）</li></ul></li><li>带有高级下载过滤器（包括正则表达式）的 RSS 提要支持</li><li>支持许多 Bittorrent 扩展：<ul><li>磁力链接</li><li>分布式哈希表（DHT）、对等交换协议（PEX）、本地对等发现（LSD）</li><li>私人种子</li><li>加密连接</li><li>等等……</li></ul></li><li>通过使用 AJAX 编写的 Web 用户界面进行远程控制<ul><li>与常规 GUI 几乎相同</li></ul></li><li>顺序下载（按顺序下载）</li><li>对种子、跟踪器和对等点的高级控制<ul><li>Torrent 排队和优先级</li><li>Torrent 内容选择和优先级</li></ul></li><li>带宽调度器</li><li>Torrent 创建工具</li><li>IP 过滤（兼容 eMule 和 PeerGuardian 格式）</li><li>兼容 IPv6</li><li>UPnP &#x2F; NAT-PMP 端口转发支持</li><li>适用于所有平台：Windows、Linux、macOS、FreeBSD、OS&#x2F;2</li><li>提供<a href="https://www.transifex.com/sledgehammer999/qbittorrent/">约 70 种语言版本</a></li></ul><p><img src="https://t.tenmeng.com:1800/i/2024/09/25/66f352909b3d0.png" alt="qBittorrent_2024-09-25_07-52-35"></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p>官网下载：</p><p><a href="https://www.qbittorrent.org/download">https://www.qbittorrent.org/download</a></p><p>美阅下载</p><p><a href="https://aijige.com:5210/s/Gfq2wR2dSWw6pf3">https://aijige.com:5210/s/Gfq2wR2dSWw6pf3</a></p><p>（完）</p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;作为广受玩家喜爱的下载平台之一，BT是很多人喜爱的下载方式，它是众多软件爱好者的福音，&lt;/p&gt;
-&lt;p&gt;当然除了bt也有一些确实优秀的下载方式，电驴、迅雷等，但是它们也有各自的问题和限制，需要我们不断地探索和寻找更好的下载方式。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https:</summary>
-      
-    
-    
-    
-    <category term="下载" scheme="https://www.moonue.com/categories/%E4%B8%8B%E8%BD%BD/"/>
-    
-    
-    <category term="下载" scheme="https://www.moonue.com/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
-    <category term="BT" scheme="https://www.moonue.com/tags/BT/"/>
     
   </entry>
   

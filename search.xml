@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>下载网盘资源，夸克网盘的最佳提取插件</title>
+      <link href="/posts/8e3cc1f7.html"/>
+      <url>/posts/8e3cc1f7.html</url>
+      
+        <content type="html"><![CDATA[<p>之前网盘下载，大部分都是采用阿里云盘，以及百度网盘下载，但是由于百度和阿里都是最先进的技术手段，加上版权的大棒，让我们很多采用的下载网盘，纷纷另辟蹊径，开始把重心的下载地址放到了夸克网盘。</p><p>夸克网盘凭借着和博主分成的方式，在夸克上传文件的方式分享赚取收益，而且提取也很难，使用官方的下载客户端区区只有200k，太寒颤了。</p><p><img src="https://pic.tenmeng.com/i/2025/04/08/67f463f9e14e8.png" alt="moon_2025-04-06_21-03-44"></p><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>今天给大家推荐的这个浏览器插件是一个先进的下载，首先下载油猴插件，相信了解浏览器插件的人都知道这款插件，非常有名，以下是它的简介，<strong>篡改猴 (Tampermonkey)</strong> 是拥有 <strong>超过 1000 万用户</strong> 的最流行的浏览器扩展之一。 它适用于 <a href="https://www.tampermonkey.net/index.php?browser=chrome"><strong>Chrome</strong></a>、<a href="https://www.tampermonkey.net/index.php?browser=edge"><strong>Microsoft Edge</strong></a>、<a href="https://www.tampermonkey.net/index.php?browser=safari"><strong>Safari</strong></a>、<a href="https://www.tampermonkey.net/index.php?browser=opera"><strong>Opera Next</strong></a> 和 <a href="https://www.tampermonkey.net/index.php?browser=firefox"><strong>Firefox</strong></a>。</p><p>有些人也会把篡改猴(Tampermonkey)称作油猴(Greasemonkey)，尽管后者只是一款仅适用于 Firefox 浏览器的浏览器扩展程序。</p><p>它允许用户自定义并<strong>增强您最喜爱的网页的功能</strong>。用户脚本是小型 JavaScript 程序，可用于向网页添加新功能或修改现有功能。使用 篡改猴，您可以轻松在任何网站上创建、管理和运行这些用户脚本。</p><p>例如，使用 篡改猴，您可以向网页添加一个新按钮，可以快速在社交媒体上分享链接，或自动填写带有个人信息的表格。在数字化时代，这特别有用，因为网页常常被用作访问广泛的服务和应用程序的用户界面。</p><p><img src="https://pic.tenmeng.com/i/2025/04/08/67f4643d7ff6c.png" alt="moon_20250408074800"></p><p>此外，篡改猴 <strong>使您轻松找到并安装其他用户创建的用户脚本</strong>。这意味着您可以快速轻松地访问为您喜爱的网页定制的广泛库，而无需花费数小时编写自己的代码。</p><p>无论您是希望为您的站点添加新功能的 <strong>Web 开发人员</strong>，还是只是希望 <strong>改善在线体验的普通用户</strong>，篡改猴 都是您的工具箱中的一个很好的工具。</p><p><img src="https://pic.tenmeng.com/i/2025/04/08/67f464614baa2.png" alt="22_20250407225647"></p><p>从介绍中，我们可以看出来，我们首先下载浏览器中的油猴插件，然后再下载脚本，下载插件的地方就是各大浏览器应用商店。而下载脚本的地方，我推荐Greasy Fork（<a href="https://greasyfork.org/zh-CN%EF%BC%89%E3%80%82">https://greasyfork.org/zh-CN）。</a></p><p>今天主要给大家推荐的是这款插件，可以方便的下载夸克网盘的插件，之前一直很难下载夸克网盘的资源，但是使用这款插件脚本之后，只有保存别人分享的文件，保存到自己网盘，下载起来特别的方便。</p><p><img src="https://pic.tenmeng.com/i/2025/04/08/67f463845ba80.png" alt="qq_20250408074436"></p><h3 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h3><p>脚本地址：<a href="https://greasyfork.org/zh-CN/scripts/523351-%E8%8E%B7%E5%8F%96%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE">https://greasyfork.org/zh-CN/scripts/523351-%E8%8E%B7%E5%8F%96%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE</a></p><h2 id="欢迎关注公众号"><a href="#欢迎关注公众号" class="headerlink" title="欢迎关注公众号"></a>欢迎关注公众号</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><a href="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 下载 </category>
+          
+          <category> 夸克网盘 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网盘下载 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Readest：专为热爱阅读的你打造的全能电子书阅读器</title>
       <link href="/posts/7ff831d0.html"/>
       <url>/posts/7ff831d0.html</url>
