@@ -6,7 +6,7 @@
   <link href="https://www.moonue.com/atom.xml" rel="self"/>
   
   <link href="https://www.moonue.com/"/>
-  <updated>2025-04-07T23:50:36.927Z</updated>
+  <updated>2025-07-31T17:58:52.237Z</updated>
   <id>https://www.moonue.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AltStore 安装外网软件-ios</title>
+    <link href="https://www.moonue.com/posts/e00590b7.html"/>
+    <id>https://www.moonue.com/posts/e00590b7.html</id>
+    <published>2025-07-31T17:58:43.000Z</published>
+    <updated>2025-07-31T17:58:52.237Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Windows食用方法"><a href="#Windows食用方法" class="headerlink" title="Windows食用方法"></a>Windows食用方法</h2><p>“AltStore”虽然是一个在iOS上跑的软件，但是想正常使用还是需要电脑端AltServer的配合。</p><p>首先我们前往<a href="https://altstore.io/">AltStore官网</a>，然后点那个大大的“Get AltStore”：</p><p><img src="https://pic.tenmeng.com/i/2025/08/01/688ba707dc348.png" alt="Altstore官网">话说AltStore网站还更新了</p><p>然后我们选择对应你系统的版本下载：</p><p><img src="https://pic.tenmeng.com/i/2025/08/01/688ba70c355fb.png" alt="AltStore选择不同的版本下载。"></p><p>AltStore需要使用windows 10系统的。</p><p>接下来双击打开刚刚下载好的“altinstaller.zip”解压文件到文件夹：</p><p><img src="https://pic.tenmeng.com/i/2025/08/01/688ba71b23924.png" alt="AltStore的Windows安装程序。"></p><p>两个文件的功能是一样的，任意选择一个打开即可。</p><p><img src="https://pic.tenmeng.com/i/2025/08/01/688ba76cbbc4e.png" alt="AltServer安装1"> <img src="https://pic.tenmeng.com/i/2025/08/01/688ba777af801.png" alt="AltServer安装2"></p><p>跟正常安装软件没有区别，一路“Next”就行。</p><p>然后就可以在开始菜单里看到AltServer的图标，点击运行。</p><p>这时候会提示驱动不完整（因为我已经装过驱动了，所以这里给不了图）。我们需要安装iTunes和iCloud。<strong>切记不能从Microsoft store下载</strong>，需要从苹果官网下载.exe格式的安装包。</p><p>iTunes下载（64位）：<a href="https://www.apple.com/itunes/download/win64">https://www.apple.com/itunes/download/win64</a></p><p>iTunes下载（32位）：<a href="https://www.apple.com/itunes/download/win32">https://www.apple.com/itunes/download/win32</a></p><p>iCloud下载：<a href="https://updates.cdn-apple.com/2020/windows/001-39935-20200911-1A70AA56-F448-11EA-8CC0-99D41950005E/iCloudSetup.exe">https://updates.cdn-apple.com/2020/windows/001-39935-20200911-1A70AA56-F448-11EA-8CC0-99D41950005E/iCloudSetup.exe</a></p><p>然后对话框就消失了。可以使用微信翻译报错信息，一般是找到iTunes或者iCloud的安装文件位置。</p><p>是的没错，这玩意运行之后只会在任务栏的托盘里显示一个logo！现在，连接好你的设备，左键（记得是左键！点右键是没反应的）点一下这个logo，在弹出的窗口里选择“Install AltStore”&gt;你的设备名。</p><p><img src="https://pic.tenmeng.com/i/2025/08/01/688ba728055ea.png" alt="AltServer菜单。"></p><p>然后会提示输入账号密码，这里输入真实的密码即可。有的老教程会提到App专用密码，现在并不需要创建什么App专用密码，就算开启了双重认证也没有关系。</p><p><img src="https://pic.tenmeng.com/i/2025/08/01/688ba73755cd4.png" alt="AltServer输入账号密码。"></p><p>等待一段时间，就可以看到手机上出现了AltStore的logo，点击运行。这时会提示“未受信任的开发者”，根据提示前往设置按一下“信任”。这时候就可以打开应用了，此时还需要输入一遍账号和密码，必须和电脑端操作时的账号一样，不然会出问题。</p><p>自从iOS 16后，苹果对开发者应用做出了一点点的限制，需要到手机的“设置”&gt;“隐私与安全性”&gt;“开发者模式”里把开发者模式打开。这时候手机会提示重启系统，我们按照操作重启系统。</p><p>有的教程会提示使用什么爱思助手，告诉大家不需要，干干净净的操作就好，直接在系统里面设置。</p><p>这个选项只有iPhone才有，iPad不需要这一步。</p><p>然后就可以愉快的操作了，找到“My Apps”选项卡，点一下左上角的“+”就可以安装应用了。</p><p><img src="https://pic.tenmeng.com/i/2025/08/01/688ba74dd7426.jpg" alt="AltStore操作界面。">就是左上角那个”+“，另外，记得要先把安装包传到手机上。（可以用网盘或者链接通过chrome下载到手机上，然后打开方式用AltStore)</p><p>这个过程中全程都需要连接电脑。AltStore官方推荐打开iTunes中“通过Wi-Fi与此设备同步”，不过实际操作下来发现体验不算特别好，电脑关机之后就无法自动连接设备了，还是要先插一次线激活连接。</p><p><img src="https://pic.tenmeng.com/i/2025/08/01/688ba75db6145.png" alt="iTunes配置无线同步。">先打开你的设备，然后直接往下滚动就可以找到这个设置</p><p>如果是免费开发者，那么只能在一台设备上安装三个软件。AltStore可以自动处理这个事情，如果你需要安装三个以上应用，那么AltStore会先提醒你“Deactivate（禁用）”一款软件。</p><p>如果你的设备比较新，但又不是那么新，那么是可以绕开这个限制的，请继续往下看。</p><p>另外，还有一个硬性限制是10个“App ID”的限制。正常来讲，AltStore会用掉两个ID，剩下的软件都会用掉一个ID。这个限制是在云端处理的，所以无法绕开。</p><p>系统会提示软件安装有七天的限制，我们只要手机连接电脑，打开电脑端AltServe，就可以点击手机端的AltStore—My Apps—Refresh All。</p><p><img src="https://pic.tenmeng.com/i/2025/08/01/688ba6b6c18f6.png" alt="image-20250801012354211"></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://pan.tenmeng.com/soft/ios">https://pan.tenmeng.com/soft/ios</a></p><h2 id="欢迎关注公众号"><a href="#欢迎关注公众号" class="headerlink" title="欢迎关注公众号"></a>欢迎关注公众号</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><a href="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png"><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Windows食用方法&quot;&gt;&lt;a href=&quot;#Windows食用方法&quot; class=&quot;headerlink&quot; title=&quot;Windows食用方法&quot;&gt;&lt;/a&gt;Windows食用方法&lt;/h2&gt;&lt;p&gt;“AltStore”虽然是一个在iOS上跑的软件，但是想正常使用还是</summary>
+      
+    
+    
+    
+    <category term="软件安装" scheme="https://www.moonue.com/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="AltStore" scheme="https://www.moonue.com/categories/AltStore/"/>
+    
+    
+    <category term="ios" scheme="https://www.moonue.com/tags/ios/"/>
+    
+  </entry>
   
   <entry>
     <title>下载网盘资源，夸克网盘的最佳提取插件</title>
@@ -536,32 +562,6 @@
     <category term="pdf" scheme="https://www.moonue.com/tags/pdf/"/>
     
     <category term="福昕PDF" scheme="https://www.moonue.com/tags/%E7%A6%8F%E6%98%95PDF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>免费神器NDM！支持多协议下载，IDM最佳的替代神器</title>
-    <link href="https://www.moonue.com/posts/44367192.html"/>
-    <id>https://www.moonue.com/posts/44367192.html</id>
-    <published>2024-09-26T23:38:04.000Z</published>
-    <updated>2024-09-27T00:09:17.038Z</updated>
-    
-    <content type="html"><![CDATA[<p>缘起最近下载文件，老是会跳出弹窗，原来是Internet Download Manager识别了软件是破解版本。一下载就会弹出提示框，软件下载链接错误，然后就是提示需要升级之类的。这款软件用了两三年了，真的用的很好，但是一直用的也没有问题，时过境迁，但又无能为力，毕竟软件是需要付费的。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/27/66f5f6599d3a9.png" alt="Neat Download Manager_2024-09-27_08-02-44"></p><p>可能有些粉丝不知道Internet Download Manager，它是老牌影音及档案下载神器 - Internet Download Manager (IDM)，最多能够将档案下载速度提升5倍！支援续传及排程下载，比较特别的是它强大的浏览器影片下载功能。</p><p>支持Google Chrome、Mozilla Firefox、IE、Apple Safari、Edge、Opera、Avant Browser、MyIE2…等知名浏览器，使用前要注意，必须先启用它的浏览器插件，而且影片下载不是直接输入网址，是要透过「下载面板」来下载。</p><p>在寻找合适软件的同时，我重点找到了这款Neat Download Manager下载神器，NDM 名字就非常像IDM，软件体积非常小巧，但是速度真的一点都不含糊。</p><p>Neat Download Manager（简称NDM）是一款免费的多线程下载工具，它支持HTTP、HTTPS、FTP协议以及HTTP代理和SOCKS协议。NDM以其轻量级和高效能而受到用户的欢迎，它的体积小巧，不到1MB，下载速度可以非常快，甚至可以挑战一些付费软件。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/27/66f5f7431f52e.png" alt="PixPin_2024-09-27_08-04-54"></p><p>NDM的一些主要特点包括：</p><p>多线程下载：NDM可以同时使用多个连接下载同一个文件，最高可以开启32线程加速，显著提升大文件的下载速度。<br><strong>断点续传</strong>：如果下载过程中发生中断，NDM可以从中断处继续下载，而不需要重新开始。<br><strong>浏览器集成</strong>：NDM提供了浏览器扩展，可以与主流浏览器如Chrome、Edge、Firefox等集成，方便捕获浏览器中的下载链接。<br><strong>定时功能</strong>：用户可以设置下载任务的开始和结束时间，方便在网络流量较少的时候进行下载。</p><ul><li><strong>视频音频嗅探和下载</strong>：NDM的浏览器扩展支持嗅探网页上的视频和音频文件，并支持直接保存下载。</li></ul><p>NDM的下载和使用也非常简单，用户可以从官方网站或者第三方网站下载到NDM的安装包，安装后即可使用。</p><p>此外，NDM还提供了浏览器扩展的下载，用户可以根据自己使用的浏览器进行选择安装。</p><p>总的来说，NDM是一个功能强大、完全免费的下载管理工具，适合需要快速下载文件的用户使用。如果你正在寻找一个免费的下载工具，NDM绝对值得一试。</p><p><img src="https://t.tenmeng.com:1800/i/2024/09/27/66f5f733a2e59.png" alt="image-20240927080712330"></p><p>软件使用默认是英文版本，这也是我推荐使用的版本，当然如若你喜欢使用汉化版本也可以，但是我在使用的过程中，发现汉化版本是直接运行的版本，也就是绿色版，不用安装就可以使用。</p><p>这也就出现了另外一个问题，如果是安装版本，在浏览器上点击下载的时候，调用的就是安装的版本（英文原版），如果希望使用中文版本，每次下载的时候，还要提前打开NDM的破解版版（汉化版），所以有点小麻烦。</p><p>我推荐还是使用默认的英文版本，比较方便，而且下载软件我们都不用设置，如果用过idm，英文版本设置也问题不大，基本上就是打开文件，或者文件夹。</p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p>官网下载：</p><p><a href="https://www.neatdownloadmanager.com/">https://www.neatdownloadmanager.com/</a></p><p>美阅下载：</p><p><a href="https://aijige.com:5210/s/75gRwJ2wDZmBWTi">https://aijige.com:5210/s/75gRwJ2wDZmBWTi</a></p><p>汉化版下载：</p><p><a href="https://aijige.com:5210/s/cAD8gPMRkLFYiKM">https://aijige.com:5210/s/cAD8gPMRkLFYiKM</a></p><p>（完）</p><h2 id="欢迎关注"><a href="#欢迎关注" class="headerlink" title="欢迎关注"></a>欢迎关注</h2><p>感谢您关注我们的网站！如果您喜欢美阅的内容，请关注美阅公众号，获取更多好内容。</p><p><img src="https://tt.tenmeng.com/md/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%89%AB%E7%A0%81%E5%9B%BE%E7%89%87.png" alt="img"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;缘起最近下载文件，老是会跳出弹窗，原来是Internet Download Manager识别了软件是破解版本。一下载就会弹出提示框，软件下载链接错误，然后就是提示需要升级之类的。这款软件用了两三年了，真的用的很好，但是一直用的也没有问题，时过境迁，但又无能为力，毕竟软件是</summary>
-      
-    
-    
-    
-    <category term="下载" scheme="https://www.moonue.com/categories/%E4%B8%8B%E8%BD%BD/"/>
-    
-    
-    <category term="下载" scheme="https://www.moonue.com/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
-    <category term="NDM" scheme="https://www.moonue.com/tags/NDM/"/>
     
   </entry>
   
