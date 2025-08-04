@@ -1802,62 +1802,6 @@
     
     
     <entry>
-      <title>X-ui 可视化面板安装和使用教程</title>
-      <link href="/posts/f12daee8.html"/>
-      <url>/posts/f12daee8.html</url>
-      
-        <content type="html"><![CDATA[<p>在上外网的时候，总会有人问，如何上外网，其实差的就是梯子，梯子自建或者购买别人的机场，一听说自建，就担心自己的技术不行，其实，现在已经有很多大神，分享了他们的搭建脚本。基本上都可以一键搭建了，非常的简单，搭建完，只需要使用可视化面板，即可完成简单的设置，软件后端，就可以在服务器上面跑起来了。</p><p>今天分享的 x-ui 就是大家使用率最高的搭建方式。软件搭建只需要稍微懂一点代码即可，而且支持多协议多用户的 xray 面板。</p><p><img src="https://tt.tenmeng.com/md/XUI.png" alt="XUI"></p><h2 id="安装-x-ui"><a href="#安装-x-ui" class="headerlink" title="安装 x-ui"></a>安装 x-ui</h2><p>SSH 登录至你的 VPS</p><p>CentOS 7&#x2F;8 以 root 权限登陆安装；Ubuntu 系统需要登录后切换 切换代码 <strong>sudo -i</strong></p><p>复制粘贴运行以下代码</p><p>bash &lt;(curl -Ls <a href="https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh">https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh</a>)</p><p>然后等待安装，中途会让你输入登陆端口号、账号、密码等等，只要按提示输入即可。</p><p>端口号一般需要到主机后台去开启，例如阿里云需要去阿里云后台，找到防火墙，放行即可，不然 X-UI 后台是登陆不了的。</p><p>待命令行出现如下提示时，表明安装成功。</p><p><img src="https://tt.tenmeng.com/md/2021-12-18T04_32_38.png" alt="2021-12-18T04_32_38"></p><p>浏览器打开 <a href="http://服务器ip地址/">http:&#x2F;&#x2F;服务器ip地址</a>:54321（你设置的端口），登录面板</p><p><img src="https://tt.tenmeng.com/md/xui_2022-12-22_22-04-20.png" alt="xui_2022-12-22_22-04-20"></p><blockquote><p>在 VPS 输入 <code>x-ui</code> 命令，也可以进入 X-ui 的命令菜单</p></blockquote><h2 id="2、配置节点"><a href="#2、配置节点" class="headerlink" title="2、配置节点"></a>2、配置节点</h2><h4 id="非CDN模式"><a href="#非CDN模式" class="headerlink" title="非CDN模式"></a>非CDN模式</h4><p>登录面板 转到入站列表，点击蓝色的+号<a href="https://asas.eu.org/uploads/2021/12/18/2021-12-18T04:33:56.png"></a></p><p>输入备注，端口一般保持默认即可，传输协议建议选 ws 。流量，到期时间的可以设置，然后点击添加即可。</p><p><img src="https://tt.tenmeng.com/md/xui_2022-12-22_22-06-50.png" alt="xui_2022-12-22_22-06-50"></p><p>刚刚创建的节点旁边依次点击操作→二维码</p><p><img src="https://tt.tenmeng.com/md/2021-12-18T04_34_41.png" alt="2021-12-18T04_34_41"></p><p>使用手机 V2rayNG 扫描屏幕上的二维码，或者是点击复制按钮导出刚刚创建的节点。</p><p><img src="https://tt.tenmeng.com/md/2021-12-18T04_36_24.png" alt="2021-12-18T04_36_24"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Docker </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> v2ray搭建 </tag>
-            
-            <tag> X-ui </tag>
-            
-            <tag> xui部署 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>一键搭建 Telegram 的 MTProto 代理</title>
-      <link href="/posts/1079bf71.html"/>
-      <url>/posts/1079bf71.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="MTProto协议介绍"><a href="#MTProto协议介绍" class="headerlink" title="MTProto协议介绍"></a>MTProto协议介绍</h3><p>MTProto协议是 Telegram 为了对抗网络封锁开发的专用代理（MTProxy）协议，目前全平台的 TG 客户端中都支持MTProto协议和MTProxy代理。有了MTProxy代理，即使没有VPN或者其他代理的情况下，也能顺畅访问TG。</p><p>本文介绍的是一键搭建 Telegram 的 MTProto 代理。</p><h3 id="一键搭建Telegram的MTProto代理"><a href="#一键搭建Telegram的MTProto代理" class="headerlink" title="一键搭建Telegram的MTProto代理"></a>一键搭建Telegram的MTProto代理</h3><p>第一步，请准备一台境外的VPS，操作系统选 CentOS 7&#x2F;8、Ubuntu 16&#x2F;18&#x2F;20，或者Debian 8&#x2F;9&#x2F;10；</p><p>第二步，SSH 登录到服务器，windows 可参考 Bitvise 连接 Linux 服务器教程，mac 用户请参考 Mac 电脑连接 Linux教程；</p><p>第三步，执行下面的命令一键搭建Telegram的MTProto代理。</p><h3 id="CentOS-AliyunOS-AMI系统"><a href="#CentOS-AliyunOS-AMI系统" class="headerlink" title="CentOS&#x2F;AliyunOS&#x2F;AMI系统"></a>CentOS&#x2F;AliyunOS&#x2F;AMI系统</h3><p>yum install -y curl<br>bash &lt;(curl -sL <a href="https://storage.googleapis.com/tiziblog/mt/_setup.sh">https://storage.googleapis.com/tiziblog/mt\_setup.sh</a>) </p><h3 id="Ubuntu-Debian系统"><a href="#Ubuntu-Debian系统" class="headerlink" title="Ubuntu&#x2F;Debian系统"></a>Ubuntu&#x2F;Debian系统</h3><p>apt install -y curl<br>bash &lt;(curl -sL <a href="https://storage.googleapis.com/tiziblog/mt/_setup.sh">https://storage.googleapis.com/tiziblog/mt\_setup.sh</a>)</p><p><strong>输入命令后，会出现如下菜单：</strong></p><p><img src="https://tt.tenmeng.com/md/20211216001919.png" alt="20211216001919"></p><p>首次使用输入 1，然后回车，按照提示输入一个端口号并回车（端口号随便设置，不和其他软件冲突即可）。</p><p>安装成功后，会输出如下信息：</p><p><img src="https://tt.tenmeng.com/md/20211216001932.png" alt="20211216001932"></p><p>第三步，接下来打开TG客户端，参考 配置 Telegram 走 SS&#x2F;SSR&#x2F;V2ray&#x2F;trojan 代理 的操作添加自定义代理，选择MTPROTO，将一键脚本输出的 IP、端口和密钥填上去，点击保存：</p><p><img src="https://tt.tenmeng.com/md/20221222-210956_Telegram.png" alt="20221222-210956_Telegram"></p><p>接下来，就可以在不开启代理&#x2F;VPN的情况下使用TG客户端了。</p><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>目前MTProto已经发展到第三代，已经不建议使用V2ray内置的MTProto来搭建</p><p>本脚本使用了 9seconds 的docker镜像搭建；</p><p>因为docker访问外网需求，因此禁用了VPS的防火墙。如果你的VPS用于网站等重要业务，不建议使用本脚本搭建；</p><p>如果有国内VPS，建议使用中转，防止被封；</p><p>MTProto 很可能过一段时间就导致被封，稳妥的方法还是使用带伪装的V2ray或者trojan，然后参考 配置 Telegram 走 SS&#x2F;SSR&#x2F;V2ray&#x2F;trojan 代理的操作使用TG。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Docker </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> MTProto 代理 </tag>
-            
-            <tag> Telegram代理 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>avast许可文件免费使用（2024年过期）</title>
       <link href="/posts/5de6a5fe.html"/>
       <url>/posts/5de6a5fe.html</url>

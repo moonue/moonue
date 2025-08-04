@@ -668,15 +668,6 @@
   </url>
   
   <url>
-    <loc>https://www.moonue.com/posts/1079bf71.html</loc>
-    
-    <lastmod>2023-11-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.moonue.com/posts/f144296.html</loc>
     
     <lastmod>2023-11-17</lastmod>
@@ -732,15 +723,6 @@
   
   <url>
     <loc>https://www.moonue.com/posts/26f714c4.html</loc>
-    
-    <lastmod>2023-11-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.moonue.com/posts/f12daee8.html</loc>
     
     <lastmod>2023-11-17</lastmod>
     
@@ -1925,27 +1907,6 @@
   </url>
   
   <url>
-    <loc>https://www.moonue.com/tags/v2ray%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.moonue.com/tags/X-ui/</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.moonue.com/tags/xui%E9%83%A8%E7%BD%B2/</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.moonue.com/tags/xmind-8%E7%A0%B4%E8%A7%A3/</loc>
     <lastmod>2025-08-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1961,20 +1922,6 @@
   
   <url>
     <loc>https://www.moonue.com/tags/xmind%E7%A0%B4%E8%A7%A3/</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.moonue.com/tags/MTProto-%E4%BB%A3%E7%90%86/</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.moonue.com/tags/Telegram%E4%BB%A3%E7%90%86/</loc>
     <lastmod>2025-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
